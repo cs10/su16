@@ -1,24 +1,22 @@
 // Instructors
-var DanGarcia = {
-    name: 'Teaching Professor Dan Garcia',
-    img: 'DanGarciaUCBFaculty2004.jpg',
-    imgSrc: 'DanGarcia.jpg',
-    imgCrazy: true,
-    web: 'http://www.cs.berkeley.edu/~ddgarcia/',
-    bio: 'DanBio.txt',
-    email: 'dan@cs10.org',
-    office: '777 Soda, (510) 517-4041'
-};
 
-// TAs
 var michaelB = {
-    name: 'Head TA Michael Ball',
+    name: 'Instructor Michael Ball',
     img: 'Sp14/MichaelBallTake3.jpg',
     imgSrc: 'MichaelBall.jpg',
     web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
-    email: 'michael@cs10.org' };
+    email: 'michael@cs10.org'
+};
 
+var JonMcKinsey = {
+    name: 'Instructor Jon McKinsey',
+    img: 'Fa13/JonMcKinsey.jpg',
+    imgSrc: 'JonMcKinsey.jpg',
+    email: 'jon@cs10.org'
+};
+
+// TAs
 var maxD = {
     name: 'TA Max Dougherty',
     img: 'Sp14/MaxDougherty.jpg',
@@ -149,8 +147,9 @@ var amrutaY = {
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
+var inst = [ michaelB, JonMcKinsey ];
 var tas = [ DanGarcia, michaelB, LaurenMock, adamK, andyS, AranyU, carlosF, jaclynB, jeffreyS, josephC,
-    maxD, PeterS, rachelH, StevenT, victoriaS];
+    maxD, PeterS, rachelH, StevenT, victoriaS ];
 
 var readers = [ alexM, amrutaY, brandonC, claireW, erikD, jobelV, avaY ];
 
@@ -273,5 +272,6 @@ function normalImage(image, normalPath) {
 
 /* more code to run on page load */
 // Parameters: a section (HTML 'id') and num of images per row.
-buildGroup('tas', 5);
-buildGroup('readers', 4);
+buildGroup('inst', 5);
+buildGroup('tas', 3);
+buildGroup('readers', 3);
