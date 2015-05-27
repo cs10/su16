@@ -17,50 +17,6 @@ var JonMcKinsey = {
 };
 
 // TAs
-var maxD = {
-    name: 'TA Max Dougherty',
-    img: 'Sp14/MaxDougherty.jpg',
-    imgSrc: 'MaxDougherty.jpg',
-    email: 'max@cs10.org' };
-
-var jeffreyS = {
-    name: 'TA Jeff Snowiss',
-    img: 'Fa12/JeffreySnowiss.jpg',
-    imgSrc: 'JeffreySnowiss.jpg',
-    email: 'jeff@cs10.org' };
-
-var victoriaS = {
-    name: 'TA Victoria Shi',
-    img: 'Fa13/VictoriaShi.jpg',
-    imgSrc: 'VictoriaShi.jpg',
-    // bio: 'VictoriaBio.txt',
-    email: 'victoria@cs10.org' };
-
-var rachelH = {
-    name: 'TA Rachel Huang',
-    img: 'Fa13/RachelHuang.jpg',
-    imgSrc: 'RachelHuang.jpg',
-    email: 'rachel@cs10.org'
-};
-
-var josephC = {
-    name: 'TA Joseph Cawthorne',
-    img: 'Fa13/JosephCawthorne.jpg',
-    imgSrc: 'JosephCawthorne.jpg',
-    email: 'joseph@cs10.org' };
-
-var jaclynB = {
-    name: 'TA Jaclyn Burge',
-    img: 'Fa13/JaclynBurge.jpg',
-    imgSrc: 'JaclynBurge.jpg',
-    web: 'http://www.jacburge.me',
-    email: 'jaclyn@cs10.org' };
-
-var andyS = {
-    name: 'TA Andy Schmitt',
-    img: 'Sp14/AndrewSchmitt.jpg',
-    imgSrc: 'AndrewSchmitt.jpg',
-    email: 'andy@cs10.org'};
 
 var LaurenMock = {
     name: 'Head TA Lauren Mock',
@@ -69,34 +25,12 @@ var LaurenMock = {
     web: 'http://linkedin.com/in/laurenmock',
     email: 'lauren@cs10.org' };
 
-var adamK = {
-    name: 'TA Adam Kuphaldt',
-    img: 'Sp14/AdamKuphaldt.jpg',
-    imgSrc: 'AdamKuphaldt.jpg',
-    email: 'adam@cs10.org' };
-
 var AranyU = {
     name: 'TA Arany Uthayakumar',
     img: 'Sp14/AranyUthayakumar.jpg',
     imgSrc: 'AranyUthayakumar.jpg',
     // bio: 'AranyBio.txt',
     email: 'arany@cs10.org' };
-
-var StevenT = {
-    name: 'TA Steven Traversi',
-    img: 'Sp14/StevenTraversi.jpg',
-    imgSrc: 'StevenTraversi.jpg',
-    imgCrazy: 'StevenTraversiCrazy.jpg',
-    web: 'http://steven.codes',
-    bio: 'StevenBio.txt',
-    email: 'steven@cs10.org'
-};
-
-var carlosF = {
-    name: 'TA Carlos Flores',
-    img: 'Fa13/CarlosFlores.jpg',
-    imgSrc: 'CarlosFlores.jpg',
-    email: 'carlos@cs10.org' };
 
 var PeterS = {
     name: 'TA Peter Sujan',
@@ -107,40 +41,15 @@ var PeterS = {
     email: 'peter@cs10.org' };
 
 // Readers
-var claireW = {
-    name: 'Reader Claire Watanabe',
-    img: 'Fa13/ClaireWatanabe.jpg',
-    imgSrc: 'ClaireWatanabe.jpg' };
-
-var brandonC = {
-    name: 'Reader Brandon Chen',
-    img: 'Sp14/BrandonChen.jpg',
-    imgSrc: 'BrandonChen.jpg' };
-
-var alexM = {
-    name: 'Reader Alex McKinney',
-    img: 'Sp14/AlexMcKinney.jpg',
-    imgSrc: 'AlexMcKinney.jpg' };
-
 var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg' };
 
-var avaY = {
-    name: 'Reader Yuan Yuan',
-    img: 'Sp14/YuanYuan.jpg',
-    imgSrc: 'YuanYuan.jpg' };
-
 var erikD = {
-    name: 'Reader Erik Dahlquist',
+    name: 'TA Erik Dahlquist',
     img: 'Sp15/ErikDahlquist.jpg',
     imgSrc: 'ErikDahlquist.jpg' };
-
-var amrutaY = {
-    name: 'Reader Amruta Yelamanchili',
-    img: 'Sp14/AmrutaYelamanchili.jpg',
-    imgSrc: 'AmrutaYelamanchili.jpg' };
 
 
 /*****************************************************************************/
@@ -148,16 +57,16 @@ var amrutaY = {
 /*****************************************************************************/
 
 var inst = [ michaelB, JonMcKinsey ];
-var tas = [ DanGarcia, michaelB, LaurenMock, adamK, andyS, AranyU, carlosF, jaclynB, jeffreyS, josephC,
-    maxD, PeterS, rachelH, StevenT, victoriaS ];
+var tas = [ LaurenMock, erikD ];
 
-var readers = [ alexM, amrutaY, brandonC, claireW, erikD, jobelV, avaY ];
+var readers = [ jobelV ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
 var all = {
     readers: readers,
-    tas: tas
+    tas: tas,
+    inst: inst
 };
 
 /*****************************************************************************/
@@ -184,6 +93,7 @@ function buildPerson(data, width) {
     var imgPathBase = '{{ site.baseurl }}/resources/images/small/';
     var imgPath = imgPathBase + data.imgSrc;
 
+    // Date Hacks for fun!
     if (Date().substr(4, 6) == 'Apr 01') {
         imgPath = 'http://www.cs.berkeley.edu/~ddgarcia/i/DanGarciaUCBFaculty2004Eyebrow_320.jpg';
     }
