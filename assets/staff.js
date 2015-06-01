@@ -32,6 +32,12 @@ var AranyU = {
     // bio: 'AranyBio.txt',
     email: 'arany@cs10.org' };
 
+var erikD = {
+    name: 'TA Erik Dahlquist',
+    img: 'Sp15/ErikDahlquist.jpg',
+    imgSrc: 'ErikDahlquist.jpg',
+    email: 'erik@cs10.org' };
+
 var PeterS = {
     name: 'TA Peter Sujan',
     img: 'Fa12/PeterSujan.jpg',
@@ -45,11 +51,6 @@ var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg' };
-
-var erikD = {
-    name: 'TA Erik Dahlquist',
-    img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: 'ErikDahlquist.jpg' };
 
 
 /*****************************************************************************/
