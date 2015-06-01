@@ -57,7 +57,7 @@ var erikD = {
 /*****************************************************************************/
 
 var inst = [ michaelB, JonMcKinsey ];
-var tas = [ LaurenMock, erikD ];
+var tas = [ LaurenMock, AranyU, erikD ];
 
 var readers = [ jobelV ];
 
