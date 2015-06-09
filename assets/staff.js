@@ -32,6 +32,12 @@ var AranyU = {
     // bio: 'AranyBio.txt',
     email: 'arany@cs10.org' };
 
+var erikD = {
+    name: 'TA Erik Dahlquist',
+    img: 'Sp15/ErikDahlquist.jpg',
+    imgSrc: 'ErikDahlquist.jpg',
+    email: 'erik@cs10.org' };
+
 var PeterS = {
     name: 'TA Peter Sujan',
     img: 'Fa12/PeterSujan.jpg',
@@ -45,11 +51,16 @@ var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg' };
-
-var erikD = {
-    name: 'TA Erik Dahlquist',
-    img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: 'ErikDahlquist.jpg' };
+    
+var katherinem = {
+    name: 'Reader Katherine McGauley',
+    img: 'Su15/KatherineMcGauley.jpg',
+    imgSrc: 'KatherineMcGauley.jpg' };
+    
+var laram = {
+    name: 'Reader Lara McConnaughey',
+    img: 'Su15/LaraMcConnaughey.jpg',
+    imgSrc: 'LaraMcConnaughey.jpg' };
 
 
 /*****************************************************************************/
@@ -57,9 +68,9 @@ var erikD = {
 /*****************************************************************************/
 
 var inst = [ michaelB, JonMcKinsey ];
-var tas = [ LaurenMock, erikD ];
+var tas = [ LaurenMock, AranyU, erikD ];
 
-var readers = [ jobelV ];
+var readers = [ jobelV, katherinem, laram ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
