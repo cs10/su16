@@ -187,37 +187,17 @@ cs10.getWeekStartDate = function(week) {
 }
 
 cs10.renderTableCalendar = function() {
-    var result = $('.cal-container');
+    var result = $('<tbody>');
+    var table = $('.calendar.table');
+    if (table.length === 0) { return; }
     for(var i = 1; i < 18; i += 1) {
-        var wk = 'week' + (i % 2 == 0 ? 'Even' : 'Odd');
-        var wkNo = Math.ceil(i / 2);
-        var table = $('.' + wk).clone().removeClass(wk).addClass('week' + wkNo);
-        table.append(cs10.renderTableRow(wkNo, cs10['week' + i]));
-        result.append(table);
+        result.append(cs10.renderTableRow(i, cs10['week' + i]));
     }
+    table.append(result);
 };
 
-// W-F
-cs10.renderTableEven = function (week, data) {
-    var result = $('<tr>').addClass('cal');
-
-    // TODO: Special Case For data.special
-    // TODO: Handle Exams (data.exams)
-
-    result.append($('<td>').html(week))                     // Week Number
-          .append($('<td>').html(cs10.getDateString(week))) // Dates
-          .append(cs10.renderTableReading(data.readings))   // Readings
-          .append(cs10.renderTableLecture(data.lectW))      // Wed Lecture
-          .append(cs10.renderTableLab(data.lab))            // 2nd Lab
-          .append(cs10.renderTableLecture(data.disc))       // 2nd Disc
-          .append(cs10.renderTableLab(data.lectT))          // Thus Lecture
-          .append(cs10.renderTableHW(data.hw));             // Assignments
-
-    return result;
-};
-
-// M-W
-cs10.renderTableOdd = function (week, data) {
+// This renders a single week in the large semester calendar.
+cs10.renderTableRow = function(week, data) {
     var result = $('<tr>').addClass('cal');
 
     // TODO: Special Case For data.special
@@ -227,21 +207,13 @@ cs10.renderTableOdd = function (week, data) {
           .append($('<td>').html(cs10.getDateString(week))) // Dates
           .append(cs10.renderTableReading(data.readings))   // Readings
           .append(cs10.renderTableLecture(data.lectM))      // Mon Lecture
-          .append(cs10.renderTableLab(data.lab))            // 1st Lab
-          .append(cs10.renderTableLecture(data.lectT))      // Tues Lecture
-          .append(cs10.renderTableLab(data.disc))           // 1st Discussion
-          .append(cs10.renderTableDiscussion(data.work))    // Work Session
+          .append(cs10.renderTableLab(data.labA))           // 1st Lab
+          .append(cs10.renderTableLecture(data.lectW))      // Wed Lecture
+          .append(cs10.renderTableLab(data.labB))           // 2nd Lab
+          .append(cs10.renderTableDiscussion(data.disc))    // Discussion
+          .append(cs10.renderTableHW(data.hw));             // Assignments
 
     return result;
-};
-
-// This renders a single week in the large semester calendar.
-cs10.renderTableRow = function(week, data) {
-    if (week % 2 == 0) {
-        return cs10.renderTableEven(week, data);
-    } else {
-        return cs10.renderTableOdd(week, data);
-    }
 };
 
 cs10.getDateString = function(week) {

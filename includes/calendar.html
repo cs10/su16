@@ -23,21 +23,47 @@
 </div>
 
 <!-- beginning of calendar code-->
-<div class="table-responsive">
-  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="calendar table">
+<div class="table-responsive cal-container">
+  <style type="text/css">
+    .weekEven, .weekOdd {
+      display: none;
+    }
+    
+    .calendar.table {
+      padding: 0;
+      margin: 0;
+    }
+  </style> 
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="weekOdd calendar table">
     <thead>
       <tr class="cal">
         <th width="1%">Week</th>
-        <th width="8%">Dates</th>
-        <th width="13%">Readings (Sa/Su)</th>
-        <th width="11%">Lecture 1 (M)</th>
-        <th width="11%">Lab 1 (M/Tu/W)</th>
-        <th width="11%">Lecture 2 (W)</th>
-        <th width="11%">Lab 2 (W/Th/F)</th>
-        <th width="11%">Discussion (F)</th>
-        <th width="11%">HW &amp; Projects</th>
+        <th width="9%">Dates</th>
+        <th width="15%">Readings (Sa/Su)</th>
+        <th width="15%">Lecture 1 (M)</th>
+        <th width="15%">Lab 1 (M)</th>
+        <th width="15%">Discussion 1 (M/Tu)</th>
+        <th width="15%">Lecture 2 (Tu))</th>
+        <th width="15%">Work Session (Tu/Th)</th>
       </tr>
     </thead>
-  </table><!--end of calendar code-->
+  </table>
+  
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="weekEven calendar table">
+    <thead>
+      <tr class="cal">
+        <th width="1%">Week</th>
+        <th width="9%">Dates</th>
+        <th width="15%">Readings (M/Tu)</th>
+        <th width="15%">Lecture 3 (W)</th>
+        <th width="15%">Lab 2 (W)</th>
+        <th width="15%">Discussion 2 (W/Th)</th>
+        <th width="15%">Lecture 4 (Th)</th>
+        <th width="15%">HW &amp; Projects (F)</th>
+      </tr>
+    </thead>
+  </table>
+  
+  <!--end of calendar code-->
 </div>
 
