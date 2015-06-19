@@ -188,61 +188,55 @@ cs10.getWeekStartDate = function(week) {
 
 cs10.renderTableCalendar = function() {
     var result = $('.cal-container');
-    for(var i = 1; i < 18; i += 1) {
-        var wk = 'week' + (i % 2 == 0 ? 'Even' : 'Odd');
-        var wkNo = Math.ceil(i / 2);
-        var table = $('.' + wk).clone().removeClass(wk).addClass('week' + wkNo);
-        table.append(cs10.renderTableRow(wkNo, cs10['week' + i]));
-        result.append(table);
+    for(var i = 1; i < 8; i += 1) {
+        var first = $('.first').clone().removeClass('first');
+        first.append(cs10.renderTableFirst(i, cs10['week' + i]));
+        result.append(first);
+        var second = $('.second').clone().removeClass('second');
+        second.append(cs10.renderTableSecond(i, cs10['week' + i]));
+        result.append(second);
     }
-};
-
-// W-F
-cs10.renderTableEven = function (week, data) {
-    var result = $('<tr>').addClass('cal');
-
-    // TODO: Special Case For data.special
-    // TODO: Handle Exams (data.exams)
-
-    result.append($('<td>').html(week))                     // Week Number
-          .append($('<td>').html(cs10.getDateString(week))) // Dates
-          .append(cs10.renderTableReading(data.readings))   // Readings
-          .append(cs10.renderTableLecture(data.lectW))      // Wed Lecture
-          .append(cs10.renderTableLab(data.lab))            // 2nd Lab
-          .append(cs10.renderTableLecture(data.disc))       // 2nd Disc
-          .append(cs10.renderTableLab(data.lectT))          // Thus Lecture
-          .append(cs10.renderTableHW(data.hw));             // Assignments
-
-    return result;
-};
-
-// M-W
-cs10.renderTableOdd = function (week, data) {
-    var result = $('<tr>').addClass('cal');
-
-    // TODO: Special Case For data.special
-    // TODO: Handle Exams (data.exams)
-
-    result.append($('<td>').html(week))                     // Week Number
-          .append($('<td>').html(cs10.getDateString(week))) // Dates
-          .append(cs10.renderTableReading(data.readings))   // Readings
-          .append(cs10.renderTableLecture(data.lectM))      // Mon Lecture
-          .append(cs10.renderTableLab(data.lab))            // 1st Lab
-          .append(cs10.renderTableLecture(data.disc))       // 1st discussion
-          .append(cs10.renderTableLab(data.lectT))          // Tues Lecture
-          .append(cs10.renderTableDiscussion(data.work))    // Work Session
-
-    return result;
 };
 
 // This renders a single week in the large semester calendar.
-cs10.renderTableRow = function(week, data) {
-    if (week % 2 == 0) {
-        return cs10.renderTableEven(week, data);
-    } else {
-        return cs10.renderTableOdd(week, data);
-    }
+// M-W
+cs10.renderTableFirst = function (week, data) {
+    var result = $('<tr>').addClass('cal');
+
+    // TODO: Special Case For data.special
+    // TODO: Handle Exams (data.exams)
+
+    result.append($('<td>').html(week))                      // Week Number
+          .append($('<td>').html(cs10.getDateString(week)))  // Dates
+          .append(cs10.renderTableReading(data.readings1))   // Readings
+          .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
+          .append(cs10.renderTableLab(data.lab1))            // 1st Lab
+          .append(cs10.renderTableLecture(data.disc1))       // 1st discussion
+          .append(cs10.renderTableLab(data.lect2))           // Tues Lecture
+          .append(cs10.renderTableDiscussion(data.work))     // Work Session
+
+    return result;
 };
+
+// W-F
+cs10.renderTableSecond = function (week, data) {
+    var result = $('<tr>').addClass('cal');
+
+    // TODO: Special Case For data.special
+    // TODO: Handle Exams (data.exams)
+
+    result.append($('<td>').html(week))                      // Week Number
+          .append($('<td>').html(cs10.getDateString(week)))  // Dates
+          .append(cs10.renderTableReading(data.readings2))   // Readings
+          .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
+          .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
+          .append(cs10.renderTableLecture(data.disc2))       // 2nd Disc
+          .append(cs10.renderTableLab(data.lect4))           // Thus Lecture
+          .append(cs10.renderTableHW(data.hw));              // Assignments
+
+    return result;
+};
+
 
 cs10.getDateString = function(week) {
     var start = cs10.getWeekStartDate(week);
