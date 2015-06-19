@@ -228,8 +228,8 @@ cs10.renderTableOdd = function (week, data) {
           .append(cs10.renderTableReading(data.readings))   // Readings
           .append(cs10.renderTableLecture(data.lectM))      // Mon Lecture
           .append(cs10.renderTableLab(data.lab))            // 1st Lab
-          .append(cs10.renderTableLecture(data.lectT))      // Tues Lecture
-          .append(cs10.renderTableLab(data.disc))           // 1st Discussion
+          .append(cs10.renderTableLecture(data.disc))       // 1st discussion
+          .append(cs10.renderTableLab(data.lectT))          // Tues Lecture
           .append(cs10.renderTableDiscussion(data.work))    // Work Session
 
     return result;

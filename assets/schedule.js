@@ -8,6 +8,7 @@
  * NOTE: These links are currently relative to the home page.
  */
 var lab      = cs10.newLabObject,
+    work     = lab, // shortcut for work sessions.
     reading  = cs10.newReadingsObject,
     lect     = cs10.newLectureObject,
     disc     = cs10.newDiscussionObject,
@@ -17,7 +18,7 @@ function docs(id) {
     return 'assign.html?//docs.google.com/document/d/' + id + '/pub';
 }
 // CONSTANTS:
-var hw1Spec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
+var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
 var hw2Spec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
 var hw3Spec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
 var mtProjSpec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
@@ -32,12 +33,11 @@ var final_spec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
 // JUN 22 - 26
 cs10.week1 = {
     readings: 'No Readings',
-    lectM: lect('No Lecture Monday'),
-    lab: lab('No Labs Monday, Tuesday, or Wednesday morning'),
-    lectT: lect('Welcome and Abstraction', 'L01 - Abstraction'),
+    lectM: lect('Welcome and Abstraction', 'L01 - Abstraction'),
     lab: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
     disc: disc('Welcome to CS10!'),
-    hw: hw('HW0', '1/24', 'quizzes/1869517')
+    lectT: lect('Functions', 'L02 - Functions'),
+    work: work('')
 };
 // JUN 22 - 26
 cs10.week2 = {
@@ -56,12 +56,12 @@ cs10.week2 = {
                 'https://bcourses.berkeley.edu/courses/1301472/files/folder/Readings?preview=53889490',
                 'optional')
     ],
-    lectW: lect('Functions', 'L02 - Functions'),
+    lectW: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
     lectT: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
-    lab: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     disc: disc('Anatomy of a Computer and the Power of Binary', true),
-    hw: hw('HW1', '2/1', 'assignments/5919083', 'assign.html?https://docs.google.com/document/d/1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI/pub')
+    hw: hw('HW0', '1/24', 'quizzes/1869517')
+    // hw: hw('HW1', '2/1', 'assignments/5919083', hw1Spec)
 };
 
 
@@ -86,11 +86,12 @@ cs10.week3 = {
                 'optional')
     ],
     lectM: lect('Creativity', 'L04 - Creativity'),
-    lab: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lab: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
+    // lab: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lectT: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
-    lab: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
+    // lab: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc: disc('All about lists', true),
-    hw: hw('Start on HW2: Snowman')
+    work: work('Start on HW2: Snowman')
 };
 // JUN 29 - JUL 3
 cs10.week4 = {
