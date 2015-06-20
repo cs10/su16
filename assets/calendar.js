@@ -189,17 +189,11 @@ cs10.getWeekStartDate = function(week) {
 cs10.renderTableCalendar = function() {
     var result = $('.cal-container');
     // TODO: weeks config
-    for(var i = 1; i < 8; i += 1) {
+    for(var i = 1; i < 2; i += 1) {
         var first = $('.weekFirst').clone().removeClass('weekFirst');
-        console.log('FIRST');
-        console.log(first);
         var data = cs10['week' + i];
         var row = cs10.renderTableFirst(i, data);
-        console.log(row);
         first.append(row);
-        console.log('OMG WTF');
-        console.log(first);
-        debugger;
         result.append(first);
         var second = $('.weekSecond').clone().removeClass('weekSecond');
         second.append(cs10.renderTableSecond(i, data));
@@ -211,37 +205,31 @@ cs10.renderTableCalendar = function() {
 // M-W
 cs10.renderTableFirst = function (week, data) {
     var result = $('<tr>').addClass('cal');
-    console.log('WEEK PART A');
-    console.log(data);
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
-    var a = cs10.renderTableReading(data.readings1)
-    console.log(a);
     result.append($('<td>').html(week))                      // Week Number
           .append($('<td>').html(cs10.getDateString(week)))  // Dates
-          .append(a)   // Readings
-          .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
+          .append(cs10.renderTableReading(data.readings1))   // Readings
           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
           .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
+          .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
           .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
           .append(cs10.renderTableLab(data.work))            // Work Session
-    console.log(result);
+
     return result;
 };
 
 // W-F
 cs10.renderTableSecond = function (week, data) {
     var result = $('<tr>').addClass('cal');
-
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
-
     result.append($('<td>').html(week))                      // Week Number
           .append($('<td>').html(cs10.getDateString(week)))  // Dates
           .append(cs10.renderTableReading(data.readings2))   // Readings
-          .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
           .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
           .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
+          .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
           .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
           .append(cs10.renderTableHW(data.hw));              // Assignments
 

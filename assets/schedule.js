@@ -41,8 +41,12 @@ cs10.week1 = {
     readings2: [
         reading('Prof. Harvey\'s Intro to Abstraction',
                 '{{ site.baseurl }}/resources/readings/BH-Abstraction.txt'),
+        reading('TEDx Berkeley: The Beauty and Joy of Computing',
+                'https://www.youtube.com/watch?v=ozRovyDwKEM'),
         reading('Why Software is Eating the World',
                 bcourses('53889491')),
+        reading('All I Really Need to Know about Pair Programming I Learned In Kindergarten',
+                'http://collaboration.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF'),
         reading('Learning to Code!',
                 'http://www.youtube.com/watch?v=dU1xS07N-FA',
                 'optional'),
@@ -54,10 +58,10 @@ cs10.week1 = {
                 'optional')
     ],
     lect3: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
-    lab2: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
+    lab2: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic', true),
     lect4: lect('Creativity', 'L04 - Creativity'),
-    disc2: disc('Anatomy of a Computer and the Power of Binary', true),
-    hw: hw('HW0', '1/24', 'quizzes/1869517')
+    disc2: disc('Anatomy of a Computer and the Power of Binary'),
+    hw: hw('HW0', 'Wed 6/24', 'quizzes/1869517')
     // hw: hw('HW1', '2/1', 'assignments/5919083', hw1Spec)
 };
 
