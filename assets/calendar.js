@@ -191,8 +191,15 @@ cs10.renderTableCalendar = function() {
     // TODO: weeks config
     for(var i = 1; i < 8; i += 1) {
         var first = $('.weekFirst').clone().removeClass('weekFirst');
+        console.log('FIRST');
+        console.log(first);
         var data = cs10['week' + i];
-        first.append(cs10.renderTableFirst(i, data));
+        var row = cs10.renderTableFirst(i, data);
+        console.log(row);
+        first.append(row);
+        console.log('OMG WTF');
+        console.log(first);
+        debugger;
         result.append(first);
         var second = $('.weekSecond').clone().removeClass('weekSecond');
         second.append(cs10.renderTableSecond(i, data));
@@ -205,18 +212,20 @@ cs10.renderTableCalendar = function() {
 cs10.renderTableFirst = function (week, data) {
     var result = $('<tr>').addClass('cal');
     console.log('WEEK PART A');
+    console.log(data);
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
-
+    var a = cs10.renderTableReading(data.readings1)
+    console.log(a);
     result.append($('<td>').html(week))                      // Week Number
           .append($('<td>').html(cs10.getDateString(week)))  // Dates
-          .append(cs10.renderTableReading(data.readings1))   // Readings
+          .append(a)   // Readings
           .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
           .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
           .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
           .append(cs10.renderTableLab(data.work))            // Work Session
-
+    console.log(result);
     return result;
 };
 

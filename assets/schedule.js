@@ -55,7 +55,7 @@ cs10.week1 = {
     ],
     lect3: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic'),
-    lect4: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
+    lect4: lect('Creativity', 'L04 - Creativity'),
     disc2: disc('Anatomy of a Computer and the Power of Binary', true),
     hw: hw('HW0', '1/24', 'quizzes/1869517')
     // hw: hw('HW1', '2/1', 'assignments/5919083', hw1Spec)
@@ -81,10 +81,10 @@ cs10.week2 = {
                 'http://www.msnbc.msn.com/id/40077373/ns/technology_and_science-games/',
                 'optional')
     ],
-    lect1: lect('Creativity', 'L04 - Creativity'),
+    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lab1: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
     // lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
+    lect2: lect('Algorithms', 'L06 - Algorithms I'),
     // lab1: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic'),
     disc1: disc('All about lists', true),
     lab1: lab('Finch Robots', 'berkeley_bjc/robots/robots.topic'),
@@ -103,9 +103,9 @@ cs10.week2 = {
                 'http://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect3: lect('Algorithms', 'L06 - Algorithms I'),
+    lect3: lect('Algorithmic Complexity', 'L07 - Algorithms II'),
     lab2: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    lect4: lect('Algorithmic Complexity', 'L07 - Algorithms II'),
+    lect4: lect(),
     // lab1: lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
     disc2: disc('Algorithmic Complexity and Quest Review', true),
     hw: hw('HW2: Snowman', '2/13', 'assignments/5919084', hw2Spec)
