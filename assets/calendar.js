@@ -188,12 +188,14 @@ cs10.getWeekStartDate = function(week) {
 
 cs10.renderTableCalendar = function() {
     var result = $('.cal-container');
+    // TODO: weeks config
     for(var i = 1; i < 8; i += 1) {
-        var first = $('.first').clone().removeClass('first');
-        first.append(cs10.renderTableFirst(i, cs10['week' + i]));
+        var first = $('.weekFirst').clone().removeClass('weekFirst');
+        var data = cs10['week' + i];
+        first.append(cs10.renderTableFirst(i, data));
         result.append(first);
-        var second = $('.second').clone().removeClass('second');
-        second.append(cs10.renderTableSecond(i, cs10['week' + i]));
+        var second = $('.weekSecond').clone().removeClass('weekSecond');
+        second.append(cs10.renderTableSecond(i, data));
         result.append(second);
     }
 };
@@ -202,7 +204,7 @@ cs10.renderTableCalendar = function() {
 // M-W
 cs10.renderTableFirst = function (week, data) {
     var result = $('<tr>').addClass('cal');
-
+    console.log('WEEK PART A');
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
 
@@ -211,9 +213,9 @@ cs10.renderTableFirst = function (week, data) {
           .append(cs10.renderTableReading(data.readings1))   // Readings
           .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
-          .append(cs10.renderTableLecture(data.disc1))       // 1st discussion
-          .append(cs10.renderTableLab(data.lect2))           // Tues Lecture
-          .append(cs10.renderTableDiscussion(data.work))     // Work Session
+          .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
+          .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
+          .append(cs10.renderTableLab(data.work))            // Work Session
 
     return result;
 };
@@ -230,8 +232,8 @@ cs10.renderTableSecond = function (week, data) {
           .append(cs10.renderTableReading(data.readings2))   // Readings
           .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
           .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
-          .append(cs10.renderTableLecture(data.disc2))       // 2nd Disc
-          .append(cs10.renderTableLab(data.lect4))           // Thus Lecture
+          .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
+          .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
           .append(cs10.renderTableHW(data.hw));              // Assignments
 
     return result;

@@ -17,7 +17,7 @@ var MS_DAY = 1000*60*60*24;
 // Function used to highlight the current day.
 function updateCalendar(date) {
     // The SATURDAY before the first week of the calendar.
-    var start = new Date(2015, 0, 17),
+    var start = new Date(2015, 5, 20),
         today = date || new Date(),
         highlight = since[ today.getDay() ],
         weeks = Math.floor(((today - start) / MS_DAY) / 7) + 1; // Weeks SINCE start
@@ -25,7 +25,7 @@ function updateCalendar(date) {
     //     weeks += 1; // really shitty hack for weekends....
     // }
 
-    var rows = document.getElementsByClassName("cal"),
+    var rows = document.querySelectorAll("tbody>tr>.cal"),
         temp = rows[weeks],
         cells;
 

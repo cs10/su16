@@ -140,7 +140,7 @@ cs10.week3 = {
     hw: hw('HW3', '2/27', 'assignments/5919085', 'assign.html?//docs.google.com/document/d/1JBK9QEub82fxr0fkbSQJY68kKS0QBSzqe4ufafZ0mqo/pub')
 };
 cs10.week3.lect2.classes = 'exam';
-cs10.week3.readings.title += '<br>';
+cs10.week3.readings1.title += '<br>';
 
 
 // JUL 13 - JUL 17
@@ -240,7 +240,7 @@ cs10.week6 = {
     disc1: disc('Data and HOFs'),
     hw: hw('"Explore" Peer Comments and Artifact', '4/10', 'discussion_topics/3968074', 'assign.html?//docs.google.com/document/d/13OqKNmhbN8PfuGhv5yZYLqvzHKHm08n1dV3n7Prxb5o/pub')
 };
-cs10.week6.work.classes = 'exam';
+cs10.week6.lect3.classes = 'exam';
 // cs10.week6.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.20html">Midterm Exam</a><br><br>Thursday 3/19<br>7-9pm; Location: 2050 VLSB</div>';
 // AUG 3 - AUG 7
 cs10.week7 = {
