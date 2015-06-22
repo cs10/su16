@@ -44,45 +44,50 @@ cs10.week1 = {
         reading('TEDx Berkeley: The Beauty and Joy of Computing',
                 'https://www.youtube.com/watch?v=ozRovyDwKEM'),
         reading('Why Software is Eating the World',
-                bcourses('53889491')),
+                bcourses('58003308')),
         reading('All I Really Need to Know about Pair Programming I Learned In Kindergarten',
                 'https://collaboration.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF'),
         reading('Learning to Code!',
                 'https://www.youtube.com/watch?v=dU1xS07N-FA',
                 'optional'),
         reading('Is Abstraction the Key to Computing?',
-                bcourses('53889492'),
+                bcourses('58003307'),
                 'optional'),
         reading('Scratch: Programming for All',
-                'https://bcourses.berkeley.edu/courses/1301472/files/folder/Readings?preview=53889490',
+                bcourses('58003306'),
                 'optional')
     ],
     lect3: lect('Creativity and Abstraction'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic', true),
     lect4: lect('Creativity'),
     disc2: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW0', 'Wed 6/24', '#')
+    hw: hw('HW0', 'Wed 6/24', 'quizzes/1969116')
 };
 
 // JUN 29 - JUL 3
 cs10.week2 = {
     readings1: [
+        reading('BtB Chapter 1',
+                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter1.pdf'),
+        reading('Designing Games with a Purpose (GWAP)',
+                bcourses('58003305')),
+        // reading('Justices Split on Violent Games',
+        //         bcourses('53994720')),
+        // reading('Video Games Lecture',
+        //         'https://coursesharing.org/courses/6/lectures/11'),
+        // reading('(Slides)',
+        //         '{{ site.baseurl }}/resources/readings/graphics'),
         reading('The Story of Alan Turing &amp; His Machine',
                 'https://youtu.be/CQhrMmbiaM0'),
-        reading('Designing Games with a Purpose (GWAP)',
-                bcourses('53889493')),
-        reading('Justices Split on Violent Games',
-                bcourses('53994720')),
-        reading('Video Games Lecture',
-                'https://coursesharing.org/courses/6/lectures/11'),
-        reading('(Slides)',
-                '{{ site.baseurl }}/resources/readings/graphics'),
         reading('More readings on video games',
                 '{{ site.baseurl }}/resources/readings/video-games/',
                 'optional'),
-        reading('Kinect\'s Future a Game Controller in Everything',
-                'https://www.msnbc.msn.com/id/40077373/ns/technology_and_science-games/',
+        reading('Animating a Blockbuster',
+                'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
+        // reading('Kinect\'s Future a Game Controller in Everything',
+        //         'https://www.msnbc.msn.com/id/40077373/ns/technology_and_science-games/',
+        //         'optional')
     ],
     lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lab1: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
@@ -91,17 +96,17 @@ cs10.week2 = {
     disc1: disc('Functions'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
+        reading('BtB Chapter 2',
+                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
+        // TODO: Put this article in bCourses!
+        reading('What’s Hot in the Art World? Algorithms',
+                'http://www.wsj.com/articles/whats-hot-in-the-art-world-algorithms-1432687554'),
         reading('How Algorithms Shape Our World',
                 'https://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
-        reading('BtB Chapter 1',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter1.pdf'),
         reading('Program or Be Programmed',
                 'https://tedxtalks.ted.com/video/Douglas-Rushkoff-at-TEDxNYED'),
         reading('Program or Be Programmed: A Guide',
                 'https://dtc-wsuv.org/hashnextchapter/wp-content/uploads/2013/03/Rushkoff-Study-Guide.pdf',
-                'optional'),
-        reading('Animating a Blockbuster',
-                'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
     lect3: lect('Algorithmic Complexity', 'L07 - Algorithms II'),
@@ -110,13 +115,11 @@ cs10.week2 = {
     disc2: disc('All About Lists'),
     hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/#', hw1Spec)
 };
-cs10.week2.lect4.classes += 'noClass';
+cs10.week2.lect4.classes = 'noClass';
 
 // JUL 6 - JUL 10
 cs10.week3 = {
     readings1: [
-        reading('BtB Chapter 2',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
         reading('BtB Chapter 4 Reading Segment 1',
                 '{{ site.baseurl }}/resources/readings/btb/BtB4-pt1.pdf'),
         reading('BtB Chapter 4 Reading Segment 2',
