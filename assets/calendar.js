@@ -189,7 +189,7 @@ cs10.getWeekStartDate = function(week) {
 cs10.renderTableCalendar = function() {
     var result = $('.cal-container');
     // TODO: weeks config
-    for(var i = 1; i < 2; i += 1) {
+    for(var i = 1; i < 8; i += 1) {
         var first = $('.weekFirst').clone().removeClass('weekFirst');
         var data = cs10['week' + i];
         var row = cs10.renderTableFirst(i, data);

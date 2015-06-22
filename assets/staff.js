@@ -22,7 +22,7 @@ var LaurenMock = {
     name: 'Head TA Lauren Mock',
     img: 'Sp14/LaurenMock.jpg',
     imgSrc: 'LaurenMock.jpg',
-    web: 'http://linkedin.com/in/laurenmock',
+    web: 'https://linkedin.com/in/laurenmock',
     email: 'lauren@cs10.org' };
 
 var AranyU = {
@@ -42,7 +42,7 @@ var PeterS = {
     name: 'TA Peter Sujan',
     img: 'Fa12/PeterSujan.jpg',
     imgSrc: 'PeterSujan.jpg',
-    web: 'http://ocf.berkeley.edu/~psujan',
+    web: 'https://ocf.berkeley.edu/~psujan',
     // bio: 'PeterBio.txt',
     email: 'peter@cs10.org' };
 
@@ -106,7 +106,7 @@ function buildPerson(data, width) {
 
     // Date Hacks for fun!
     if (Date().substr(4, 6) == 'Apr 01') {
-        imgPath = 'http://www.cs.berkeley.edu/~ddgarcia/i/DanGarciaUCBFaculty2004Eyebrow_320.jpg';
+        imgPath = 'https://www.cs.berkeley.edu/~ddgarcia/i/DanGarciaUCBFaculty2004Eyebrow_320.jpg';
     }
 
     // Create a div with this person's data, setting a class for width

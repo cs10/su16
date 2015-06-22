@@ -4,7 +4,7 @@
  * and descriptions
  * Google Calendar needs an API key which is defined in _config.yml
  * but shouldn't need to be changed unless it's own cant be contacted.
- * Docs: http://fullcalendar.io/docs/
+ * Docs: https://fullcalendar.io/docs/
  */
 
 
@@ -12,7 +12,7 @@
 var getRoomURL = function(loc) {
     if (!loc) { return ''; }
 
-    var base = "http://www.berkeley.edu/map/3dmap/3dmap.shtml?",
+    var base = "https://www.berkeley.edu/map/3dmap/3dmap.shtml?",
         url  = { sd: 'sutardja',
                  sdh: 'sutardja',
                  lks: 'likashing',
