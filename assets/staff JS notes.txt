@@ -6,9 +6,9 @@ these images much easier.
 Here is a sample object (with all properities):
 DanGarcia = {
     name: 'Sr. Lecturer SOE Dan Garcia',
-    img: 'http://www.cs.berkeley.edu/~ddgarcia/gifs/DanGarciaUCBFaculty2004.jpg',
+    img: 'https://www.cs.berkeley.edu/~ddgarcia/gifs/DanGarciaUCBFaculty2004.jpg',
     imgSrc: 'DanGarcia.jpg',
-    web: 'http://www.cs.berkeley.edu/%7Eddgarcia/',
+    web: 'https://www.cs.berkeley.edu/%7Eddgarcia/',
     bio: 'DanBio.txt',
     email: 'ddgarcia@cs.berkeley.edu',
     office: '777 Soda, (510) 517-4041'
