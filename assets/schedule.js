@@ -33,7 +33,7 @@ var finalProjSpec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
 cs10.week1 = {
     readings1: 'No Readings',
     lect1: lect('Welcome and Abstraction'),
-    lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/intro_pair/1-introduction.topic"),
+    lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
     lect2: lect('Functions'),
     work: work('Work Session'),
@@ -57,7 +57,7 @@ cs10.week1 = {
                 'optional')
     ],
     lect3: lect('Creativity and Abstraction'),
-    lab2: lab('Build Your Own Blocks', 'berkeley_bjc/intro_pair/2-loops-variables.topic', true),
+    lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
     lect4: lect('Creativity'),
     disc2: disc('Anatomy of a Computer and the Power of Binary'),
     hw: hw('HW0', 'Wed 6/24', 'quizzes/1969116')
@@ -89,8 +89,7 @@ cs10.week2 = {
         //         'optional')
     ],
     lect1: lect('Programming Paradigms'), // 'L05 - Programming Paradigms'
-    lab1: lab('Conditionals', 'berkeley_bjc/intro_pair/3-conditionals.topic', true),
-    // lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
+    lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Algorithms'), // 'L06 - Algorithms I'
     disc1: disc('Functions'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
@@ -132,8 +131,7 @@ cs10.week3 = {
                 'optional')
     ],
     lect1: lect('Recursion I'),
-    lab1: lab('Algorithms', 'berkeley_bjc/areas/algorithms.topic', true),
-    // lab('Algorithmic Complexity', "berkeley_bjc/areas/algorithm-complexity.topic"),
+    lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
     lect2: lect('Social Implications I'),
     disc1: disc('Algorithmic Complexity and Quest Review'),
     work: work('Work Session'),
