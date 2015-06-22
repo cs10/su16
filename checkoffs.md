@@ -73,15 +73,8 @@ No questions for this lab!
 * Make the bug dance!
 * Name 3 different ways you can make a block repeat.
 * What does the pick random block do? Give a scenario where this functionality could be useful.
-
----
-
-# Week 2: Labs 3, 4, and 5: due 7/6
-
-## Lab 3: Conditionals  {#lab3}
-
 * Why are booleans important?
-    * What are some of the booleans we have access to in <span class="snap">snap</span> and what do they do?
+* What are some of the booleans we have access to in <span class="snap">snap</span> and what do they do?
 * What is the difference between `if` and `if-else`  blocks?
 * What is the difference between reporter and predicate blocks?
 * What is a script variable useful for? How do we initiate a script variable?
@@ -90,27 +83,27 @@ No questions for this lab!
 * Show us the code for the ` is _ between _ and _ ?` block.
 * For the Leap Year example, explain which code was easiest to read and which code was easiest to debug.
 
-## Lab 4: Finch Robots  {#lab4}
+---
 
-* Due to the hardware requirements of this lab, it will not count towards a check-off.
+# Week 2: Labs 3, 4, and 5: due 7/6
 
-## Lab 5: Functions  {#lab5}
-
+## Lab 3: Functions  {#lab3}
 * What was Mark’s problem with his `max` block?
 * Name a few of the input types. Why is it important that we specify input types?
 * Please show me your “sum of 2 smallest numbers” block or the “are any equal” block, and explain how you composed functions to write these blocks.
 * What is a script variable useful for? How do we initiate a script variable?
 * Please show some of your solutions to the buggy “sum the numbers between block.” Do they work now? What did you change?
 * Please show your simplified tic-tac-toe board. Why did you organize it the way you did?
-* Can i see your `valid-date` block? How is what you did here similar to simplifying the tic-tac-toe board?
+* Can I see your `valid-date` block? How is what you did here similar to simplifying the tic-tac-toe board?
 * Why is the check block useful? And how does it work? Demonstrate please.
 * How are global variables different from script variables?
 
----
 
-# Week 3: Labs 5 and 6: Due 7/13
+## Lab 4: Finch Robots  {#lab4}
 
-## Lab 6: Lists  {#lab6}
+* Due to the hardware requirements of this lab, it will not count towards a check-off.
+
+## Lab 5: Lists  {#lab5}
 
 * What are lists? How are they represented in Snap? What are some operations you can perform on lists?
 * How are lists different from variables? How are they similar? How do you create a temporary list for use in a block definition?
@@ -121,7 +114,11 @@ No questions for this lab!
 * Lets look at `swap`. Why do we need a temp variable?
 * Why might global variable manipulation be useful in some situations? what drawbacks are there?
 
-## Lab 7: Algorithms  {#lab7}
+---
+
+# Week 3: Labs 5 and 6: Due 7/13
+
+## Lab 6: Algorithms and Algorithmic Complexity  {#lab6}
 
 * What is an algorithm? Can you give an example of an algorithm that you use in your daily life? What about from an earlier lab?
 * Show me your `find number in an unsorted list` block. Describe the algorithm that you used to solve this problem.
@@ -131,33 +128,13 @@ No questions for this lab!
 * If the number of inputs, N, doubles, how would that change the Worst Case for `find number in sorted list`?
 * How can we objectively measure which algorithm, sorted or unsorted, is faster. What kind of extra work is required for the sorted algorithm? Are there cases where unsorted might be faster?
 * What is memoization? If you were able to implement it in the `find number in sorted list (memoized)` block, what makes memoization faster?
-
----
-
-# Week 4: Labs 8 and 9: Due 7/20
-
-## Lab 7: Algorithmic Complexity  {#lab7}
-
 * In your experimental `Number-guessing` game, which algorithm did you find to be faster? Why? What type of search is `Higher/Lower` representing?
 * What happened with the time it took for your computer to counter up the numbers between 1 and x when you started doubling the numbers? Tripling the numbers? What do you think would happen with the time I multiplied your top number by 8?
 * Please show me your Non-Gauss and Gauss `Add all numbers in`.  Which was faster? Why?
 * Please show me your `Are the numbers of (LIST) distinct?` block. What is the difference between "Worst-Case" and "Best Case" in terms of Runtime?
 * Of all the runtimes you have discovered thus far, can you rank them from “fastest” to “slowest”? Why is runtime important for the programs that we create?`
 
----
-
-# Week 5: Labs 10 and 11: Due 7/27
-
-## Lab 10: Concurrency  {#lab10}
-
-* How can you make parallel programs in <span class="snap">snap</span>?
-* Why does adding more people in the card sorting example or more threads in a program sometimes slow the process down?
-* When you run parallel code, are the chunks of code really executing at the exact same time?
-* What are some issues that can occur in parallel programming?
-* What is the difference between determinism and nondeterminism?
-* In the `What are the possible values?` exercise, what were the possibles values of `finish` when you run the code nondeterministically?
-
-## Lab 11: Recursion With Trees and Fractals  {#lab11}
+## Lab 7: Trees and Fractals with Recursion  {#lab7}
 
 * What is recursion? Why is it so powerful?
 * What do you think infinite recursion is? How do you prevent infinite recursion from happening?
@@ -168,9 +145,9 @@ No questions for this lab!
 
 ---
 
-# Week 6: Labs 12 and 13: Due 8/3
+# Week 4: Labs 8 and 9: Due 7/20
 
-## Lab 12: Recursive Reporters  {#lab12}
+## Lab 8: Recursive Reporters  {#lab8}
 
 * Explain how the `plurals(words)` block works.
 * Show me your recursive `exaggerate` block. Do you like the iterative or recursive version better? (1 pt. for correct opinion)
@@ -179,8 +156,31 @@ No questions for this lab!
 * Show me your finished `merge` block.
 * Explain how the `subsets` block works.
 
-## Lab 13: Tic-Tac-Toe  {#lab13}
+## Lab 9: Concurrency  {#lab9}
 
+* How can you make parallel programs in <span class="snap">snap</span>?
+* Why does adding more people in the card sorting example or more threads in a program sometimes slow the process down?
+* When you run parallel code, are the chunks of code really executing at the exact same time?
+* What are some issues that can occur in parallel programming?
+* What is the difference between determinism and nondeterminism?
+* In the `What are the possible values?` exercise, what were the possibles values of `finish` when you run the code nondeterministically?
+
+---
+
+# Week 5: Labs 10 and 11: Due 7/27
+
+## Lab 10:  Practice with HOFs and Functions as Data {#lab10}
+#### Required Questions
+
+1. How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them? 
+2. Demonstrate your `list all factorions between __ and __ ` block.
+3. Demonstrate your `is __ pandigital?` block.
+
+#### Self-Check Questions
+
+1. How does the `compose` block work?
+
+## Lab 11:  Tic-Tac-Toe {#lab11}
 * How are lists used to implement the tic-tac-toe board? Why does this strategy work? Would this strategy work even with a larger board?
 * Show your `appearances` or `substitute triple` block, and explain your implementation (You could be asked either, so be prepared for both!).
 * What did you find to be the most pivotal block in your creation of the game? Show the code for this block, explain your implementation of it works, and explain how the game would have not worked without it.
@@ -188,6 +188,17 @@ No questions for this lab!
 Why do humans not always think alike about the “in-between rules”? Can you give an example of how two people might think differently about an “in-between rule” and explain the difficulties in implementing that in a program?
 * Show your `winning-square` or full `ttt` block (Again, you could be asked either, so be ready for both!).
 * When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Relate your explanations back to domain and range.
+
+
+---
+
+# Week 6: Labs 12 and 13: Due 8/3
+
+## Lab 12:  {#lab12}
+
+
+## Lab 13: Tic-Tac-Toe  {#lab13}
+
 
 ---
 
@@ -210,15 +221,6 @@ Why do humans not always think alike about the “in-between rules”? Can you g
 
 ## Lab 15: Lambdas and HOFs  {#lab15}
 
-#### Required Questions
-
-1. How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them? 
-2. Demonstrate your `list all factorions between __ and __ ` block.
-3. Demonstrate your `is __ pandigital?` block.
-
-#### Self-Check Questions
-
-1. How does the `compose` block work?
 
 ---
 
