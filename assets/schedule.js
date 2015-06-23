@@ -210,25 +210,26 @@ cs10.week5 = {
                 'https://medium.com/p/804cdf4b48c1',
                 'hard')
     ],
-    lab1: lab('Practice with HOFs and Functions as Data', 'berkeley_bjc/hofs/hofs-practice.topic', true),
+    lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
     // lab: The Internet
-    lect1: lect('Lambda & HOFs'),
+    lect1: lect('Social Implications III'),
     disc1: disc('The Internet'),
     work: work('Work Session'),
     lect2: lect('Data'),
-    readings2: [
-        reading('BtB Chapter 8',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter8.pdf')
-    ],
-    lect3: lect('Social Implications III'),
-    lab2: lab('Tic Tac Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
-    lect4: lect('Besides Blocks I'),
-    disc2: disc('Data & HOFs'),
+    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>TBD',
+    // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
+    lect3: lect('No Lecture<br>'),
+    lab2: lab('With-<span class="snap">snap</span> Online Exam'),
+    lect4: lect('Lambdas and HOFs'),
+    disc2: disc('Privacy'),
     hw: [
         hw('Midterm Project', 'Mon 7/20', 'assignments/#', mtProjSpec),
         hw('"Explore" Writing Assignment', 'Fri 7/24', 'discussion_topics/#', exploreSpec),
     ]
 };
+cs10.week5.lect3.classes = 'exam';
+cs10.week5.lect3.title += '<br><a href="exams/midterm.20html">Midterm Exam</a><br><br>Weds 7/22<br>Evening; Location: TBD';
+cs10.week5.lab2.classes = 'exam';
 
 // JUL 27 - JUL 31
 cs10.week6 = {
@@ -247,17 +248,24 @@ cs10.week6 = {
                 'https://cacm.acm.org/magazines/2009/4/22953-computing-as-social-science/fulltext',
                 'optional')
     ],
-    lect3: lect('Besides Blocks I', 'L18 - Besides Blocks I', 'Michael Ball'),
-    lab1: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    lect2: lect('Social Implications III'), // 'L19 - Social Implications III'
-    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sun 3/15 2-5pm<br>2050 VLSB',
-    // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
-    lab1: lab('Lab Catch Up Session'),
     disc1: disc('Data and HOFs'),
-    hw: hw('"Explore" Peer Comments and Artifact', '4/10', 'discussion_topics/3968074', 'assign.html?//docs.google.com/document/d/13OqKNmhbN8PfuGhv5yZYLqvzHKHm08n1dV3n7Prxb5o/pub')
+    lab1: lab('Lambdas and HOFs', ''),
+    lect1: lect('Besides Blocks I'),
+    lect2: lect('Limits of Computing'),
+    readings2: [
+        reading('BtB Chapter 8',
+                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter8.pdf')
+    ],
+    lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
+    disc2: disc('Python'),
+    lect3: lect('Besides Blocks II'),
+    lect4: lect('Future of Computing'),
+    hw: [
+        hw('Explore Post', 'Mon 7/24', '', exploreSpec),
+        hw('Final Project Proposal', 'Mon 7/24', '', finalProjSpec),
+        hw('Explore Peer Comments', 'Fri 7/27', '', exploreSpec)
+    ]
 };
-cs10.week6.lect3.classes = 'exam';
-// cs10.week6.lect2.title += '<br><br><div class="exam inner"><a href="exams/midterm.20html">Midterm Exam</a><br><br>Thursday 3/19<br>7-9pm; Location: 2050 VLSB</div>';
 
 // AUG 3 - AUG 7
 cs10.week7 = {
@@ -269,10 +277,11 @@ cs10.week7 = {
                 'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
                 'optional')
     ],
-    lect1: lect('Besides Blocks II', 'L20 - Besides Blocks II'),
+    lect1: lect('Open Topic'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
-    
-    lect2: lect('Data', 'L21 - Data'),
+    disc1: disc('CS @ Cal and Beyond'),
+    lect2: lect('Open Topic'),
+    work: work('Project Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
                 'https://www.scientificamerican.com/article.cfm?id=what-makes-a-quantum-comp'),
@@ -290,33 +299,32 @@ cs10.week7 = {
                 'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter9.pdf',
                 'optional')
     ],
-    lab1: lab('Besides Blocks: Data in Python', 'berkeley_bjc/python/besides-blocks-data.topic'),
-    disc1: disc('Practical Privacy Pointers'),
-    hw: hw('Final Project Proposal', '4/17', 'quizzes/1869514', finalProjSpec)
+    lab2: lab('TBD'),
+    disc2: disc('Summary and Farewell'),
+    lect3: lect('Open Topic'),
+    lect4: lect('Summary and Farewell'),
+    hw: hw('Final Project Progress Report', 'Fri 8/7', '', finalProjSpec)
 };
 
 // AUG 10 - AUG 14
 cs10.week8 = {
     readings1: 'No Readings<br>Study for final',
-    lect3: lect('Limits of Computing', 'L22 - Limits of Computing'),
-    lab1: lab('Project Work Session', '', true),
-    lect2: lect('Future of Computing', 'L23 - Future of Computing'),
-    lab1: lab('Project Work Session'),
-    disc1: disc('CS @ Cal and Beyond'),
-    hw: hw('Final Project Milestone', '4/24', 'assignments/6209589', finalProjSpec),
+    lab1: lab('With-<span class="snap">snap</span> Online Exam'),
+    disc1: disc('No Discussion'),
+    lect1: lect('No Lecture'),
+    lect2: lect('No Lecture'),
+    work: work('Project Work Session'),
     readings2: 'No Readings<br>Study for Final',
-    lect1: lect('Saving the World with Computing', 'L24 - Saving the World with Computing', 'Kathy Yelick'),
-    lab1: lab('Project Work Lab', '', true),
-    lect2: lect('Summary and Farewell', 'L25 - Farewell'),
-    lab1: lab('With-<span class="snap">snap</span> Exam'),
-    disc2: disc('Summary and Farewell'),
-    hw: hw('Final Project', '5/1', 'assignments/5919088', finalProjSpec)
+    lab2: lab('No Lab'),
+    disc2: disc('No Discussion'),
+    lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
+    lect4: lect('No Lecture'),
+    hw: hw('Final Project', 'Fri 8/14', '', finalProjSpec)
 };
 cs10.week8.lab1.classes = 'exam';
-cs10.week8.lect2.classes = 'exam';
-// Add note after link is made.
-cs10.week8.lect2.title += '<br>In-Class Final Question';
-
+cs10.week8.lect3.classes = 'exam';
+// Add deets about final time.
+cs10.week8.lect3.title += '';
 
 // Load the Calendar
 $(document).ready(function() {

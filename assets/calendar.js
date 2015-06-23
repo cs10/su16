@@ -189,7 +189,7 @@ cs10.getWeekStartDate = function(week) {
 cs10.renderTableCalendar = function() {
     var result = $('.cal-container');
     // TODO: weeks config
-    for (var i = 1; i < 6; i += 1) {
+    for (var i = 1; i < 7; i += 1) {
         var color;
         if (i % 2 == 0) {
             color = 'light';
