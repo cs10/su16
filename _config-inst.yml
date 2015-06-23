@@ -6,8 +6,8 @@ description: > # CS10, The Beauty and Joy of Computing, is an introductory
     computer science class designed for anyone and everyone. The Beauty and
     Joy of Computing is an AP Computer Science Principles class.
 keywords: "CS10, UC, Berkeley, CS, computer science, BJC, computing, education, Snap!, CS Principles, AP"
-baseurl: "/su15"
-url: "https://inst.eecs.berkeley.edu/~cs10"
+baseurl: "/~cs10/su15"
+url: "https://inst.eecs.berkeley.edu"
 
 # Build settings
 markdown: kramdown
