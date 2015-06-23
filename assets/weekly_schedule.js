@@ -12,7 +12,7 @@
 var getRoomURL = function(loc) {
     if (!loc) { return ''; }
 
-    var base = "https://www.berkeley.edu/map/3dmap/3dmap.shtml?",
+    var base = "https://www.berkeley.edu/map?",
         url  = { sd: 'sutardja',
                  sdh: 'sutardja',
                  lks: 'likashing',
