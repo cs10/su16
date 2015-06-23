@@ -32,10 +32,10 @@ var finalProjSpec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
 // JUN 22 - 26
 cs10.week1 = {
     readings1: 'No Readings',
-    lect1: lect('Welcome and Abstraction'),
+    lect1: lect('Welcome and Abstraction', 'L01 - Abstraction'),
     lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    lect2: lect('Functions'),
+    lect2: lect('Functions', 'L02 - Functions'),
     work: work('Work Session'),
     readings2: [
         reading('Prof. Harvey\'s Intro to Abstraction',
