@@ -189,22 +189,28 @@ cs10.getWeekStartDate = function(week) {
 cs10.renderTableCalendar = function() {
     var result = $('.cal-container');
     // TODO: weeks config
-    for(var i = 1; i < 6; i += 1) {
+    for (var i = 1; i < 6; i += 1) {
+        var color;
+        if (i % 2 == 0) {
+            color = 'light';
+        } else {
+            color = 'dark';
+        }
         var first = $('.weekFirst').clone().removeClass('weekFirst');
         var data = cs10['week' + i];
-        var row = cs10.renderTableFirst(i, data);
+        var row = cs10.renderTableFirst(i, data, color);
         first.append(row);
         result.append(first);
         var second = $('.weekSecond').clone().removeClass('weekSecond');
-        second.append(cs10.renderTableSecond(i, data));
+        second.append(cs10.renderTableSecond(i, data, color));
         result.append(second);
     }
 };
 
 // This renders a single week in the large semester calendar.
 // M-W
-cs10.renderTableFirst = function (week, data) {
-    var result = $('<tr>').addClass('cal');
+cs10.renderTableFirst = function (week, data, color) {
+    var result = $('<tr>').addClass('cal' + ' ' + color);
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
     result.append($('<td>').html(week))                      // Week Number
@@ -220,8 +226,8 @@ cs10.renderTableFirst = function (week, data) {
 };
 
 // W-F
-cs10.renderTableSecond = function (week, data) {
-    var result = $('<tr>').addClass('cal');
+cs10.renderTableSecond = function (week, data, color) {
+    var result = $('<tr>').addClass('cal' + ' ' + color);
     // TODO: Special Case For data.special
     // TODO: Handle Exams (data.exams)
     result.append($('<td>').html(week))                      // Week Number

@@ -78,15 +78,12 @@ cs10.week2 = {
         //         '{{ site.baseurl }}/resources/readings/graphics'),
         reading('The Story of Alan Turing &amp; His Machine',
                 'https://youtu.be/CQhrMmbiaM0'),
-        reading('More readings on video games',
-                '{{ site.baseurl }}/resources/readings/video-games/',
-                'optional'),
+        // reading('More readings on video games',
+        //         '{{ site.baseurl }}/resources/readings/video-games/',
+        //         'optional'),
         reading('Animating a Blockbuster',
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
-        // reading('Kinect\'s Future a Game Controller in Everything',
-        //         'https://www.msnbc.msn.com/id/40077373/ns/technology_and_science-games/',
-        //         'optional')
     ],
     lect1: lect('Programming Paradigms'), // 'L05 - Programming Paradigms'
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
