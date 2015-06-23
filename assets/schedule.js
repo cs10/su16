@@ -137,10 +137,7 @@ cs10.week3 = {
     lect4: lect('Recursion II'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
-    hw: [
-        hw('HW2: Snowman', 'Mon 7/6', 'assignments/6365044', hw2Spec),
-        hw('Midterm Project<br><strong>Proposals</strong>', 'Mon 7/6', 'assignments/6365091', mtProjSpec),
-    ]
+    hw: hw('HW2: Snowman', 'Mon 7/6', 'assignments/6365044', hw2Spec)
 };
 cs10.week3.lect3.classes = 'exam';
 
@@ -191,7 +188,11 @@ cs10.week4 = {
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     disc2: disc('Concurrency'),
     lect4: lect('Internet II'),
-    hw: hw('HW3', 'Mon 7/13', 'assignments/6365045', hw3Spec)
+    hw: [
+        hw('HW3', 'Mon 7/13', 'assignments/6365045', hw3Spec),
+        hw('Midterm Project<br><strong>Proposals</strong>', 'TDB', 'assignments/6365091', mtProjSpec)
+    ]
+
     // [
 //         hw('Midterm Project<br><strong>Individual</strong> Milestone', '3/13', 'assignments/6120151'),
 //         hw('Midterm Project<br><strong>Group</strong> Milestone', '3/13', 'assignments/6120100')
@@ -222,10 +223,8 @@ cs10.week5 = {
     lab2: lab('With-<span class="snap">snap</span> Online Exam'),
     lect4: lect('Lambdas and HOFs'),
     disc2: disc('Privacy'),
-    hw: [
-        hw('Midterm Project', 'Mon 7/20', 'assignments/#', mtProjSpec),
-        hw('"Explore" Writing Assignment', 'Fri 7/24', 'discussion_topics/#', exploreSpec),
-    ]
+    // TODO: Push back until after MT?
+    hw: hw('Midterm Project', 'Mon 7/20', 'assignments/#', mtProjSpec)
 };
 cs10.week5.lect3.classes = 'exam';
 cs10.week5.lect3.title += '<br><a href="exams/midterm.20html">Midterm Exam</a><br><br>Weds 7/22<br>Evening; Location: TBD';
@@ -251,6 +250,7 @@ cs10.week6 = {
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', ''),
     lect1: lect('Besides Blocks I'),
+    work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing'),
     readings2: [
         reading('BtB Chapter 8',
@@ -261,9 +261,9 @@ cs10.week6 = {
     lect3: lect('Besides Blocks II'),
     lect4: lect('Future of Computing'),
     hw: [
-        hw('Explore Post', 'Mon 7/24', '', exploreSpec),
-        hw('Final Project Proposal', 'Mon 7/24', '', finalProjSpec),
-        hw('Explore Peer Comments', 'Fri 7/27', '', exploreSpec)
+        hw('Explore Post', 'Weds 7/29', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/32', '', finalProjSpec),
+        hw('Explore Peer Comments', 'Fri 7/31', '', exploreSpec)
     ]
 };
 
@@ -305,7 +305,7 @@ cs10.week7 = {
     disc2: disc('Summary and Farewell'),
     lect3: lect('Open Topic'),
     lect4: lect('Summary and Farewell'),
-    hw: hw('Final Project Progress Report', 'Fri 8/7', '', finalProjSpec)
+    hw: hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
 };
 
 // AUG 10 - AUG 14
