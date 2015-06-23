@@ -270,6 +270,8 @@ cs10.week6 = {
 // AUG 3 - AUG 7
 cs10.week7 = {
     readings1: [
+        reading('How the Raspberry PI Sparked a Maker Revolution',
+                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
         reading('The Great Robot Race (Video)',
                 'https://www.youtube.com/watch?v=uoiJeIb0wBA',
                 'optional'),
@@ -299,7 +301,7 @@ cs10.week7 = {
                 'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter9.pdf',
                 'optional')
     ],
-    lab2: lab('TBD'),
+    lab2: lab('TBD', '#', true),
     disc2: disc('Summary and Farewell'),
     lect3: lect('Open Topic'),
     lect4: lect('Summary and Farewell'),
@@ -313,7 +315,7 @@ cs10.week8 = {
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
-    work: work('Project Work Session'),
+    work: work('No Lab'),
     readings2: 'No Readings<br>Study for Final',
     lab2: lab('No Lab'),
     disc2: disc('No Discussion'),
