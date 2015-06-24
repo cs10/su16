@@ -248,7 +248,7 @@ cs10.week6 = {
                 'optional')
     ],
     disc1: disc('Data and HOFs'),
-    lab1: lab('Lambdas and HOFs', ''),
+    lab1: lab('Lambdas and HOFs', '', true),
     lect1: lect('Besides Blocks I'),
     work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing'),
