@@ -39,7 +39,7 @@ cs10.week1 = {
     work: work('Work Session'),
     readings2: [
         reading('Prof. Harvey\'s Intro to Abstraction',
-                '{{ site.baseurl }}/resources/readings/BH-Abstraction.txt'),
+                docs('1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY')),
         reading('TEDx Berkeley: The Beauty and Joy of Computing',
                 'https://www.youtube.com/watch?v=ozRovyDwKEM'),
         reading('Why Software is Eating the World',
