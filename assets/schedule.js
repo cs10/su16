@@ -1,5 +1,5 @@
-/* Shortcuts for creating schedule objects
- * Paramters:
+﻿/* Shortcuts for creating schedule objects
+ * Parameters:
  * Reading: (title, link, 'type [required is default]')
  * Lecture: (title, '[slides folder]', '[video URL]', '[Guest Name]')
  * lab1:     (title, 'topic file path', [boolean -- Reading Quiz?], 'video link')
@@ -56,7 +56,7 @@ cs10.week1 = {
                 bcourses('58003306'),
                 'optional')
     ],
-    lect3: lect('Creativity and Abstraction'),
+    lect3: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
     lect4: lect('Creativity'),
     disc2: disc('Anatomy of a Computer and the Power of Binary'),
