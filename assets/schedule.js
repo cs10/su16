@@ -85,7 +85,7 @@ cs10.week2 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms')
+    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Algorithms'), // 'L06 - Algorithms I'
     disc1: disc('Functions'),
