@@ -95,7 +95,7 @@ cs10.week2 = {
                 'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
         // TODO: Put this article in bCourses!
         reading('What’s Hot in the Art World? Algorithms',
-                bCourses('58327126')),
+                bcourses('58327126')),
         reading('How Algorithms Shape Our World',
                 'https://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
         reading('Program or Be Programmed',
