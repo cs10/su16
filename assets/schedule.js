@@ -85,7 +85,7 @@ cs10.week2 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('Programming Paradigms'), // 'L05 - Programming Paradigms'
+    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Algorithms', 'L06 - Algorithms I'),
     disc1: disc('Functions'),
@@ -95,13 +95,16 @@ cs10.week2 = {
                 'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
         // TODO: Put this article in bCourses!
         reading('What’s Hot in the Art World? Algorithms',
-                'http://www.wsj.com/articles/whats-hot-in-the-art-world-algorithms-1432687554'),
+                bcourses('58327126')),
         reading('How Algorithms Shape Our World',
                 'https://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html'),
         reading('Program or Be Programmed',
                 'https://tedxtalks.ted.com/video/Douglas-Rushkoff-at-TEDxNYED'),
         reading('Program or Be Programmed: A Guide',
                 'https://dtc-wsuv.org/hashnextchapter/wp-content/uploads/2013/03/Rushkoff-Study-Guide.pdf',
+                'optional'),
+        reading('Demystifying the Algorithm: who Designs Your Life?',
+                'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
                 'optional')
     ],
     lect3: lect('Algorithmic Complexity'), // 'L07 - Algorithms II'
