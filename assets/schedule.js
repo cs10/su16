@@ -87,7 +87,7 @@ cs10.week2 = {
     ],
     lect1: lect('Programming Paradigms'), // 'L05 - Programming Paradigms'
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Algorithms'), // 'L06 - Algorithms I'
+    lect2: lect('Algorithms', 'L06 - Algorithms I'),
     disc1: disc('Functions'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
@@ -135,7 +135,7 @@ cs10.week3 = {
     readings2: 'No Readings<br><br><strong>Quest Review Session</strong><br>Sunday, 7/5 2-4pm<br>306 Soda',
     lect3: lect('Quest In Class', '../exams/quest.html'),
     lect4: lect('Recursion II'),
-    lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
+    lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     hw: hw('HW2: Snowman', 'Mon 7/6', 'assignments/6365044', hw2Spec)
 };
