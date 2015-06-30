@@ -111,7 +111,7 @@ cs10.week2 = {
     hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
 };
 cs10.week2.lect4.classes = 'noClass';
-cs10.week2.work.text += '<hr><strong>Quest Review (Sect 112)</strong>';
+cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
 
 // JUL 6 - JUL 10
 cs10.week3 = {
@@ -132,7 +132,7 @@ cs10.week3 = {
     lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
     lect2: lect('Social Implications I'),
     disc1: disc('Algorithmic Complexity and Quest Review'),
-    work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
+    work: lab('Work Session'),
     readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
     lect3: lect('Quest In Class', '../exams/quest.html'),
     lect4: lect('Recursion II'),
@@ -141,7 +141,7 @@ cs10.week3 = {
     hw: hw('HW2: Snowman', 'Mon 7/6', 'assignments/6365044', hw2Spec)
 };
 cs10.week3.lect3.classes = 'exam';
-cs10.week3.work.text += '<hr>Work Session (Sect 111)';
+cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
 // JUL 13 - JUL 17
 cs10.week4 = {
