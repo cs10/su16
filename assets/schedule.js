@@ -107,7 +107,7 @@ cs10.week2 = {
                 'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
                 'optional')
     ],
-    lect3: lect('Algorithmic Complexity'), // 'L07 - Algorithms II'
+    lect3: lect('Algorithmic Complexity', 'L07 - Algorithmic Complexity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     lect4: lect('No Lecture'),
     disc2: disc('All About Lists'),
