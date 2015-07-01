@@ -267,7 +267,7 @@ cs10.week6 = {
     lect4: lect('Future of Computing'),
     hw: [
         hw('Explore Post', 'Weds 7/29', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/32', '', finalProjSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec),
         hw('Explore Peer Comments', 'Fri 7/31', '', exploreSpec)
     ]
 };
