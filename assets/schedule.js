@@ -67,7 +67,7 @@ cs10.week1 = {
 cs10.week2 = {
     readings1: [
         reading('BtB Chapter 1',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter1.pdf'),
+                '{{ site.baseurl }}/resources/readings/btb/chapter1.pdf'),
         reading('Designing Games with a Purpose (GWAP)',
                 bcourses('58003305')),
         // reading('Justices Split on Violent Games',
@@ -92,7 +92,7 @@ cs10.week2 = {
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
         reading('BtB Chapter 2',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter2.pdf'),
+                '{{ site.baseurl }}/resources/readings/btb/chapter2.pdf'),
         // TODO: Put this article in bCourses!
         reading('What’s Hot in the Art World? Algorithms',
                 bcourses('58327126')),
@@ -128,7 +128,7 @@ cs10.week3 = {
                 'https://cacm.acm.org/magazines/2011/10/131393-living-in-a-digital-world/pdf',
                 'optional'),
         reading('BtB Chapter 3',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter3.pdf',
+                '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')
     ],
     lect1: lect('Recursion I'),
@@ -156,7 +156,7 @@ cs10.week4 = {
         reading('BtB Chapter 5 Reading Segment 3',
                 '{{ site.baseurl }}/resources/readings/btb/BtB5-pt3.pdf'),
         reading('BtB Chapter 6 (27-37)',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf')
+                '{{ site.baseurl }}/resources/readings/btb/chapter6.pdf')
     ],
     lect1: lect('Social Implications II'),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
@@ -208,7 +208,7 @@ cs10.week4 = {
 cs10.week5 = {
     readings1: [
         reading('BtB Chapter 7',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter7.pdf'),
+                '{{ site.baseurl }}/resources/readings/btb/chapter7.pdf'),
         // TODO: Replace these with Superfish?
         reading('The Heartbleed Bug',
                 'https://blog.agilebits.com/2014/04/08/imagine-no-ssl-encryption-its-scary-if-you-try/'),
@@ -259,7 +259,7 @@ cs10.week6 = {
     lect2: lect('Limits of Computing'),
     readings2: [
         reading('BtB Chapter 8',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter8.pdf')
+                '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Python'),
@@ -303,7 +303,7 @@ cs10.week7 = {
                 'https://money.cnn.com/2006/07/26/magazines/fortune/futureoftech_quantum.fortune/index.htm',
                 'optional'),
         reading('BtB: Conclusion',
-                'https://www.bitsbook.com/wp-content/uploads/2008/12/chapter9.pdf',
+                '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
     lab2: lab('TBD', '#', true),
