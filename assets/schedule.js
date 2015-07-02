@@ -235,7 +235,7 @@ cs10.week5 = {
     ]
 };
 cs10.week5.lect3.classes = 'exam';
-cs10.week5.lect3.title += '<br><a href="exams/midterm.20html">Midterm Exam</a><br><br>Weds 7/22<br>Evening; Location: TBD';
+cs10.week5.lect3.title += '<br><a href="exams/midterm.20html">Midterm Exam</a><br><br>Weds 7/22<br>6-8 PM; Location: 159 Mulford';
 cs10.week5.lab2.classes = 'exam';
 
 // JUL 27 - JUL 31
