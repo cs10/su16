@@ -141,7 +141,7 @@ cs10.week3 = {
     lect4: lect('Recursion II'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
-    hw: hw('HW2: Snowman', 'Mon 7/6', 'assignments/6365044', hw2Spec)
+    hw: hw('HW2: Snowman', 'Wed 7/8', 'assignments/6365044', hw2Spec)
 };
 cs10.week3.lect3.classes = 'exam';
 cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -194,8 +194,8 @@ cs10.week4 = {
     disc2: disc('Concurrency'),
     lect4: lect('Internet II'),
     hw: [
-        hw('HW3', 'Mon 7/13', 'assignments/6365045', hw3Spec),
-        hw('Midterm Project<br><strong>Proposals</strong>', 'TDB', 'assignments/6365091', mtProjSpec)
+        hw('HW3', 'Wed 7/15', 'assignments/6365045', hw3Spec),
+        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/15', 'assignments/6365091', mtProjSpec)
     ]
 
     // [
