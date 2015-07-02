@@ -229,7 +229,10 @@ cs10.week5 = {
     lect4: lect('Lambdas and HOFs'),
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
-    hw: hw('Midterm Project', 'Mon 7/20', 'assignments/#', mtProjSpec)
+    hw: [
+        hw('Midterm Project<br><strong>Milestone</strong>', 'Mon 7/20', 'assignments/6365093')
+        hw('Midterm Project', 'Fri 7/24', 'assignments/6365047', mtProjSpec)
+    ]
 };
 cs10.week5.lect3.classes = 'exam';
 cs10.week5.lect3.title += '<br><a href="exams/midterm.20html">Midterm Exam</a><br><br>Weds 7/22<br>Evening; Location: TBD';
@@ -266,9 +269,8 @@ cs10.week6 = {
     lect3: lect('Besides Blocks II'),
     lect4: lect('Future of Computing'),
     hw: [
-        hw('Explore Post', 'Weds 7/29', '', exploreSpec),
+        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec),
-        hw('Explore Peer Comments', 'Fri 7/31', '', exploreSpec)
     ]
 };
 
@@ -310,7 +312,10 @@ cs10.week7 = {
     disc2: disc('Summary and Farewell'),
     lect3: lect('Open Topic'),
     lect4: lect('Summary and Farewell'),
-    hw: hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
+    hw: [
+        hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec)
+        hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
+    ]    
 };
 
 // AUG 10 - AUG 14
