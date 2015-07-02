@@ -230,7 +230,7 @@ cs10.week5 = {
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
     hw: [
-        hw('Midterm Project<br><strong>Milestone</strong>', 'Mon 7/20', 'assignments/6365093')
+        hw('Midterm Project<br><strong>Milestone</strong>', 'Mon 7/20', 'assignments/6365093'),
         hw('Midterm Project', 'Fri 7/24', 'assignments/6365047', mtProjSpec)
     ]
 };
@@ -270,7 +270,7 @@ cs10.week6 = {
     lect4: lect('Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec),
+        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
     ]
 };
 
@@ -313,7 +313,7 @@ cs10.week7 = {
     lect3: lect('Open Topic'),
     lect4: lect('Summary and Farewell'),
     hw: [
-        hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec)
+        hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
     ]    
 };
