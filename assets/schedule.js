@@ -131,7 +131,7 @@ cs10.week3 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')
     ],
-    lect1: lect('Recursion I'),
+    lect1: lect('Recursion I', "L08 - Recursion I"),
     lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
     lect2: lect('Social Implications I'),
     disc1: disc('Algorithmic Complexity and Quest Review'),
