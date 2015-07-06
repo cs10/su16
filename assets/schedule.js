@@ -222,7 +222,7 @@ cs10.week5 = {
     disc1: disc('The Internet'),
     work: work('Work Session'),
     lect2: lect('Data'),
-    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>TBD',
+    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/19 | 10 - 1 PM<br>306 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     lect3: lect('No Lecture<br>'),
     lab2: lab('With-<span class="snap">snap</span> Online Exam'),
@@ -326,7 +326,7 @@ cs10.week8 = {
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
     work: work('No Lab'),
-    readings2: 'No Readings<br>Study for Final',
+    readings2: 'No Readings<br><strong>Final Review Session</strong><br>Sunday 8/9 | 10 - 1 PM<br>306 Soda',
     lab2: lab('No Lab'),
     disc2: disc('No Discussion'),
     lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
