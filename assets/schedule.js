@@ -315,7 +315,7 @@ cs10.week7 = {
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
-    ]    
+    ]
 };
 
 // AUG 10 - AUG 14
