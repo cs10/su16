@@ -133,7 +133,7 @@ cs10.week3 = {
     ],
     lect1: lect('Recursion I', 'L08 - Recursion I'),
     lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
-    lect2: lect('Social Implications I'),
+    lect2: lect('Social Implications I', 'L09 - Social Implications I'),
     disc1: disc('Algorithmic Complexity and Quest Review'),
     work: lab('Work Session'),
     readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
