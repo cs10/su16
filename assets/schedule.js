@@ -138,7 +138,7 @@ cs10.week3 = {
     work: lab('Work Session'),
     readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
     lect3: lect('Quest In Class', '../exams/quest.html'),
-    lect4: lect('Recursion II'),
+    lect4: lect('Recursion II', 'L10 - Recursion II'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     hw: hw('HW2: Snowman', 'Wed 7/8', 'assignments/6365044', hw2Spec)
