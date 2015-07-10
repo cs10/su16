@@ -20,7 +20,7 @@ function docs(id) {
 // CONSTANTS:
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
 var hw2Spec = docs('1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y');
-var hw3Spec = docs('');
+var hw3Spec = docs('1aToRospgIvycMHAu0RAmRjz5LzUb6x6FzvvdcPMiG8g');
 var mtProjSpec = docs('1-uGB5qRYzM0bX5BjDTh527Zo-3GlZMGcLcyKHIViFiA');
 var exploreSpec = docs('13OqKNmhbN8PfuGhv5yZYLqvzHKHm08n1dV3n7Prxb5o');
 var finalProjSpec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
@@ -194,7 +194,7 @@ cs10.week4 = {
     disc2: disc('Concurrency'),
     lect4: lect('Internet II'),
     hw: [
-        hw('HW3', 'Wed 7/15', 'assignments/6365045', hw3Spec),
+        hw('HW3 2048', 'Wed 7/15', 'assignments/6365045', hw3Spec),
         hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/15', 'assignments/6365091', mtProjSpec)
     ]
 
