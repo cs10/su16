@@ -39,7 +39,7 @@ var erikD = {
     email: 'erik@cs10.org' };
 
 var PeterS = {
-    name: 'TA Peter Sujan',
+    name: '(Sort of) TA Peter Sujan',
     img: 'Fa12/PeterSujan.jpg',
     imgSrc: 'PeterSujan.jpg',
     web: 'https://ocf.berkeley.edu/~psujan',
@@ -51,12 +51,12 @@ var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg' };
-    
+
 var katherinem = {
     name: 'Reader Katherine McGauley',
     img: 'Su15/KatherineMcGauley.jpg',
     imgSrc: 'KatherineMcGauley.jpg' };
-    
+
 var laram = {
     name: 'Reader Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
@@ -68,7 +68,7 @@ var laram = {
 /*****************************************************************************/
 
 var inst = [ michaelB, JonMcKinsey ];
-var tas = [ LaurenMock, AranyU, erikD ];
+var tas = [ LaurenMock, AranyU, erikD, PeterS ];
 
 var readers = [ jobelV, katherinem, laram ];
 
@@ -194,5 +194,5 @@ function normalImage(image, normalPath) {
 /* more code to run on page load */
 // Parameters: a section (HTML 'id') and num of images per row.
 buildGroup('inst', 5);
-buildGroup('tas', 3);
+buildGroup('tas', 4);
 buildGroup('readers', 3);
