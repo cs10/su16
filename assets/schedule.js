@@ -158,7 +158,7 @@ cs10.week4 = {
         reading('BtB Chapter 6 (27-37)',
                 '{{ site.baseurl }}/resources/readings/btb/chapter6.pdf')
     ],
-    lect1: lect('Social Implications II'),
+    lect1: lect('Social Implications II', "L11 - Social Implications II"),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc1: disc('Quest Debrief & HW Questions'),
     lect2: lect('Concurrency'),
