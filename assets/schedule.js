@@ -194,7 +194,7 @@ cs10.week4 = {
     disc2: disc('Concurrency'),
     lect4: lect('Internet II'),
     hw: [
-        hw('HW3 2048', 'Wed 7/15', 'assignments/6365045', hw3Spec),
+        hw('HW3 2048', 'Thurs 7/16', 'assignments/6365045', hw3Spec),
         hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/15', 'assignments/6365091', mtProjSpec)
     ]
 
@@ -230,8 +230,8 @@ cs10.week5 = {
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
     hw: [
-        hw('Midterm Project<br><strong>Milestone</strong>', 'Mon 7/20', 'assignments/6365093'),
-        hw('Midterm Project', 'Fri 7/24', 'assignments/6365047', mtProjSpec)
+        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/21', 'assignments/6365093'),
+        hw('Midterm Project', 'Sun 7/26', 'assignments/6365047', mtProjSpec)
     ]
 };
 cs10.week5.lect3.classes = 'exam';
