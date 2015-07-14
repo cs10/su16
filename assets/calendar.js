@@ -1,4 +1,4 @@
-var cs10 = cs10 || {};
+    var cs10 = cs10 || {};
 
 // Sunday at the start of the semester
 cs10.startDate = '{{ site.startDate }}';
@@ -148,8 +148,11 @@ cs10.newDiscussionObject = function(title, files) {
     return disc;
 };
 
-cs10.newHomeworkObject = function(title, due, submission, spec, notes) {
-    var obj = { type: 'Homework' };
+cs10.newHomeworkObject = function(title, due, submission, spec) {
+    var obj = {
+        type: 'Homework',
+        urls: []
+    };
 
     // TODO: Consider refactoring this....
     if (!title) {
@@ -165,12 +168,29 @@ cs10.newHomeworkObject = function(title, due, submission, spec, notes) {
     }
 
     if (spec) {
-        obj.spec = spec;
+        obj.urls.push({
+            title: "Spec",
+            url: spec
+        });
     }
 
     if (submission) {
-        obj.url = 'https://bcourses.berkeley.edu/courses/' + cs10.bCoursesID +
-                  '/' + submission;
+        // Allow multiple submissions per assignment
+        // but keep shorthand for a common single URL
+        if (submission.constructor !== Array) {
+            submission = [ {
+                title: "Submit",
+                url: submission
+            } ];
+        }
+
+        submission.forEach(function(subm) {
+            obj.urls.push({
+                title: subm.title,
+                url: 'https://bcourses.berkeley.edu/courses/' + cs10.bCoursesID +
+              '/' + submission
+            });
+        });
     }
 
     return obj;
@@ -353,15 +373,23 @@ cs10.renderTableHW = function(hw) {
             result.append(assn.title);
             result.append('<br>');
             result.attr({ 'class' : assn.classes });
-            if (assn.spec) {
-            result.append($('<a>').html('Spec').attr({'href' : assn.spec}));
+
+        var j = 0, links = assn.urls.length, item;
+        for (; j < links; j += 1) {
+            item = assn.urls[j];
+            result.append($('<a>').html(item.title).attr({
+                href: item.url,
+                target: '_blank'
+            }));
+
+            if (j + 1 < links) {
+                result.append(' | ');
+            }
         }
-        if (assn.url && assn.spec) {
-            result.append(' | ');
-        }
+
         if (assn.url) {
             result.append($('<a>').html('Submit').attr({
-                'href' : assn.url, 'target' : '_blank' }));
+                'href' : assn.url, }));
         }
         if (assn.due) {
             result.append('<br>');
