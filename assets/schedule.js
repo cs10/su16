@@ -194,7 +194,12 @@ cs10.week4 = {
     disc2: disc('Concurrency'),
     lect4: lect('Internet II'),
     hw: [
-        hw('HW3 2048', 'Thurs 7/16', 'assignments/6365045', hw3Spec),
+        hw('HW3 2048', 'Thurs 7/16', [
+            { titie: "GROUP Submission",
+              url: 'assignments/6365045' },
+            { title: "INDIVIDUAL Submission",
+              url: 'assignments/6442903' }
+        ], hw3Spec),
         hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/15', 'assignments/6365091', mtProjSpec)
     ]
 
