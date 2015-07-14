@@ -195,7 +195,7 @@ cs10.week4 = {
     lect4: lect('Internet II'),
     hw: [
         hw('HW3 2048', 'Thurs 7/16', [
-            { titie: "GROUP Submission",
+            { title: "GROUP Submission",
               url: 'assignments/6365045' },
             { title: "INDIVIDUAL Submission",
               url: 'assignments/6442903' }

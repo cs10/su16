@@ -186,9 +186,9 @@ cs10.newHomeworkObject = function(title, due, submission, spec) {
 
         submission.forEach(function(subm) {
             obj.urls.push({
-                title: subm.title,
+                title: subm.title || "LINK -- FIXME",
                 url: 'https://bcourses.berkeley.edu/courses/' + cs10.bCoursesID +
-              '/' + submission
+              '/' + subm
             });
         });
     }
