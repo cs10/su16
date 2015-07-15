@@ -189,7 +189,7 @@ cs10.week4 = {
                 bcourses('58003301'),
                 'optional')
     ],
-    lect3: lect('Internet I'),
+    lect3: lect('Internet I', 'L13 - Internet I'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     disc2: disc('Concurrency'),
     lect4: lect('Internet II'),
