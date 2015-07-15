@@ -171,7 +171,7 @@ cs10.week4 = {
         reading('Moore\'s Law Keeps Going, Defying Expectations',
                 'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
         reading('Free Lunch is Over',
-                'https://www.gotw.ca/publications/concurrency-ddj.htm',
+                'http://www.gotw.ca/publications/concurrency-ddj.htm',
                 'hard'),
         reading('How Moore\'s Law Works',
                 'https://computer.howstuffworks.com/moores-law.htm',
