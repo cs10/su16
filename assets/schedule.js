@@ -221,7 +221,7 @@ cs10.week5 = {
                 'https://medium.com/p/804cdf4b48c1',
                 'hard')
     ],
-    lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/lists/tic-tac-toe.topic', true),
+    lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
     // lab: The Internet
     lect1: lect('Social Implications III'),
     disc1: disc('The Internet'),
