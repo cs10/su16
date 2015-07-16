@@ -28,7 +28,7 @@ Note that you only need to get checked off for 1 lab each week! You get to pick 
 
 **Remember:** Even if you miss a check-off deadline, you can still get 50% credit for any lab check off at any time during the semester.
 
-</div> 
+</div>
 
 ---
 
@@ -36,21 +36,20 @@ Note that you only need to get checked off for 1 lab each week! You get to pick 
 
 ## Quick Links
 
-* [Lab 1](#lab1)
+* [Lab 1](#lab1) (Week 1)
 * [Lab 2](#lab2)
-* [Lab 3](#lab3)
+* [Lab 3](#lab3) (Week 2)
 * [Lab 4](#lab4)
 * [Lab 5](#lab5)
-* [Lab 6](#lab6)
+* [Lab 6](#lab6) (Week 3)
 * [Lab 7](#lab7)
-* [Lab 8](#lab8)
+* [Lab 8](#lab8) (Week 4)
 * [Lab 9](#lab9)
-* [Lab 10](#lab10)
-* [Lab 11](#lab11)
+* [Lab 10](#lab10) (Week 5)
+* [Lab 11](#lab11) (Week 6)
 * [Lab 12](#lab12)
-* [Lab 13](#lab13)
-* [Lab 14](#lab14)
-* [Lab 15](#lab15)
+* [Lab 13](#lab13) (Week 7)
+* [Lab 14](#lab14) (Week 7)
 </div>
 
 ---
@@ -116,7 +115,7 @@ No questions for this lab!
 
 ---
 
-# Week 3: Labs 5 and 6: Due 7/13
+# Week 3: Labs 6 and 7: Due 7/13
 
 ## Lab 6: Algorithms and Algorithmic Complexity  {#lab6}
 
@@ -167,66 +166,54 @@ No questions for this lab!
 
 ---
 
-# Week 5: Labs 10 and 11: Due 7/27
+# Week 5: Lab 10: Due 7/27
 
-## Lab 10:  Practice with HOFs and Functions as Data {#lab10}
-#### Required Questions
+## Lab 10: The Internet and Tic-Tac-Toe
 
-1. How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them? 
-2. Demonstrate your `list all factorions between __ and __ ` block.
-3. Demonstrate your `is __ pandigital?` block.
-
-#### Self-Check Questions
-
-1. How does the `compose` block work?
-
-## Lab 11:  Tic-Tac-Toe {#lab11}
-* How are lists used to implement the tic-tac-toe board? Why does this strategy work? Would this strategy work even with a larger board?
-* Show your `appearances` or `substitute triple` block, and explain your implementation (You could be asked either, so be prepared for both!).
-* What did you find to be the most pivotal block in your creation of the game? Show the code for this block, explain your implementation of it works, and explain how the game would have not worked without it.
-* The lab mentioned a few core rules that are part of everyone's tic-tac-toe strategy (in the Program Structure and Strategy section), and thus encouraged them as part of your computer program. It went on to say “Humans don't always think alike about the in-between rules; we'll make suggestions later, after you finish the minimal assignment.”
-Why do humans not always think alike about the “in-between rules”? Can you give an example of how two people might think differently about an “in-between rule” and explain the difficulties in implementing that in a program?
-* Show your `winning-square` or full `ttt` block (Again, you could be asked either, so be ready for both!).
-* When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Relate your explanations back to domain and range.
-
-
----
-
-# Week 6: Labs 12 and 13: Due 8/3
-
-## Lab 12:  {#lab12}
-
-
-## Lab 13: Tic-Tac-Toe  {#lab13}
-
-
----
-
-# Week 7: Labs 14 and 15: Due 8/10
-
-## Lab 14: The Internet  {#lab14}
-
-#### Required Questions
+#### Internet: Required Questions
 
 1. Of the shell commands traceroute, whois, and telnet, explain and demonstrate one of them. Why is the information they return useful?
 2. What is the difference between latency and throughput? What shell command can you use to measure latency?
 3. What is an information footprint, and what steps can you take to lessen your footprint in the future?
 
-#### Self-Check Questions
+#### Internet: Self-Check Questions
 
 * Pick a website of your choosing and get the page source. What language is the page source written in?
 * How do you start a shell and what is the shell useful for?
 * What is a Domain name?
 * Try pinging a website's url. What does ping measure?
 
-## Lab 15: Lambdas and HOFs  {#lab15}
+## Lab 11: Tic-Tac-Toe {#lab11}
 
+#### Tic-Tac-Toe Required Questions
+1. How are lists used to implement the tic-tac-toe board? Why does this strategy work? Would this strategy work even with a larger board?
+2. Show your `appearances` or `substitute triple` block, and explain your implementation (You could be asked either, so be prepared for both!).
+3. Show your `winning-square` or full `ttt` block (Again, you could be asked either, so be ready for both!).
+
+#### Tic-Tac-Toe: Self-Check Questions
+* What did you find to be the most pivotal block in your creation of the game? Show the code for this block, explain your implementation of it works, and explain how the game would have not worked without it.
+* The lab mentioned a few core rules that are part of everyone's tic-tac-toe strategy (in the Program Structure and Strategy section), and thus encouraged them as part of your computer program. It went on to say “Humans don't always think alike about the in-between rules; we'll make suggestions later, after you finish the minimal assignment.”
+Why do humans not always think alike about the “in-between rules”? Can you give an example of how two people might think differently about an “in-between rule” and explain the difficulties in implementing that in a program?
+* When was it best to report positions for some of the tic-tac-toe blocks, and when was it more ideal to report actual letters (‘X’ or ‘O’)? Relate your explanations back to domain and range.
 
 ---
 
-# TODO: The rest of these labs need to be moved for the summer.
+# Week 6: Labs 11 and 12: Due 8/3
 
-## Lab 15: Besides Blocks: Welcome to Python!  {#lab15}
+## Lab 11:  Lambdas and HOFs {#lab12}
+
+#### Required Questions
+
+1. How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them?
+2. Demonstrate your `list all factorions between __ and __ ` block.
+3. Demonstrate your `is __ pandigital?` block.
+
+#### Self-Check Questions
+
+* How does the `compose` block work?
+
+
+## Lab 12: Besides Blocks: Welcome to Python!  {#lab12}
 
 #### Required Questions
 
@@ -242,7 +229,9 @@ Why do humans not always think alike about the “in-between rules”? Can you g
 
 ---
 
-## Lab 16: Besides Blocks: Data Structures in Python  {#lab16}
+# Week 7: Lab 13: Due 8/10
+
+## Lab 13: Besides Blocks: Data Structures in Python  {#lab13}
 
 #### Required Questions
 
@@ -255,6 +244,11 @@ Why do humans not always think alike about the “in-between rules”? Can you g
 * What similarities do you notice between Snap! and Python? Differences?
 * What is an iterable and iterator?
 * What do Higher Order Functions look like in Python?
+
+## Lab 14: TBD {#lab14}
+---
+
+---
 
 </div>
 
