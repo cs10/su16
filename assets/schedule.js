@@ -192,7 +192,7 @@ cs10.week4 = {
     lect3: lect('Internet I', 'L13 - Internet I'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     disc2: disc('Concurrency'),
-    lect4: lect('Internet II'),
+    lect4: lect('Internet II', 'L14 - Internet II'),
     hw: [
         hw('HW3 2048', 'Thurs 7/16', [
             { title: "GROUP Submission",
