@@ -316,7 +316,7 @@ cs10.week7 = {
     lab2: lab('TBD', '#', true),
     disc2: disc('Summary and Farewell'),
     lect3: lect('Summary and Farewell'),
-    lect4: lect('No Lecture<br>'),
+    lect4: lect('No Lecture'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
