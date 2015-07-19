@@ -1,5 +1,12 @@
 // Instructors
 
+var JonMcKinsey = {
+    name: 'Instructor Jon McKinsey',
+    img: 'Fa13/JonMcKinsey.jpg',
+    imgSrc: 'JonMcKinsey.jpg',
+    email: 'jon@cs10.org'
+};
+
 var michaelB = {
     name: 'Instructor Michael Ball',
     img: 'Sp14/MichaelBallTake3.jpg',
@@ -7,13 +14,6 @@ var michaelB = {
     web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
     email: 'michael@cs10.org'
-};
-
-var JonMcKinsey = {
-    name: 'Instructor Jon McKinsey',
-    img: 'Fa13/JonMcKinsey.jpg',
-    imgSrc: 'JonMcKinsey.jpg',
-    email: 'jon@cs10.org'
 };
 
 // TAs
@@ -67,7 +67,7 @@ var laram = {
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-var inst = [ michaelB, JonMcKinsey ];
+var inst = [ JonMcKinsey, michaelB ];
 var tas = [ LaurenMock, AranyU, erikD, PeterS ];
 
 var readers = [ jobelV, katherinem, laram ];
