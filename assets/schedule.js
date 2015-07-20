@@ -223,7 +223,7 @@ cs10.week5 = {
     ],
     lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
     // lab: The Internet
-    lect1: lect('Social Implications III'),
+    lect1: lect('Social Implications III', 'L15 - Social Implications III'),
     disc1: disc('The Internet'),
     work: work('Work Session'),
     lect2: lect('Data'),
