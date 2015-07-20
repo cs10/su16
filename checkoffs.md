@@ -14,7 +14,6 @@ permalink: labquestions/index.html
 
 # Lab Check-Off Questions
 
-
 <div class="page-section" markdown="1">
 
 ## Directions
@@ -49,7 +48,7 @@ Note that you only need to get checked off for 1 lab each week! You get to pick 
 * [Lab 11](#lab11) (Week 6)
 * [Lab 12](#lab12)
 * [Lab 13](#lab13) (Week 7)
-* [Lab 14](#lab14)
+* [Lab 14](#lab14) 
 </div>
 
 ---

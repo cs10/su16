@@ -32,9 +32,8 @@ startDate: 2015-06-21 # First Sunday
 endDate:   2015-08-15 # Last Saturday
 
 # Change the calendar to show Sun-Sat instead of M-F when an exam is near
-# FIXME -- THESE DATES ARE NOT FINAL
 questDate: 2015-07-08
-midtermDate: 2015-07-29
+midtermDate: 2015-07-22
 finalDate: 2015-08-12
 # from console.developers.google.com
 # This key can be public and is tied to a users calendar accesses
