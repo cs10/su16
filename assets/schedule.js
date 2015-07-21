@@ -226,7 +226,7 @@ cs10.week5 = {
     lect1: lect('Social Implications III', 'L15 - Social Implications III'),
     disc1: disc('The Internet'),
     work: work('Work Session'),
-    lect2: lect('Data'),
+    lect2: lect('Data', 'L16 - Data'),
     readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/19 | 10 - 1 PM<br>306 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     lect3: lect('No Lecture<br>'),
