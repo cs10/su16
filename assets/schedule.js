@@ -231,7 +231,7 @@ cs10.week5 = {
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     lect3: lect('No Lecture<br>'),
     lab2: lab('With-<span class="snap">snap</span> Online Exam'),
-    lect4: lect('Lambdas and HOFs'),
+    lect4: lect('Lambdas and HOFs', 'L17 - HOF'),
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
     hw: [
