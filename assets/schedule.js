@@ -247,7 +247,7 @@ cs10.week5.lab2.classes = 'exam';
 cs10.week6 = {
     readings1: [
         reading('Data Explosion Creates Revolution',
-                'https://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
+                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
         reading('Data Mining',
                 'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
         reading('IBM\'s Watson supercomputer to speed up cancer care',
