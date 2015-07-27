@@ -262,7 +262,7 @@ cs10.week6 = {
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks I'),
+    lect1: lect('Besides Blocks I', 'L18 - Python I'),
     work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing'),
     readings2: [
