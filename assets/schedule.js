@@ -313,7 +313,7 @@ cs10.week7 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
-    lab2: lab('Final Review Session', '#', true),
+    lab2: lab('Final Exam Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
     lect3: lect('Open Topic'),
     lect4: lect('Summary and Farewell'),
