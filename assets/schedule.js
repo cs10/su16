@@ -23,7 +23,7 @@ var hw2Spec = docs('1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y');
 var hw3Spec = docs('1aToRospgIvycMHAu0RAmRjz5LzUb6x6FzvvdcPMiG8g');
 var mtProjSpec = docs('1VzhTWptGJpLE56gzYYG1lw9h2tW66yHNxkO7-yXVjzU');
 var exploreSpec = docs('1fGQzqdBFdorBoSEfFs7MCDS6sfAi8412gjx3E6EcSlo');
-var finalProjSpec = docs('1InDacW4tmqeFfxgDxsSv0ebY8LiBTj_3A03uhY7-vIw');
+var finalProjSpec = docs('1ZMQqAvwzFSdGHcc9x8uoE3aL_XjR3Gy4i2cS1rHibIc');
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
@@ -247,7 +247,7 @@ cs10.week5.lab2.classes = 'exam';
 cs10.week6 = {
     readings1: [
         reading('Data Explosion Creates Revolution',
-                'https://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
+                'http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2011/10/19/BU5K1LJ4R3.DTL'),
         reading('Data Mining',
                 'https://webdocs.cs.ualberta.ca/~zaiane/courses/cmput690/notes/Chapter1/ch1.pdf'),
         reading('IBM\'s Watson supercomputer to speed up cancer care',
@@ -262,7 +262,7 @@ cs10.week6 = {
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks I'),
+    lect1: lect('Besides Blocks I', 'L18 - Python I'),
     work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Limits of Computing'),
     readings2: [
@@ -313,10 +313,10 @@ cs10.week7 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
-    lab2: lab('TBD', '#', true),
+    lab2: lab('Final Exam Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
-    lect3: lect('Summary and Farewell'),
-    lect4: lect('No Lecture'),
+    lect3: lect('Open Topic'),
+    lect4: lect('Summary and Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
