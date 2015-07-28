@@ -264,7 +264,7 @@ cs10.week6 = {
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     lect1: lect('Besides Blocks I', 'L18 - Python I'),
     work: work('Find Final Groups and Get Early Feedback'),
-    lect2: lect('Limits of Computing'),
+    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
     readings2: [
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
