@@ -313,10 +313,10 @@ cs10.week7 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
-    lab2: lab('TBD', '#', true),
+    lab2: lab('Final Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
-    lect3: lect('Summary and Farewell'),
-    lect4: lect('No Lecture'),
+    lect3: lect('Open Topic'),
+    lect4: lect('Summary and Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
