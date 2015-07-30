@@ -331,7 +331,7 @@ cs10.week8 = {
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
     work: work('No Lab'),
-    readings2: 'No Readings<br><br><strong>Final Review Session</strong><br>Sunday 8/9 | 10 - 1 PM<br>306 Soda',
+    readings2: 'No Readings<br>',
     lab2: lab('No Lab'),
     disc2: disc('No Discussion'),
     lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
