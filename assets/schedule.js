@@ -294,7 +294,7 @@ cs10.week7 = {
     lect1: lect('<strong>Guest Lecturer:</br> Achin Bhowmik</br> Intel</strong>'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
-    lect2: lect('<strong>Guest Lecturer:</br> Ian Birnam</br> Vergito</strong>'),
+    lect2: lect('<strong>Guest Lecturer:</br> Ian Birnam</br> Vertigo</strong>'),
     work: work('Project Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
