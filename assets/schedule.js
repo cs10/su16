@@ -272,7 +272,7 @@ cs10.week6 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Python'),
     lect3: lect('Besides Blocks II'),
-    lect4: lect('Future of Computing'),
+    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
