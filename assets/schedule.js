@@ -331,10 +331,10 @@ cs10.week8 = {
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
     work: work('No Lab'),
-    readings2: 'No Readings<br>',
+    readings2: 'No Readings',
     lab2: lab('No Lab'),
     disc2: disc('No Discussion'),
-    lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
+    lect3: lect('No Lecture<br><strong>Final Exam (Evening)<br> 6-9 PM | 101 Morgan</strong>'),
     lect4: lect('No Lecture'),
     hw: hw('Final Project', 'Fri 8/14', '', finalProjSpec)
 };
