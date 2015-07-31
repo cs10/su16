@@ -10,5 +10,5 @@ class Rabbit:
 		print(self.name + " sleeps on your shoes.")
 
 petey = Rabbit("Petey", .67)
-print(petey.age)
+petey.eat("hay")
 petey.sleep()
