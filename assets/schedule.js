@@ -295,7 +295,7 @@ cs10.week7 = {
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
     lect2: lect('Guest lecture:<br>Ian Birnam<br>Vertigo Software'),
-    work: work('Project Work Session'),
+    work: work('Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
                 'https://www.scientificamerican.com/article.cfm?id=what-makes-a-quantum-comp'),
