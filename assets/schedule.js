@@ -284,6 +284,9 @@ cs10.week7 = {
     readings1: [
         reading('How the Raspberry PI Sparked a Maker Revolution',
                 'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
+	reading('TED: Interactive experiences with perceptual computing(Video)',
+                'https://www.youtube.com/watch?v=wrSE8TcYlHU',
+                'optional')
         reading('The Great Robot Race (Video)',
                 'https://www.youtube.com/watch?v=uoiJeIb0wBA',
                 'optional'),
@@ -291,10 +294,10 @@ cs10.week7 = {
                 'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
                 'optional')
     ],
-    lect1: lect('Guest lecture:<br>Achin Bhowmik<br>Intel', 'https://www.linkedin.com/in/achinbhowmik'),
+    lect1: lect('Guest lecture:<br>Achin Bhowmik<br>Intel'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
-    lect2: lect('Guest lecture:<br>Ian Birnam<br>Vertigo Software', 'https://www.linkedin.com/in/ibirnam'),
+    lect2: lect('Guest lecture:<br>Ian Birnam<br>Vertigo Software'),
     work: work('Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
