@@ -271,7 +271,7 @@ cs10.week6 = {
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Python'),
-    lect3: lect('Besides Blocks II'),
+    lect3: lect('Besides Blocks II', 'L20 - Python II'),
     lect4: lect('Future of Computing', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
@@ -284,6 +284,9 @@ cs10.week7 = {
     readings1: [
         reading('How the Raspberry PI Sparked a Maker Revolution',
                 'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
+	reading('TED: Interactive experiences with perceptual computing(Video)',
+                'https://www.youtube.com/watch?v=wrSE8TcYlHU',
+                'optional'),
         reading('The Great Robot Race (Video)',
                 'https://www.youtube.com/watch?v=uoiJeIb0wBA',
                 'optional'),
@@ -291,11 +294,11 @@ cs10.week7 = {
                 'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
                 'optional')
     ],
-    lect1: lect('Open Topic'),
+    lect1: lect('Guest lecture:<br>Achin Bhowmik<br>Intel'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
-    lect2: lect('Open Topic'),
-    work: work('Project Work Session'),
+    lect2: lect('Guest lecture:<br>Ian Birnam<br>Vertigo Software'),
+    work: work('Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
                 'https://www.scientificamerican.com/article.cfm?id=what-makes-a-quantum-comp'),
@@ -315,7 +318,7 @@ cs10.week7 = {
     ],
     lab2: lab('Final Exam Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
-    lect3: lect('Open Topic'),
+    lect3: lect('Industry Panel'),
     lect4: lect('Summary and Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
