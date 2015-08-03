@@ -1,4 +1,4 @@
-﻿/* Shortcuts for creating schedule objects
+/* Shortcuts for creating schedule objects
  * Parameters:
  * Reading: (title, link, 'type [required is default]')
  * Lecture: (title, '[slides folder]', '[video URL]', '[Guest Name]')
@@ -230,7 +230,7 @@ cs10.week5 = {
     readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/19 | 10 - 1 PM<br>306 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     lect3: lect('No Lecture<br>'),
-    lab2: lab('With-<span class="snap">snap</span> Online Exam'),
+    lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('Lambdas and HOFs', 'L17 - HOF'),
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
@@ -326,7 +326,7 @@ cs10.week7 = {
 // AUG 10 - AUG 14
 cs10.week8 = {
     readings1: 'No Readings<br>Study for the Final',
-    lab1: lab('With-<span class="snap">snap</span> Online Exam'),
+    lab1: lab('With-Snap<em>!</em> Online Exam'),
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
     lect2: lect('No Lecture'),
