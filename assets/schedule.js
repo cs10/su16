@@ -286,7 +286,7 @@ cs10.week7 = {
                 'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
 	reading('TED: Interactive experiences with perceptual computing(Video)',
                 'https://www.youtube.com/watch?v=wrSE8TcYlHU',
-                'optional')
+                'optional'),
         reading('The Great Robot Race (Video)',
                 'https://www.youtube.com/watch?v=uoiJeIb0wBA',
                 'optional'),
