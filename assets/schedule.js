@@ -318,7 +318,7 @@ cs10.week7 = {
     ],
     lab2: lab('Final Exam Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
-    lect3: lect('<strong>Industry Panel<br> Jonathan Kotker<br> Lauren Mock<br> Aatash Parikh</strong>'),
+    lect3: lect('<strong>Industry Panel:<br> Jonathan Kotker<br> Lauren Mock<br> Aatash Parikh</strong>'),
     lect4: lect('Summary and Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
