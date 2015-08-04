@@ -294,10 +294,10 @@ cs10.week7 = {
                 'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
                 'optional')
     ],
-    lect1: lect('Guest lecture:<br>Achin Bhowmik<br>Intel'),
+    lect1: lect('<strong>Guest lecture:<br>Achin Bhowmik</strong><br>Intel'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
-    lect2: lect('Guest lecture:<br>Ian Birnam<br>Vertigo Software'),
+    lect2: lect('<strong>Guest lecture:<br>Ian Birnam</strong><br>Vertigo Software'),
     work: work('Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
@@ -318,7 +318,7 @@ cs10.week7 = {
     ],
     lab2: lab('Final Exam Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
-    lect3: lect('Industry Panel'),
+    lect3: lect('<strong>Industry Panel<br> Jonathan Kotker<br> Lauren Mock<br> Aatash Parikh</strong>'),
     lect4: lect('Summary and Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
