@@ -3,14 +3,14 @@
 var JonMcKinsey = {
     name: 'Instructor Jon McKinsey',
     img: 'Fa13/JonMcKinsey.jpg',
-    imgSrc: 'JonMcKinsey.jpg',
+    imgSrc: '../Su15/jon cute.png',
     email: 'jon@cs10.org'
 };
 
 var michaelB = {
     name: 'Instructor Michael Ball',
     img: 'Sp14/MichaelBallTake3.jpg',
-    imgSrc: 'MichaelBall.jpg',
+    imgSrc: '../Su15/michael cute.png',
     web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
     email: 'michael@cs10.org'
@@ -21,27 +21,27 @@ var michaelB = {
 var LaurenMock = {
     name: 'Head TA Lauren Mock',
     img: 'Sp14/LaurenMock.jpg',
-    imgSrc: 'LaurenMock.jpg',
+    imgSrc: '../Su15/lauren cute.png',
     web: 'https://linkedin.com/in/laurenmock',
     email: 'lauren@cs10.org' };
 
 var AranyU = {
     name: 'TA Arany Uthayakumar',
     img: 'Sp14/AranyUthayakumar.jpg',
-    imgSrc: 'AranyUthayakumar.jpg',
+    imgSrc: '../Su15/arany cute.png',
     // bio: 'AranyBio.txt',
     email: 'arany@cs10.org' };
 
 var erikD = {
     name: 'TA Erik Dahlquist',
     img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: 'ErikDahlquist.jpg',
+    imgSrc: '../Su15/erik cute.png',
     email: 'erik@cs10.org' };
 
 var PeterS = {
     name: '(Sort of) TA Peter Sujan',
     img: 'Fa12/PeterSujan.jpg',
-    imgSrc: 'PeterSujan.jpg',
+    imgSrc: '../Su15/peter cute.png',
     web: 'https://ocf.berkeley.edu/~psujan',
     // bio: 'PeterBio.txt',
     email: 'peter@cs10.org' };
@@ -49,17 +49,17 @@ var PeterS = {
 // Readers
 var jobelV = {
     name: 'Reader Jobel Vecino',
-    img: 'Fa13/JobelVecino.jpg',
+    img: '../Su15/jobel cute.png',
     imgSrc: 'JobelVecino.jpg' };
 
 var katherinem = {
     name: 'Reader Katherine McGauley',
-    img: 'Su15/KatherineMcGauley.jpg',
+    img: '../Su15/kate cute.png',
     imgSrc: 'KatherineMcGauley.jpg' };
 
 var laram = {
     name: 'Reader Lara McConnaughey',
-    img: 'Su15/LaraMcConnaughey.jpg',
+    img: '../Su15/lara cute.png',
     imgSrc: 'LaraMcConnaughey.jpg' };
 
 
