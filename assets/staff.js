@@ -49,18 +49,18 @@ var PeterS = {
 // Readers
 var jobelV = {
     name: 'Reader Jobel Vecino',
-    img: '../Su15/jobel cute.png',
-    imgSrc: 'JobelVecino.jpg' };
+    img: 'Fa13/JobelVecino.jpg',
+    imgSrc: '../Su15/jobel cute.png' };
 
 var katherinem = {
     name: 'Reader Katherine McGauley',
-    img: '../Su15/kate cute.png',
-    imgSrc: 'KatherineMcGauley.jpg' };
+    img: 'Su15/KatherineMcGauley.jpg',
+    imgSrc: '../Su15/kate cute.png' };
 
 var laram = {
     name: 'Reader Lara McConnaughey',
-    img: '../Su15/lara cute.png',
-    imgSrc: 'LaraMcConnaughey.jpg' };
+    img: 'Su15/LaraMcConnaughey.jpg',
+    imgSrc: '../Su15/lara cute.png' };
 
 
 /*****************************************************************************/
