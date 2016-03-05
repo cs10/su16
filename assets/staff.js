@@ -1,76 +1,78 @@
 // Instructors
 
-var JonMcKinsey = {
-    name: 'Instructor Jon McKinsey',
-    img: 'Fa13/JonMcKinsey.jpg',
-    imgSrc: '../Su15/jon cute.png',
-    email: 'jon@cs10.org'
+var ianB = {
+    name: 'Instructor Ian Birnam',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+    // web: 'http://michaelballphoto.com',
+    // bio: 'MichaelBall.txt',
+    email: 'email coming!'
 };
 
-var michaelB = {
-    name: 'Instructor Michael Ball',
-    img: 'Sp14/MichaelBallTake3.jpg',
-    imgSrc: '../Su15/michael cute.png',
-    web: 'http://michaelballphoto.com',
+var alexM = {
+    name: 'Instructor Alex McKinney',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+    // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
-    email: 'michael@cs10.org'
+    email: 'email coming!'
 };
 
 // TAs
 
-var LaurenMock = {
-    name: 'Head TA Lauren Mock',
-    img: 'Sp14/LaurenMock.jpg',
-    imgSrc: '../Su15/lauren cute.png',
-    web: 'https://linkedin.com/in/laurenmock',
-    email: 'lauren@cs10.org' };
+// var LaurenMock = {
+//     name: 'Head TA Lauren Mock',
+//     img: 'Sp14/LaurenMock.jpg',
+//     imgSrc: '../su16/lauren cute.png',
+//     web: 'https://linkedin.com/in/laurenmock',
+//     email: 'lauren@cs10.org' };
 
-var AranyU = {
-    name: 'TA Arany Uthayakumar',
-    img: 'Sp14/AranyUthayakumar.jpg',
-    imgSrc: '../Su15/arany cute.png',
-    // bio: 'AranyBio.txt',
-    email: 'arany@cs10.org' };
+// var AranyU = {
+//     name: 'TA Arany Uthayakumar',
+//     img: 'Sp14/AranyUthayakumar.jpg',
+//     imgSrc: '../su16/arany cute.png',
+//     // bio: 'AranyBio.txt',
+//     email: 'arany@cs10.org' };
 
-var erikD = {
-    name: 'TA Erik Dahlquist',
-    img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: '../Su15/erik cute.png',
-    email: 'erik@cs10.org' };
+// var erikD = {
+//     name: 'TA Erik Dahlquist',
+//     img: 'Sp15/ErikDahlquist.jpg',
+//     imgSrc: '../su16/erik cute.png',
+//     email: 'erik@cs10.org' };
 
-var PeterS = {
-    name: '(Sort of) TA Peter Sujan',
-    img: 'Fa12/PeterSujan.jpg',
-    imgSrc: '../Su15/peter cute.png',
-    web: 'https://ocf.berkeley.edu/~psujan',
-    // bio: 'PeterBio.txt',
-    email: 'peter@cs10.org' };
+// var PeterS = {
+//     name: '(Sort of) TA Peter Sujan',
+//     img: 'Fa12/PeterSujan.jpg',
+//     imgSrc: '../su16/peter cute.png',
+//     web: 'https://ocf.berkeley.edu/~psujan',
+//     // bio: 'PeterBio.txt',
+//     email: 'peter@cs10.org' };
 
-// Readers
-var jobelV = {
-    name: 'Reader Jobel Vecino',
-    img: 'Fa13/JobelVecino.jpg',
-    imgSrc: '../Su15/jobel cute.png' };
+// // Readers
+// var jobelV = {
+//     name: 'Reader Jobel Vecino',
+//     img: 'Fa13/JobelVecino.jpg',
+//     imgSrc: '../su16/jobel cute.png' };
 
-var katherinem = {
-    name: 'Reader Katherine McGauley',
-    img: 'Su15/KatherineMcGauley.jpg',
-    imgSrc: '../Su15/kate cute.png' };
+// var katherinem = {
+//     name: 'Reader Katherine McGauley',
+//     img: 'su16/KatherineMcGauley.jpg',
+//     imgSrc: '../su16/kate cute.png' };
 
-var laram = {
-    name: 'Reader Lara McConnaughey',
-    img: 'Su15/LaraMcConnaughey.jpg',
-    imgSrc: '../Su15/lara cute.png' };
+// var laram = {
+//     name: 'Reader Lara McConnaughey',
+//     img: 'su16/LaraMcConnaughey.jpg',
+//     imgSrc: '../su16/lara cute.png' };
 
 
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-var inst = [ JonMcKinsey, michaelB ];
-var tas = [ LaurenMock, AranyU, erikD, PeterS ];
+var inst = [ ianB, alexM ];
+var tas = []//[ LaurenMock, AranyU, erikD, PeterS ];
 
-var readers = [ jobelV, katherinem, laram ];
+var readers = []//[ jobelV, katherinem, laram ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.

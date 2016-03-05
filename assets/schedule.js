@@ -29,13 +29,13 @@ var finalProjSpec = docs('1ZMQqAvwzFSdGHcc9x8uoE3aL_XjR3Gy4i2cS1rHibIc');
 // ==========     SCHEDULE ITEMS           ==========
 // ==================================================
 
-// JUN 22 - 26
+// JUN 20 - 24
 cs10.week1 = {
     readings1: 'No Readings',
     lect1: lect('Welcome and Abstraction', 'L01 - Abstraction'),
     lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
-    lect2: lect('Functions', 'L02 - Functions'),
+    lect2: lect('Procedures', 'L02 - Functions'),
     work: work('Work Session'),
     readings2: [
         reading('Prof. Harvey\'s Intro to Abstraction',
@@ -56,14 +56,14 @@ cs10.week1 = {
                 bcourses('58003306'),
                 'optional')
     ],
-    lect3: lect('Creativity and Abstraction', 'L03 - Abstraction II'),
+    lect3: lect('Programming Paradigms', 'L03 - Abstraction II'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
-    lect4: lect('3D Graphics', 'L04 - 3D Graphics'),
+    lect4: lect('Algorithms', 'L04 - 3D Graphics'),
     disc2: disc('Anatomy of a Computer and the Power of Binary'),
     hw: hw('HW0', 'Wed 6/24', 'quizzes/1969116')
 };
 
-// JUN 29 - JUL 3
+// JUN 27 - JUL 1
 cs10.week2 = {
     readings1: [
         reading('BtB Chapter 1',
@@ -85,9 +85,9 @@ cs10.week2 = {
                 'https://www.wired.com/magazine/2010/05/process_pixar/',
                 'optional')
     ],
-    lect1: lect('Programming Paradigms', 'L05 - Programming Paradigms'),
+    lect1: lect('Algorithmic Complexity', 'L05 - Programming Paradigms'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
-    lect2: lect('Algorithms', 'L06 - Algorithms I'),
+    lect2: lect('Testing, HW3', 'L06 - Algorithms I'),
     disc1: disc('Functions'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
@@ -107,16 +107,16 @@ cs10.week2 = {
                 'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
                 'optional')
     ],
-    lect3: lect('Algorithmic Complexity', 'L07 - Algorithmic Complexity'),
+    lect3: lect('Recursion I', 'L07 - Algorithmic Complexity'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
-    lect4: lect('No Lecture'),
+    lect4: lect('Recursion II', 'L10 - Recursion II'),
     disc2: disc('All About Lists'),
     hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
 };
-cs10.week2.lect4.classes = 'noClass';
+//cs10.week2.lect4.classes = 'noClass';
 cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
 
-// JUL 6 - JUL 10
+// JUL 4 - JUL 8
 cs10.week3 = {
     readings1: [
         reading('BtB Chapter 4 Reading Segment 1',
@@ -131,22 +131,22 @@ cs10.week3 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter3.pdf',
                 'optional')
     ],
-    lect1: lect('Recursion I', 'L08 - Recursion I'),
+    lect1: lect('No Lecture'),
     lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
-    lect2: lect('Social Implications I', 'L09 - Social Implications I'),
+    lect2: lect('Social Implications', 'L09 - Social Implications I'),
     disc1: disc('Algorithmic Complexity and Quest Review'),
     work: lab('Work Session'),
     readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
-    lect3: lect('Quest In Class', '../exams/quest.html'),
-    lect4: lect('Recursion II', 'L10 - Recursion II'),
+    lect3: lect('Concurrency', 'L12 - Concurrency'),
+    lect4: lect('Internet', 'L13 - Internet I'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     hw: hw('HW2: Snowman', 'Wed 7/8', 'assignments/6365044', hw2Spec)
 };
-cs10.week3.lect3.classes = 'exam';
+cs10.week3.lect1.classes = 'noClass';
 cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
-// JUL 13 - JUL 17
+// JUL 11 - JUL 15
 cs10.week4 = {
     readings1: [
         reading('BtB Chapter 5 Reading Segment 1',
@@ -158,10 +158,10 @@ cs10.week4 = {
         reading('BtB Chapter 6 (27-37)',
                 '{{ site.baseurl }}/resources/readings/btb/chapter6.pdf')
     ],
-    lect1: lect('Social Implications II', "L11 - Social Implications II"),
+    lect1: lect('Data', "L11 - Social Implications II"),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc1: disc('Quest Debrief & HW Questions'),
-    lect2: lect('Concurrency', 'L12 - Concurrency'),
+    lect2: lect('AI', 'L12 - Concurrency'),
     work: work('Work Session'),
     readings2: [
         reading('BtB Appendix',
@@ -189,10 +189,10 @@ cs10.week4 = {
                 bcourses('58003301'),
                 'optional')
     ],
-    lect3: lect('Internet I', 'L13 - Internet I'),
+    lect3: lect('HCI, Front-End Development', 'L13 - Internet I'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     disc2: disc('Concurrency'),
-    lect4: lect('Internet II', 'L14 - Internet II'),
+    lect4: lect('Cryptography/Security', 'L14 - Internet II'),
     hw: [
         hw('HW3 2048', 'Thurs 7/16', [
             { title: "GROUP Submission",
@@ -209,7 +209,7 @@ cs10.week4 = {
 //     ]
 };
 
-// JUL 20 - JUL 24
+// JUL 18 - JUL 22
 cs10.week5 = {
     readings1: [
         reading('BtB Chapter 7',
@@ -223,15 +223,15 @@ cs10.week5 = {
     ],
     lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
     // lab: The Internet
-    lect1: lect('Social Implications III', 'L15 - Social Implications III'),
+    lect1: lect('Lambda and HOFs', 'L15 - Social Implications III'),
     disc1: disc('The Internet'),
     work: work('Work Session'),
-    lect2: lect('Data', 'L16 - Data'),
+    lect2: lect('Python 1', 'L16 - Data'),
     readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/19 | 10 - 1 PM<br>306 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
-    lect3: lect('No Lecture<br>'),
+    lect3: lect('Python 2', 'L16 - Data'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
-    lect4: lect('Lambdas and HOFs', 'L17 - HOF'),
+    lect4: lect('No Lecture<br>'),
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
     hw: [
@@ -239,11 +239,11 @@ cs10.week5 = {
         hw('Midterm Project', 'Sun 7/26', 'assignments/6365047', mtProjSpec)
     ]
 };
-cs10.week5.lect3.classes = 'exam';
-cs10.week5.lect3.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Weds 7/22<br>6 - 8 PM<br>159 Mulford';
+cs10.week5.lect4.classes = 'exam';
+cs10.week5.lect4.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Thu 7/22<br>5 - 7 PM<br>3106 Etcheverry';
 cs10.week5.lab2.classes = 'exam';
 
-// JUL 27 - JUL 31
+// JUL 25 - JUL 29
 cs10.week6 = {
     readings1: [
         reading('Data Explosion Creates Revolution',
@@ -262,24 +262,24 @@ cs10.week6 = {
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Besides Blocks I', 'L18 - Python I'),
+    lect1: lect('Git', 'L18 - Python I'),
     work: work('Find Final Groups and Get Early Feedback'),
-    lect2: lect('Limits of Computing', 'L19 - Limits of Computing'),
+    lect2: lect('Future of Computing', 'L19 - Limits of Computing'),
     readings2: [
         reading('BtB Chapter 8',
                 '{{ site.baseurl }}/resources/readings/btb/chapter8.pdf')
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Python'),
-    lect3: lect('Besides Blocks II', 'L20 - Python II'),
-    lect4: lect('Future of Computing', 'L21 - Future of Computing'),
+    lect3: lect('Industry Panel', 'L20 - Python II'),
+    lect4: lect('Summary and Farewell', 'L21 - Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/31', '', exploreSpec),
         hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
     ]
 };
 
-// AUG 3 - AUG 7
+// AUG 1 - AUG 5
 cs10.week7 = {
     readings1: [
         reading('How the Raspberry PI Sparked a Maker Revolution',
@@ -294,10 +294,10 @@ cs10.week7 = {
                 'https://introcs.cs.princeton.edu/java/76computability/halting-poem.html',
                 'optional')
     ],
-    lect1: lect('<strong>Guest lecture:<br>Achin Bhowmik</strong><br>Intel', 'L22 - Perceptual Computing'),
+    lect1: lect('<strong>TODO</strong><br>Intel', 'L22 - Perceptual Computing'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
     disc1: disc('CS @ Cal and Beyond'),
-    lect2: lect('<strong>Guest lecture:<br>Ian Birnam</strong><br>Vertigo Software'),
+    lect2: lect('<strong>TODO</strong><br>Vertigo Software'),
     work: work('Work Session'),
     readings2: [
         reading('Why is Quantum Different?',
@@ -318,15 +318,15 @@ cs10.week7 = {
     ],
     lab2: lab('Final Exam Review Session', '#', true),
     disc2: disc('Summary and Farewell'),
-    lect3: lect('<strong>Industry Panel:<br> Jonathan Kotker<br> Lauren Mock<br> Kylan Nieh<br> Aatash Parikh</strong>'),
-    lect4: lect('Summary and Farewell', 'L25 - Farewell'),
+    lect3: lect('<strong>TODO</strong>'),
+    lect4: lect('TODO', 'L25 - Farewell'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
     ]
 };
 
-// AUG 10 - AUG 14
+// AUG 8 - AUG 12
 cs10.week8 = {
     readings1: 'No Readings<br>Study for the Final',
     lab1: lab('With-Snap<em>!</em> Online Exam'),
