@@ -2,8 +2,8 @@
 
 var ianB = {
     name: 'Instructor Ian Birnam',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'Sp14/IanBirnam.jpg',
+    imgSrc: 'IanBirnam.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
     email: 'email coming!'
@@ -11,8 +11,8 @@ var ianB = {
 
 var alexM = {
     name: 'Instructor Alex McKinney',
-    img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    img: 'Sp14/AlexMcKinney.jpg',
+    imgSrc: 'AlexMcKinney.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
     email: 'email coming!'

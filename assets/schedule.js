@@ -19,8 +19,8 @@ function docs(id) {
 }
 // CONSTANTS:
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
-var hw2Spec = docs('1iJDOxWMBnmE5lOzqmUi_-F-HoSyGuQrzn-COiGQd29Y');
-var hw3Spec = docs('1aToRospgIvycMHAu0RAmRjz5LzUb6x6FzvvdcPMiG8g');
+var hw2Spec = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA');
+var hw3Spec = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg');
 var mtProjSpec = docs('1VzhTWptGJpLE56gzYYG1lw9h2tW66yHNxkO7-yXVjzU');
 var exploreSpec = docs('1fGQzqdBFdorBoSEfFs7MCDS6sfAi8412gjx3E6EcSlo');
 var finalProjSpec = docs('1ZMQqAvwzFSdGHcc9x8uoE3aL_XjR3Gy4i2cS1rHibIc');
@@ -34,7 +34,7 @@ cs10.week1 = {
     readings1: 'No Readings',
     lect1: lect('Welcome and Abstraction', 'L01 - Abstraction'),
     lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
-    disc1: disc('Welcome to CS10!'),
+    disc1: disc('Welcome to CS10! / The Power of Binary'),
     lect2: lect('Procedures', 'L02 - Functions'),
     work: work('Work Session'),
     readings2: [
@@ -59,8 +59,8 @@ cs10.week1 = {
     lect3: lect('Programming Paradigms', 'L03 - Abstraction II'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
     lect4: lect('Algorithms', 'L04 - 3D Graphics'),
-    disc2: disc('Anatomy of a Computer and the Power of Binary'),
-    hw: hw('HW0', 'Wed 6/24', 'quizzes/1969116')
+    disc2: disc('Functions'),
+    hw: hw('HW0', 'Wed 6/22', 'quizzes/1969116')
 };
 
 // JUN 27 - JUL 1
@@ -88,7 +88,7 @@ cs10.week2 = {
     lect1: lect('Algorithmic Complexity', 'L05 - Programming Paradigms'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     lect2: lect('Testing, HW3', 'L06 - Algorithms I'),
-    disc1: disc('Functions'),
+    disc1: disc('Scoping'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
         reading('BtB Chapter 2',
@@ -111,7 +111,7 @@ cs10.week2 = {
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     lect4: lect('Recursion II', 'L10 - Recursion II'),
     disc2: disc('All About Lists'),
-    hw: hw('HW1: Word Guessing', 'Wed 7/1', 'assignments/6365043', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/6365043', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
 cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
@@ -134,14 +134,14 @@ cs10.week3 = {
     lect1: lect('No Lecture'),
     lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
     lect2: lect('Social Implications', 'L09 - Social Implications I'),
-    disc1: disc('Algorithmic Complexity and Quest Review'),
+    disc1: disc('Algorithmic Complexity'),
     work: lab('Work Session'),
     readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
     lect3: lect('Concurrency', 'L12 - Concurrency'),
     lect4: lect('Internet', 'L13 - Internet I'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
-    hw: hw('HW2: Snowman', 'Wed 7/8', 'assignments/6365044', hw2Spec)
+    hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
 };
 cs10.week3.lect1.classes = 'noClass';
 cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -160,7 +160,7 @@ cs10.week4 = {
     ],
     lect1: lect('Data', "L11 - Social Implications II"),
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc1: disc('Quest Debrief & HW Questions'),
+    disc1: disc('HW3 Prep'),
     lect2: lect('AI', 'L12 - Concurrency'),
     work: work('Work Session'),
     readings2: [
@@ -191,7 +191,7 @@ cs10.week4 = {
     ],
     lect3: lect('HCI, Front-End Development', 'L13 - Internet I'),
     lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
-    disc2: disc('Concurrency'),
+    disc2: disc('Concurrency / Recursive Reporters'),
     lect4: lect('Cryptography/Security', 'L14 - Internet II'),
     hw: [
         hw('HW3 2048', 'Thurs 7/16', [
@@ -221,13 +221,13 @@ cs10.week5 = {
                 'https://medium.com/p/804cdf4b48c1',
                 'hard')
     ],
-    lab1: lab('The Internet & Tic-Tac-Toe', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
+    lab1: lab('The Internet / Testing', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
     // lab: The Internet
     lect1: lect('Lambda and HOFs', 'L15 - Social Implications III'),
     disc1: disc('The Internet'),
     work: work('Work Session'),
     lect2: lect('Python 1', 'L16 - Data'),
-    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/19 | 10 - 1 PM<br>306 Soda',
+    readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday 7/17 | 10 - 1 PM<br>306 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     lect3: lect('Python 2', 'L16 - Data'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
@@ -316,7 +316,7 @@ cs10.week7 = {
                 '{{ site.baseurl }}/resources/readings/btb/chapter9.pdf',
                 'optional')
     ],
-    lab2: lab('Final Exam Review Session', '#', true),
+    lab2: lab('Besides Blocks: Text Processing in Python / Git', '#', true),
     disc2: disc('Summary and Farewell'),
     lect3: lect('<strong>TODO</strong>'),
     lect4: lect('TODO', 'L25 - Farewell'),
