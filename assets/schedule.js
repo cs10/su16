@@ -114,7 +114,7 @@ cs10.week2 = {
     hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/6365043', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
-cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
+// cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
 
 // JUL 4 - JUL 8
 cs10.week3 = {
@@ -136,7 +136,7 @@ cs10.week3 = {
     lect2: lect('Social Implications', 'L09 - Social Implications I'),
     disc1: disc('Algorithmic Complexity'),
     work: lab('Work Session'),
-    readings2: 'No Readings<br><br><strong>Quest Review Session<br>During Th 7/2 work session (112)<br>Mon (7/6) Lab (111)',
+    readings2: 'ADD READINGS',
     lect3: lect('Concurrency', 'L12 - Concurrency'),
     lect4: lect('Internet', 'L13 - Internet I'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
@@ -144,7 +144,7 @@ cs10.week3 = {
     hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
 };
 cs10.week3.lect1.classes = 'noClass';
-cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
+// cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
 
 // JUL 11 - JUL 15
 cs10.week4 = {
@@ -200,7 +200,7 @@ cs10.week4 = {
             { title: "INDIVIDUAL Submission",
               url: 'assignments/6442903' }
         ], hw3Spec),
-        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/15', 'assignments/6365091', mtProjSpec)
+        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/6365091', mtProjSpec)
     ]
 
     // [
@@ -235,8 +235,8 @@ cs10.week5 = {
     disc2: disc('Privacy'),
     // TODO: Push back until after MT?
     hw: [
-        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/21', 'assignments/6365093'),
-        hw('Midterm Project', 'Sun 7/26', 'assignments/6365047', mtProjSpec)
+        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/6365093'),
+        hw('Midterm Project', 'Sun 7/24', 'assignments/6365047', mtProjSpec)
     ]
 };
 cs10.week5.lect4.classes = 'exam';
@@ -274,8 +274,8 @@ cs10.week6 = {
     lect3: lect('Industry Panel', 'L20 - Python II'),
     lect4: lect('Summary and Farewell', 'L21 - Future of Computing'),
     hw: [
-        hw('Explore Post', 'Fri 7/31', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/31', '', finalProjSpec)
+        hw('Explore Post', 'Fri 7/29', '', exploreSpec),
+        hw('Final Project Proposal', 'Fri 7/29', '', finalProjSpec)
     ]
 };
 
@@ -321,8 +321,8 @@ cs10.week7 = {
     lect3: lect('<strong>TODO</strong>'),
     lect4: lect('TODO', 'L25 - Farewell'),
     hw: [
-        hw('Explore Peer Comments', 'Mon 8/3', '', exploreSpec),
-        hw('Final Project Milestone', 'Fri 8/7', '', finalProjSpec)
+        hw('Explore Peer Comments', 'Mon 8/1', '', exploreSpec),
+        hw('Final Project Milestone', 'Fri 8/5', '', finalProjSpec)
     ]
 };
 
@@ -339,7 +339,7 @@ cs10.week8 = {
     disc2: disc('No Discussion'),
     lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
     lect4: lect('No Lecture'),
-    hw: hw('Final Project', 'Fri 8/14', '', finalProjSpec)
+    hw: hw('Final Project', 'Fri 8/12', '', finalProjSpec)
 };
 cs10.week8.lab1.classes = 'exam';
 cs10.week8.lect3.classes = 'exam';
