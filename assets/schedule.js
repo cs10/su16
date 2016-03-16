@@ -107,7 +107,7 @@ cs10.week2 = {
                 'https://www.bof.nl/2015/06/26/demystifying-the-algorithm-who-designs-your-life/',
                 'optional')
     ],
-    lect3: lect('Recursion I', 'L07 - Algorithmic Complexity'),
+    lect3: lect('Recursion I', 'https://docs.google.com/presentation/d/14erZ9b8MJZlVTVcTPzHUm9uWynjpiSQHpo8skkkMLtM/edit?usp=sharing'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     lect4: lect('Recursion II', 'L10 - Recursion II'),
     disc2: disc('All About Lists'),
@@ -262,7 +262,7 @@ cs10.week6 = {
     ],
     disc1: disc('Data and HOFs'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
-    lect1: lect('Git', 'L18 - Python I'),
+    lect1: lect('Git / Agile', 'L18 - Python I'),
     work: work('Find Final Groups and Get Early Feedback'),
     lect2: lect('Future of Computing', 'L19 - Limits of Computing'),
     readings2: [
