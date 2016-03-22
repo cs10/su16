@@ -115,11 +115,11 @@ cs10.week2 = {
 cs10.week3 = {
     readings1: 'No Readings',
     lect1: lect('No Lecture'),
-    lab1: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic', true),
+    lab1: lab('No Lab - Please attend lab on Tu/Th to make up'),
     // TODO: add lecture slides
     lect2: lect('Recursion II'),
     disc1: disc('Algorithmic Complexity'),
-    work: lab('Work Session'),
+    work: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
         reading('Addicted to Apps', 
                 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html'),
@@ -136,7 +136,7 @@ cs10.week3 = {
     lect3: lect('Social Implications'),
     // TODO: add lecture slides
     lect4: lect('Concurrency'),
-    lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic'),
+    lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
 };
