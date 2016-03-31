@@ -233,7 +233,10 @@ cs10.week5.lab2.classes = 'exam';
 // JUL 25 - JUL 29
 cs10.week6 = {
     readings1: [
-        //TODO: link Lara's NLP Article
+        reading('John DeNero NLP Video (Part 1)',
+                'https://youtu.be/63kincM38po?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),
+        reading('John DeNero NLP Video (Part 2)',
+                'https://youtu.be/U0aH_shhCeM?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),            
         reading('What is Git?',
                 'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
         reading('Simple Guide to Git',
