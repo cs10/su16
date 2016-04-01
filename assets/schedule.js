@@ -227,7 +227,7 @@ cs10.week5 = {
     ]
 };
 cs10.week5.lect4.classes = 'exam';
-cs10.week5.lect4.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Thu 7/21<br>5 - 7 PM<br>3106 Etcheverry';
+cs10.week5.lect4.title += '<br><a href="exams/midterm.html">Midterm Exam</a><br><br>Thu 7/21<br>5 - 7 PM<br>0101 Moffitt';
 cs10.week5.lab2.classes = 'exam';
 
 // JUL 25 - JUL 29
@@ -299,19 +299,19 @@ cs10.week8 = {
     lab1: lab('With-Snap<em>!</em> Online Exam'),
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
-    lect2: lect('No Lecture'),
+    lect2: lect('No Lecture<br><br><strong>Final Exam (Evening)<br><br>Tue 8/9<br>6-9pm<br>0101 Moffitt</strong>'),
     work: work('No Lab'),
     readings2: 'No Readings<br>Study for the Final',
     lab2: lab('No Lab'),
     disc2: disc('No Discussion'),
-    lect3: lect('No Lecture<br><strong>Final Exam (Evening) 6-9pm</strong>'),
+    lect3: lect('No Lecture'),
     lect4: lect('No Lecture'),
     hw: hw('Final Project', 'Fri 8/12', '', finalProjSpec)
 };
 cs10.week8.lab1.classes = 'exam';
-cs10.week8.lect3.classes = 'exam';
+cs10.week8.lect2.classes = 'exam';
 // Add deets about final time.
-cs10.week8.lect3.title += '';
+// cs10.week8.lect3.title += '';
 
 // Load the Calendar
 $(document).ready(function() {
