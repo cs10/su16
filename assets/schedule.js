@@ -19,11 +19,11 @@ function docs(id) {
 }
 // CONSTANTS:
 var hw1Spec = docs('1ybuatsrUMCI-tHHRPwxUpGoZoGxk_SEiGEArocQtIlI');
-var hw2Spec = docs('1NrZaFKMIeN7Jvfpwe8Auv6Cc-OhcOIZzZX83IN2azPA');
-var hw3Spec = docs('1z-DZD3ya3Uxp9WkkmqF838Giq_VEjtdmXNI0dVzU5sg');
-var mtProjSpec = docs('1VzhTWptGJpLE56gzYYG1lw9h2tW66yHNxkO7-yXVjzU');
-var exploreSpec = docs('1fGQzqdBFdorBoSEfFs7MCDS6sfAi8412gjx3E6EcSlo');
-var finalProjSpec = docs('1ZMQqAvwzFSdGHcc9x8uoE3aL_XjR3Gy4i2cS1rHibIc');
+var hw2Spec = docs('1veTg-81TsMPWdtTlYG8vvJBZa1FQMtLY4dGgftPLz-c');
+var hw3Spec = docs('13ifT2Ro5sE0d2dkC72aeg0iHlj8Ofif7BwFO67ojcks');
+var mtProjSpec = docs('1Fq4CoXBJDpsJqTsgBhckF7AbLnQpESyCt7ReKqWDXU4');
+var exploreSpec = docs('1f8hyJUFV_axg5oiJ9uUgVIWZq0MhwprGaiKvYlwxDUs');
+var finalProjSpec = docs('1YQkqiQF6QR94wOmZB7flliU8ga4neN6sitPFDlbh8Yo');
 
 // ==================================================
 // ==========     SCHEDULE ITEMS           ==========
