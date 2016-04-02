@@ -158,7 +158,7 @@ cs10.week4 = {
     lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc1: disc('HW3 Prep'),
     // TODO: add lecture slides
-    lect2: lect('AI'),
+    lect2: lect('Social Implications II'),
     work: work('Work Session'),
     readings2: [
         reading('TED: What is the Internet?',
