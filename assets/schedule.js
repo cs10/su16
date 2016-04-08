@@ -155,7 +155,8 @@ cs10.week4 = {
     ],
     // TODO: add lecture slides
     lect1: lect('Data'),
-    lab1: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
+    //TODO: add lab link
+    lab1: lab('Testing', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc1: disc('HW3 Prep'),
     // TODO: add lecture slides
     lect2: lect('Social Implications II'),
@@ -172,7 +173,7 @@ cs10.week4 = {
     ],
     // TODO: add lecture slides
     lect3: lect('Internet'),
-    lab2: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
+    lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc2: disc('Concurrency / Recursive Reporters'),
     // TODO: add lecture slides
     lect4: lect('Design / Front-End Development'),
@@ -206,11 +207,11 @@ cs10.week5 = {
         reading('Why Use Python?',
                 'http://blog.trinket.io/why-python/%20http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext')
     ],
-    lab1: lab('The Internet / Testing', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic', true),
+    lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     // TODO: add lecture slides
     lect1: lect('Cryptography/Security'),
     disc1: disc('The Internet'),
-    work: work('Work Session'),
+    work: lab('The Internet', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic'),
     // TODO: add lecture slides
     lect2: lect('Lambda and HOFs'),
     readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday, 7/17<br>10 AM - 1 PM<br>306 Soda',
