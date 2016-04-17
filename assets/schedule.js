@@ -129,13 +129,13 @@ cs10.week3 = {
                 'https://www.lawfareblog.com/iphones-fbi-and-going-dark'),
         reading('ISIS + WhatsApp',
                 'http://www.nytimes.com/2015/11/22/opinion/stopping-whatsapp-wont-stop-terrorists.html'),
-        reading('Dining Philosphers with Ron Swanson',
-                'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')
+        reading('What Is Front-End Development?',
+                'https://css-tricks.com/front-end-development-is-development/')
     ],
     // TODO: add lecture slides
     lect3: lect('Social Implications'),
     // TODO: add lecture slides
-    lect4: lect('Concurrency'),
+    lect4: lect('Design / Front-End Development'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
@@ -154,9 +154,8 @@ cs10.week4 = {
                 'http://www.bloomberg.com/features/2015-preschool-for-robots/')
     ],
     // TODO: add lecture slides
-    lect1: lect('Data'),
-    //TODO: add lab link
-    lab1: lab('Testing', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
+    lect1: lect('Social Implications II'),
+    lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
     disc1: disc('HW3 Prep'),
     // TODO: add lecture slides
     lect2: lect('Social Implications II'),
@@ -168,23 +167,23 @@ cs10.week4 = {
                 'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
         reading('Data Mining Explained',
                 'http://www.anderson.ucla.edu/faculty/jason.frand/teacher/technologies/palace/datamining.htm'),
-        reading('What Is Front-End Development?',
-                'https://css-tricks.com/front-end-development-is-development/')        
+        reading('Dining Philosphers with Ron Swanson',
+                'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')        
     ],
     // TODO: add lecture slides
-    lect3: lect('Internet'),
+    lect3: lect('Concurrency'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc2: disc('Concurrency / Recursive Reporters'),
+    disc2: disc('The Internet'),
     // TODO: add lecture slides
-    lect4: lect('Design / Front-End Development'),
+    lect4: lect('Internet'),
     hw: [
-        hw('HW3 2048', 'Sat 7/16', [
+        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/6365091', mtProjSpec),
+        hw('HW3 2048', 'Fri 7/15', [
             { title: "GROUP Submission",
               url: 'assignments/6365045' },
             { title: "INDIVIDUAL Submission",
               url: 'assignments/6442903' }
-        ], hw3Spec),
-        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/6365091', mtProjSpec)
+        ], hw3Spec)
     ]
 
     // [
@@ -210,7 +209,7 @@ cs10.week5 = {
     lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     // TODO: add lecture slides
     lect1: lect('Cryptography/Security'),
-    disc1: disc('The Internet'),
+    disc1: disc('Concurrency / Recursive Reporters'),
     work: lab('The Internet', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic'),
     // TODO: add lecture slides
     lect2: lect('Lambda and HOFs'),
