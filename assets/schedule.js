@@ -154,7 +154,7 @@ cs10.week4 = {
                 'http://www.bloomberg.com/features/2015-preschool-for-robots/')
     ],
     // TODO: add lecture slides
-    lect1: lect('Social Implications II'),
+    lect1: lect('Data'),
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
     disc1: disc('HW3 Prep'),
     // TODO: add lecture slides
