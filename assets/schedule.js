@@ -212,7 +212,7 @@ cs10.week5 = {
     disc1: disc('Concurrency / Recursive Reporters'),
     work: lab('The Internet', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic'),
     // TODO: add lecture slides
-    lect2: lect('Lambda and HOFs'),
+    lect2: lect('Procedures as Data'),
     readings2: 'No Readings<br><br><strong>Midterm Review Session</strong><br>Sunday, 7/17<br>10 AM - 1 PM<br>306 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     // TODO: add lecture slides
