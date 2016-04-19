@@ -171,11 +171,11 @@ cs10.week4 = {
                 'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')        
     ],
     // TODO: add lecture slides
-    lect3: lect('Concurrency'),
+    lect3: lect('Internet'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc2: disc('The Internet'),
     // TODO: add lecture slides
-    lect4: lect('Internet'),
+    lect4: lect('Concurrency'),
     hw: [
         hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/6365091', mtProjSpec),
         hw('HW3 2048', 'Fri 7/15', [
