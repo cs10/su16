@@ -146,6 +146,8 @@ cs10.week3.lect1.classes = 'noClass';
 // JUL 11 - JUL 15
 cs10.week4 = {
     readings1: [
+        reading('Data Mining Explained',
+                'http://www.anderson.ucla.edu/faculty/jason.frand/teacher/technologies/palace/datamining.htm'),
         reading('IBM\'s Watson supercomputer to speed up cancer care',
                 'http://www.bbc.com/news/technology-32607688'),
         reading('AlphaGo and Game AI',
@@ -165,8 +167,6 @@ cs10.week4 = {
                 'https://www.youtube.com/watch?v=XE_FPEFpHt4'),
         reading('Moore\'s Law Keeps Going, Defying Expectations',
                 'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
-        reading('Data Mining Explained',
-                'http://www.anderson.ucla.edu/faculty/jason.frand/teacher/technologies/palace/datamining.htm'),
         reading('Dining Philosphers with Ron Swanson',
                 'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')        
     ],
