@@ -101,7 +101,7 @@ cs10.week2 = {
                 'https://www.codeenigma.com/community/blog/introduction-test-driven-development')
     ],
     // TODO: add lecture slides
-    lect3: lect('Testing, HW3'),
+    lect3: lect('Testing'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     // TODO: add lecture slides
     lect4: lect('Recursion I'),
@@ -153,7 +153,10 @@ cs10.week4 = {
         reading('AlphaGo and Game AI',
                 'http://www.wired.com/2016/03/third-straight-win-googles-ai-claims-victory-historic-match-go-champ/'),
         reading('AI @ Berkeley',
-                'http://www.bloomberg.com/features/2015-preschool-for-robots/')
+                'http://www.bloomberg.com/features/2015-preschool-for-robots/'),
+        reading('Khan Academy: Information Theory',
+                'https://www.youtube.com/watch?v=p0ASFxKS9sg&list=PLbg3ZX2pWlgKDVFNwn9B63UhYJVIerzHL&index=1',
+                'optional')
     ],
     // TODO: add lecture slides
     lect1: lect('Data'),
@@ -219,7 +222,7 @@ cs10.week5 = {
     lect3: lect('Python 1'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('No Lecture<br>'),
-    disc2: disc('Privacy'),
+    disc2: disc('Social Implications'),
     // TODO: Push back until after MT?
     hw: [
         hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/6365093'),
@@ -277,12 +280,12 @@ cs10.week7 = {
                 'optional')
     ],
     lect1: lect('Guest Lecture'),
-    lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic', true),
+    lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('CS @ Cal and Beyond'),
     lect2: lect('Guest Lecture'),
     work: work('Work Session'),
     readings2: 'No Readings',
-    lab2: lab('Besides Blocks: Text Processing in Python / Git', '#', true),
+    lab2: lab('Besides Blocks: Text Processing in Python / Git', '#'),
     disc2: disc('Summary and Farewell'),
     lect3: lect('Industry Panel'),
     // TODO: add lecture slides
