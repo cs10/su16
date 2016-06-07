@@ -101,9 +101,9 @@ var patrickO = {
 /*****************************************************************************/
 
 var inst = [ ianB, alexM ];
-var tas = []//[ LaurenMock, AranyU, erikD, PeterS ];
+var tas = [laraM, carlosF, elizabethS]//[ LaurenMock, AranyU, erikD, PeterS ];
 
-var readers = []//[ jobelV, katherinem, laram ];
+var readers = [christianN, jobelV, meghnaD, patrickO]//[ jobelV, katherinem, laram ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
