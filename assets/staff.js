@@ -21,7 +21,7 @@ var alexM = {
 // TAs
 var laraM = {
     name: 'Head TA Lara McConnaughey',
-    img: '../Su16/LaraMcConnaughey_selfie.jpg',
+    img: 'Su15/LaraMcConnaughey.jpg',
     imgSrc: '../Su16/LaraMcConnaughey_selfie.jpg',
     imgCrazy: 'LaraMcConnaugheyCrazy.jpg',
     email: 'lara@cs10.org'
