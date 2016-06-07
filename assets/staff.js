@@ -29,7 +29,6 @@ var laraM = {
 
 var carlosF = {
     name: 'TA Carlos Flores',
-    img: 'Sp14/CarlosFlores.jpg',
     web: 'http://carlos.codes',
     img: 'NPY3D.jpg',
     imgSrc: 'NPY3D.jpg', 
@@ -37,7 +36,6 @@ var carlosF = {
 
 var elizabethS = {
     name: 'TA Elizabeth Steger',
-    img: 'Sp16/ElizabethSteger.jpg',
     img: 'NPY3D.jpg',
     imgSrc: 'NPY3D.jpg',
 };
