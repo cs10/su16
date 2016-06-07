@@ -19,6 +19,28 @@ var alexM = {
 };
 
 // TAs
+var laraM = {
+    name: 'Head TA Lara McConnaughey',
+    img: 'Su15/LaraMcConnaughey.jpg',
+    imgSrc: 'LaraMcConnaughey.jpg',
+    imgCrazy: 'LaraMcConnaugheyCrazy.jpg',
+    email: 'lara@cs10.org'
+};
+
+var carlosF = {
+    name: 'TA Carlos Flores',
+    img: 'Sp14/CarlosFlores.jpg',
+    web: 'http://carlos.codes',
+    imgSrc: 'CarlosFlores.jpg',
+    email: 'carlos@cs10.org' 
+};
+
+var elizabethS = {
+    name: 'TA Elizabeth Steger',
+    img: 'sp16/ElizabethSteger.jpg',
+    imgSrc: 'ElizabethSteger.jpg',
+    email: 'lizzy@cs10.org'
+};
 
 // var LaurenMock = {
 //     name: 'Head TA Lauren Mock',
@@ -49,20 +71,29 @@ var alexM = {
 //     email: 'peter@cs10.org' };
 
 // // Readers
-// var jobelV = {
-//     name: 'Reader Jobel Vecino',
-//     img: 'Fa13/JobelVecino.jpg',
-//     imgSrc: '../su16/jobel cute.png' };
+var christianN = {
+    name: 'Reader Chirstian Nicoloso',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
 
-// var katherinem = {
-//     name: 'Reader Katherine McGauley',
-//     img: 'su16/KatherineMcGauley.jpg',
-//     imgSrc: '../su16/kate cute.png' };
+var jobelV = {
+    name: 'Reader Jobel Vecino',
+    img: 'Fa13/JobelVecino.jpg',
+    imgSrc: '../su16/jobel cute.png' };
 
-// var laram = {
-//     name: 'Reader Lara McConnaughey',
-//     img: 'su16/LaraMcConnaughey.jpg',
-//     imgSrc: '../su16/lara cute.png' };
+var meghnaD = {
+    name: 'Reader Meghna Dasgupta',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
+var patrickO = {
+    name: 'Reader Patrick O\'Halloran',
+    img: 'NPY3D.jpg',
+    imgSrc: 'NPY3D.jpg',
+};
+
 
 
 /*****************************************************************************/
