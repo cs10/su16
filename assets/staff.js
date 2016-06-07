@@ -37,7 +37,7 @@ var carlosF = {
 
 var elizabethS = {
     name: 'TA Elizabeth Steger',
-    img: 'sp16/ElizabethSteger.jpg',
+    img: 'Sp16/ElizabethSteger.jpg',
     imgSrc: 'ElizabethSteger.jpg',
     email: 'lizzy@cs10.org'
 };
@@ -80,7 +80,7 @@ var christianN = {
 var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'Fa13/JobelVecino.jpg',
-    imgSrc: '../su16/jobel cute.png' };
+    imgSrc: 'JobelVecino.jpg' };
 
 var meghnaD = {
     name: 'Reader Meghna Dasgupta',
