@@ -110,13 +110,13 @@ No questions for this lab!
 
 ## Lab 10: Concurrency {#lab10}
 
-#### Concurrency: Required Questions
+#### Required Questions
 
-1. Coming Soon!
+* Coming Soon!
 
 ## Lab 11: The Internet {#lab11}
 
-#### Internet: Required Questions
+#### Required Questions
 * Coming Soon!
 
 ---
@@ -127,7 +127,7 @@ No questions for this lab!
 
 #### Required Questions
 
-*Coming Soon!
+* Coming Soon!
 
 #### Self-Check Questions
 
