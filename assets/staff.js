@@ -3,7 +3,7 @@
 var ianB = {
     name: 'Instructor Ian Birnam',
     img: 'Sp14/IanBirnam.jpg',
-    imgSrc: 'Su16/IanBirnamSelfie.JPG',
+    imgSrc: '../Su16/IanBirnamSelfie.JPG',
     imgCrazy: '../small/IanBirnamCrazy.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
