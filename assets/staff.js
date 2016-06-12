@@ -3,7 +3,7 @@
 var ianB = {
     name: 'Instructor Ian Birnam',
     img: 'Sp14/IanBirnam.jpg',
-    imgSrc: '../Su16/IanBirnamSelfie.JPG',
+    imgSrc: '../Su16/IanBirnam.jpg',
     imgCrazy: '../small/IanBirnamCrazy.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
@@ -23,7 +23,7 @@ var alexM = {
 var laraM = {
     name: 'Head TA Lara McConnaughey',
     img: 'Su15/LaraMcConnaughey.jpg',
-    imgSrc: '../Su16/LaraMcConnaughey_selfie.jpg',
+    imgSrc: '../Su16/LaraMcConnaughey.jpg',
     imgCrazy: '../small/LaraMcConnaugheyCrazy.jpg',
     email: 'lara@cs10.org'
 };
