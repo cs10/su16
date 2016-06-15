@@ -38,7 +38,7 @@ var carlosF = {
 var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'NPY3D.jpg',
-    imgSrc: '../Su16/ElizabethSteger.jpg',
+    imgSrc: '../Su16/LizzySteger.jpg',
 };
 
 // var LaurenMock = {
