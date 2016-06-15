@@ -32,13 +32,13 @@ var carlosF = {
     name: 'TA Carlos Flores',
     web: 'http://carlos.codes',
     img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg', 
+    imgSrc: '../Su16/CarlosFlores.jpg', 
 };
 
 var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    imgSrc: '../Su16/ElizabethSteger.jpg',
 };
 
 // var LaurenMock = {
@@ -79,13 +79,13 @@ var christianN = {
 var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg', 
+    imgSrc: '../Su16/JobelVecino.jpg', 
 };
 
 var meghnaD = {
     name: 'Reader Meghna Dasgupta',
     img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    imgSrc: '../Su16/MeghnaDasgupta.jpg',
 };
 
 var patrickO = {
