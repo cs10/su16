@@ -40,7 +40,7 @@ var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/LizzySteger.jpg',
-    // imgCrazy: '../small/LizzyStegerCrazy.jpg',
+    imgCrazy: '../small/LizzyStegerCrazy.jpg',
 };
 
 // var LaurenMock = {
@@ -75,7 +75,7 @@ var elizabethS = {
 var christianN = {
     name: 'Reader Chirstian Nicoloso',
     img: 'NPY3D.jpg',
-    imgSrc: '../small/ChristianNicoloso.jpg',
+    imgSrc: '../Su16/ChristianN.jpg',
 };
 
 var jobelV = {
@@ -96,7 +96,7 @@ var meghnaD = {
 var patrickO = {
     name: 'Reader Patrick O\'Halloran',
     img: 'NPY3D.jpg',
-    imgSrc: '../small/PatrickOHalloran.JPG',
+    imgSrc: '../Su16/PatrickO.jpg',
 };
 
 
