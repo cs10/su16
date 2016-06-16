@@ -7,7 +7,7 @@ var ianB = {
     imgCrazy: '../small/IanBCrazy.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
-    email: 'email coming!'
+    email: 'ibirnam@berkeley.edu'
 };
 
 var alexM = {
