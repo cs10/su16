@@ -3,11 +3,11 @@
 var ianB = {
     name: 'Instructor Ian Birnam',
     img: 'Sp14/IanBirnam.jpg',
-    imgSrc: '../Su16/IanBirnam.jpg',
-    // imgCrazy: '../small/IanBirnamCrazy.jpg',
+    imgSrc: '../Su16/IanB.jpg',
+    imgCrazy: '../small/IanBCrazy.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
-    email: 'email coming!'
+    email: 'ibirnam@berkeley.edu'
 };
 
 var alexM = {
@@ -33,12 +33,14 @@ var carlosF = {
     web: 'http://carlos.codes',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/CarlosFlores.jpg', 
+    imgCrazy: '../small/CarlosFloresCrazy.jpg',
 };
 
 var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/LizzySteger.jpg',
+    imgCrazy: '../small/LizzyStegerCrazy.jpg',
 };
 
 // var LaurenMock = {
@@ -80,12 +82,15 @@ var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/JobelVecino.jpg', 
+    imgCrazy: '../small/JobelVecinoCrazy.jpg',
+    email: 'jobel@cs10.org'
 };
 
 var meghnaD = {
     name: 'Reader Meghna Dasgupta',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/MeghnaDasgupta.jpg',
+    imgCrazy: '../small/MeghnaDasguptaCrazy.jpg',
 };
 
 var patrickO = {
