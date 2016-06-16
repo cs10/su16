@@ -83,6 +83,7 @@ var jobelV = {
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/JobelVecino.jpg', 
     imgCrazy: '../small/JobelVecinoCrazy.jpg',
+    email: 'jobel@cs10.org'
 };
 
 var meghnaD = {
