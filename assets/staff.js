@@ -33,14 +33,14 @@ var carlosF = {
     web: 'http://carlos.codes',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/CarlosFlores.jpg', 
-    imgCrazy: '../small/CarlosFloresCrazy.jpg',
+    // imgCrazy: '../small/CarlosFloresCrazy.jpg',
 };
 
 var elizabethS = {
     name: 'TA Elizabeth Steger',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/LizzySteger.jpg',
-    imgCrazy: '../small/LizzyStegerCrazy.jpg',
+    // imgCrazy: '../small/LizzyStegerCrazy.jpg',
 };
 
 // var LaurenMock = {
@@ -75,14 +75,14 @@ var elizabethS = {
 var christianN = {
     name: 'Reader Chirstian Nicoloso',
     img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    imgSrc: '../small/ChristianNicoloso.jpg',
 };
 
 var jobelV = {
     name: 'Reader Jobel Vecino',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/JobelVecino.jpg', 
-    imgCrazy: '../small/JobelVecinoCrazy.jpg',
+    // imgCrazy: '../small/JobelVecinoCrazy.jpg',
     email: 'jobel@cs10.org'
 };
 
@@ -90,13 +90,13 @@ var meghnaD = {
     name: 'Reader Meghna Dasgupta',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/MeghnaDasgupta.jpg',
-    imgCrazy: '../small/MeghnaDasguptaCrazy.jpg',
+    // imgCrazy: '../small/MeghnaDasguptaCrazy.jpg',
 };
 
 var patrickO = {
     name: 'Reader Patrick O\'Halloran',
     img: 'NPY3D.jpg',
-    imgSrc: 'NPY3D.jpg',
+    imgSrc: '../small/PatrickOHalloran.JPG',
 };
 
 
