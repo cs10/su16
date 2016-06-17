@@ -16,7 +16,7 @@ var alexM = {
     imgSrc: 'AlexMcKinney.jpg',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
-    email: 'email coming!'
+    email: 'amckinney@berkeley.edu'
 };
 
 // TAs
@@ -37,53 +37,28 @@ var carlosF = {
 };
 
 var elizabethS = {
-    name: 'TA Elizabeth Steger',
+    name: 'TA Lizzy Steger',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/LizzySteger.jpg',
     imgCrazy: '../small/LizzyStegerCrazy.jpg',
+    email: 'lizzy.steger@gmail'
 };
 
-// var LaurenMock = {
-//     name: 'Head TA Lauren Mock',
-//     img: 'Sp14/LaurenMock.jpg',
-//     imgSrc: '../su16/lauren cute.png',
-//     web: 'https://linkedin.com/in/laurenmock',
-//     email: 'lauren@cs10.org' };
-
-// var AranyU = {
-//     name: 'TA Arany Uthayakumar',
-//     img: 'Sp14/AranyUthayakumar.jpg',
-//     imgSrc: '../su16/arany cute.png',
-//     // bio: 'AranyBio.txt',
-//     email: 'arany@cs10.org' };
-
-// var erikD = {
-//     name: 'TA Erik Dahlquist',
-//     img: 'Sp15/ErikDahlquist.jpg',
-//     imgSrc: '../su16/erik cute.png',
-//     email: 'erik@cs10.org' };
-
-// var PeterS = {
-//     name: '(Sort of) TA Peter Sujan',
-//     img: 'Fa12/PeterSujan.jpg',
-//     imgSrc: '../su16/peter cute.png',
-//     web: 'https://ocf.berkeley.edu/~psujan',
-//     // bio: 'PeterBio.txt',
-//     email: 'peter@cs10.org' };
 
 // // Readers
-var christianN = {
-    name: 'Reader Chirstian Nicoloso',
-    img: 'NPY3D.jpg',
-    imgSrc: '../Su16/ChristianN.jpg',
-};
-
 var jobelV = {
-    name: 'Reader Jobel Vecino',
+    name: 'Head Reader Jobel Vecino',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/JobelVecino.jpg', 
     // imgCrazy: '../small/JobelVecinoCrazy.jpg',
     email: 'jobel@cs10.org'
+};
+
+var christianN = {
+    name: 'Reader Chirstian Nicoloso',
+    img: 'NPY3D.jpg',
+    imgSrc: '../Su16/ChristianN.jpg',
+    email: 'chnicoloso@berkeley.edu'
 };
 
 var meghnaD = {
@@ -91,12 +66,14 @@ var meghnaD = {
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/MeghnaDasgupta.jpg',
     // imgCrazy: '../small/MeghnaDasguptaCrazy.jpg',
+    email: 'meghna.dasgupta@berkeley.edu'
 };
 
 var patrickO = {
     name: 'Reader Patrick O\'Halloran',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/PatrickO.jpg',
+    email: 'pohalloran@berkeley.edu'
 };
 
 
@@ -108,7 +85,7 @@ var patrickO = {
 var inst = [ ianB, alexM ];
 var tas = [laraM, carlosF, elizabethS]//[ LaurenMock, AranyU, erikD, PeterS ];
 
-var readers = [christianN, jobelV, meghnaD, patrickO]//[ jobelV, katherinem, laram ];
+var readers = [jobelV, meghnaD, christianN, patrickO]//[ jobelV, katherinem, laram ];
 
 // If you need to add a new SECTION add it to this object.
 // Follow the same format.
