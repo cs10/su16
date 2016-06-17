@@ -34,6 +34,7 @@ var carlosF = {
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/CarlosFlores.jpg', 
     // imgCrazy: '../small/CarlosFloresCrazy.jpg',
+    email: 'Carlos@cs10.org'
 };
 
 var elizabethS = {
