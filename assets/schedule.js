@@ -129,13 +129,16 @@ cs10.week3 = {
                 'https://www.lawfareblog.com/iphones-fbi-and-going-dark'),
         reading('ISIS + WhatsApp',
                 'http://www.nytimes.com/2015/11/22/opinion/stopping-whatsapp-wont-stop-terrorists.html'),
+        reading('The Design of Everyday Things (Chapter 1 Summary)',
+                'http://yangsu.github.io/blog/2012/10/14/chapter-1-the-psychopathology-of-everyday-things/'),
         reading('What Is Front-End Development?',
-                'https://css-tricks.com/front-end-development-is-development/')
+                'https://css-tricks.com/front-end-development-is-development/',
+                'optional')
     ],
     // TODO: add lecture slides
     lect3: lect('Social Implications'),
     // TODO: add lecture slides
-    lect4: lect('Design / Front-End Development'),
+    lect4: lect('Design'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
