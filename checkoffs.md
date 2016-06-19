@@ -61,9 +61,26 @@ Note that you only need to get checked off for 1 lab each week! You get to pick 
 ## Lab 1: Welcome to Snap<em>!</em>   {#lab1}
 No questions for this lab!
 
-## Lab 2: Build Your Own Blocks {#lab2}
+## Lab 2: Build Your Own Blocks (Self-Check Questions) {#lab2}
 
-* Coming Soon!
+*  Show us how to make your own block.
+*  Why would we want to have an input in our block?
+*  Show us your Draw Polygon block.
+*  Make the bug dance!
+*  Show us your Draw Square-Leaved Flower block.
+*  Why might we want our drawing blocks to end in the same position and orientation that they began at?
+*  Show us your Draw Flower block.
+*  Why might we want to use the pick random block?
+*  What are conditionals? Why do we use them?
+*  What is the difference between the if and the if-else blocks?
+*  What are the different types of blocks in Snap!? How are they different?
+*  Give an example of a predicate block in Snap!
+*  Show us your Traffic Signal block.
+*  What is the difference between the and, or, and not blocks? What are these examples of?
+*  How do you make a script variable? Why are these useful?
+*  Correctly answer the questions on the “Self-test: Complex Booleans” page and show us.
+*  Which code for the Leap Year block did you find easiest to read? Which was easiest to debug? Why?
+*  Show us how your is _ between _ and _ ? block works.
 
 ---
 
