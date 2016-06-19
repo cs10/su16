@@ -175,7 +175,8 @@ No questions for this lab!
 
 * Coming Soon!
 
-## Lab 5: Besides Blocks: Text Processing in Python / Git {#lab15}
+## Lab 15: Besides Blocks: Text Processing in Python / Git {#lab15}
+
 #### Required Questions
 
 * Coming Soon!
