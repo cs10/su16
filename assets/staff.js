@@ -59,7 +59,7 @@ var christianN = {
     name: 'Reader Chirstian Nicoloso',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/ChristianN.jpg',
-    email: 'chnicoloso@berkeley.edu'
+    // email: 'chnicoloso@berkeley.edu'
 };
 
 var meghnaD = {
@@ -67,14 +67,14 @@ var meghnaD = {
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/MeghnaDasgupta.jpg',
     // imgCrazy: '../small/MeghnaDasguptaCrazy.jpg',
-    email: 'meghna.dasgupta@berkeley.edu'
+    // email: 'meghna.dasgupta@berkeley.edu'
 };
 
 var patrickO = {
     name: 'Reader Patrick O\'Halloran',
     img: 'NPY3D.jpg',
     imgSrc: '../Su16/PatrickO.jpg',
-    email: 'pohalloran@berkeley.edu'
+    // email: 'pohalloran@berkeley.edu'
 };
 
 
