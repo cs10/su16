@@ -22,7 +22,7 @@ var alexM = {
 // TAs
 var laraM = {
     name: 'Head TA Lara McConnaughey',
-    img: 'Su15/LaraMcConnaughey.jpg',
+    img: 'Su16/LaraMcConnaughey.jpg',
     imgSrc: '../Su16/LaraMcConnaughey.jpg',
     imgCrazy: '../small/LaraMcConnaugheyCrazy.jpg',
     email: 'lara@cs10.org'
@@ -31,7 +31,7 @@ var laraM = {
 var carlosF = {
     name: 'TA Carlos Flores',
     web: 'http://carlos.codes',
-    img: 'NPY3D.jpg',
+    img: 'Su16/CarlosFlores.jpg',
     imgSrc: '../Su16/CarlosFlores.jpg', 
     // imgCrazy: '../small/CarlosFloresCrazy.jpg',
     email: 'Carlos@cs10.org'
@@ -39,7 +39,7 @@ var carlosF = {
 
 var elizabethS = {
     name: 'TA Lizzy Steger',
-    img: 'NPY3D.jpg',
+    img: 'Su16/LizzySteger.jpg',
     imgSrc: '../Su16/LizzySteger.jpg',
     imgCrazy: '../small/LizzyStegerCrazy.jpg',
     email: 'lizzy.steger@gmail'
@@ -49,7 +49,7 @@ var elizabethS = {
 // // Readers
 var jobelV = {
     name: 'Head Reader Jobel Vecino',
-    img: 'NPY3D.jpg',
+    img: 'Su16/JobelVecino.jpg',
     imgSrc: '../Su16/JobelVecino.jpg', 
     // imgCrazy: '../small/JobelVecinoCrazy.jpg',
     email: 'jobel@cs10.org'
@@ -57,14 +57,14 @@ var jobelV = {
 
 var christianN = {
     name: 'Reader Chirstian Nicoloso',
-    img: 'NPY3D.jpg',
+    img: 'Su16/ChristianN.jpg',
     imgSrc: '../Su16/ChristianN.jpg',
     // email: 'chnicoloso@berkeley.edu'
 };
 
 var meghnaD = {
     name: 'Reader Meghna Dasgupta',
-    img: 'NPY3D.jpg',
+    img: 'Su16/MeghnaDasgupta.jpg',
     imgSrc: '../Su16/MeghnaDasgupta.jpg',
     // imgCrazy: '../small/MeghnaDasguptaCrazy.jpg',
     // email: 'meghna.dasgupta@berkeley.edu'
@@ -72,7 +72,7 @@ var meghnaD = {
 
 var patrickO = {
     name: 'Reader Patrick O\'Halloran',
-    img: 'NPY3D.jpg',
+    img: 'Su16/PatrickO.jpg',
     imgSrc: '../Su16/PatrickO.jpg',
     // email: 'pohalloran@berkeley.edu'
 };
