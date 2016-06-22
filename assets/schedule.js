@@ -66,7 +66,7 @@ cs10.week1 = {
     // TODO: add lecture slides
     lect4: lect('Lists, Programming Paradigms'),
     disc2: disc('Functions'),
-    hw: hw('HW0', 'Wed 6/22', 'quizzes/1969116')
+    hw: hw('HW0', 'Wed 6/22', 'quizzes/2242682')
 };
 
 // JUN 27 - JUL 1
