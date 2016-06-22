@@ -210,7 +210,7 @@ cs10.week5 = {
         reading('Thunderstrike 2 Worm Explained',
                 'http://www.wired.com/2015/08/researchers-create-first-firmware-worm-attacks-macs/'),
         reading('Why Use Python?',
-                'http://blog.trinket.io/why-python/%20http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext')
+                'http://blog.trinket.io/why-python/')
     ],
     lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     // TODO: add lecture slides
