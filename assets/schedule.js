@@ -33,7 +33,7 @@ var finalProjSpec = docs('1YQkqiQF6QR94wOmZB7flliU8ga4neN6sitPFDlbh8Yo');
 cs10.week1 = {
     readings1: 'No Readings',
     // TODO: add lecture slides
-    lect1: lect('Welcome and Abstraction', 'https://docs.google.com/a/berkeley.edu/presentation/d/1CASpAjdiNSUEtH9yccPh2F5hrJiJQsE8B6Ma1n8dDo8/edit?usp=sharing'),
+    lect1: lect('Welcome and Abstraction', 'https://docs.google.com/presentation/d/1CASpAjdiNSUEtH9yccPh2F5hrJiJQsE8B6Ma1n8dDo8/edit?usp=sharing'),
     lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10!'),
     // TODO: add lecture slides
