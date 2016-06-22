@@ -106,7 +106,7 @@ cs10.week2 = {
     // TODO: add lecture slides
     lect4: lect('Recursion I'),
     disc2: disc('Scoping'),
-    hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/6365043', hw1Spec)
+    hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/7645402', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
 // cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
@@ -141,7 +141,7 @@ cs10.week3 = {
     lect4: lect('Design'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     disc2: disc('Algorithmic Complexity'),
-    hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
+    hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/7645403', hw2Spec)
 };
 cs10.week3.lect1.classes = 'noClass';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -183,12 +183,12 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect4: lect('Concurrency'),
     hw: [
-        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/6365091', mtProjSpec),
+        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/7645408', mtProjSpec),
         hw('HW3 2048', 'Fri 7/15', [
             { title: "GROUP Submission",
-              url: 'assignments/6365045' },
+              url: 'assignments/7645404' },
             { title: "INDIVIDUAL Submission",
-              url: 'assignments/6442903' }
+              url: 'assignments/7645405' }
         ], hw3Spec)
     ]
 
@@ -228,8 +228,8 @@ cs10.week5 = {
     disc2: disc('Concurrency / Recursive Reporters'),
     // TODO: Push back until after MT?
     hw: [
-        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/6365093'),
-        hw('Midterm Project', 'Sun 7/24', 'assignments/6365047', mtProjSpec)
+        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/7645407'),
+        hw('Midterm Project', 'Sun 7/24', 'assignments/7645406', mtProjSpec)
     ]
 };
 cs10.week5.lect4.classes = 'exam';
