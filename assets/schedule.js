@@ -37,7 +37,7 @@ cs10.week1 = {
     lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
     disc1: disc('Welcome to CS10! / The Power of Binary'),
     // TODO: add lecture slides
-    lect2: lect('Procedures'),
+    lect2: lect('Procedures', 'https://docs.google.com/presentation/d/1D-blBjtBw--IeE5wTcHEpjdBolGOz4ESLE0Da7Oh_zU/edit?usp=sharing'),
     work: work('Work Session'),
     readings2: [
         reading('Prof. Harvey\'s Intro to Abstraction',
