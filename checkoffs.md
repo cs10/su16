@@ -133,8 +133,7 @@ No questions for this lab!
 
 ## Lab 11: The Internet {#lab11}
 
-#### Required Questions
-* Coming Soon!
+* This lab is optional, and it will not count towards a check-off.
 
 ---
 
