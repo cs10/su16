@@ -43,7 +43,7 @@ var elizabethS = {
     img: 'Su16/LizzySteger.jpg',
     imgSrc: '../Su16/LizzySteger.jpg',
     imgCrazy: '../small/LizzyStegerCrazy.jpg',
-    email: 'lizzy.steger@gmail'
+    email: 'lizzy.steger@gmail.com'
 };
 
 
