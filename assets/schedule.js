@@ -33,11 +33,11 @@ var finalProjSpec = docs('1YQkqiQF6QR94wOmZB7flliU8ga4neN6sitPFDlbh8Yo');
 cs10.week1 = {
     readings1: 'No Readings',
     // TODO: add lecture slides
-    lect1: lect('Welcome and Abstraction'),
+    lect1: lect('Welcome and Abstraction', 'https://docs.google.com/presentation/d/1CASpAjdiNSUEtH9yccPh2F5hrJiJQsE8B6Ma1n8dDo8/edit?usp=sharing'),
     lab1: lab("Welcome to <span class='snap'>snap</span>", "berkeley_bjc/summer/1-introduction.topic"),
-    disc1: disc('Welcome to CS10! / The Power of Binary'),
+    disc1: disc('Welcome to CS10!'),
     // TODO: add lecture slides
-    lect2: lect('Procedures'),
+    lect2: lect('Procedures', 'https://docs.google.com/presentation/d/1D-blBjtBw--IeE5wTcHEpjdBolGOz4ESLE0Da7Oh_zU/edit?usp=sharing'),
     work: work('Work Session'),
     readings2: [
         reading('Prof. Harvey\'s Intro to Abstraction',
@@ -66,7 +66,7 @@ cs10.week1 = {
     // TODO: add lecture slides
     lect4: lect('Lists, Programming Paradigms'),
     disc2: disc('Functions'),
-    hw: hw('HW0', 'Wed 6/22', 'quizzes/1969116')
+    hw: hw('HW0', 'Wed 6/22', 'quizzes/2242682')
 };
 
 // JUN 27 - JUL 1
@@ -94,7 +94,7 @@ cs10.week2 = {
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     // TODO: add lecture slides
     lect2: lect('Algorithmic Complexity'),
-    disc1: disc('Scoping'),
+    disc1: disc('The Power of Binary'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
         reading('Test Driven Development',
@@ -105,8 +105,8 @@ cs10.week2 = {
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     // TODO: add lecture slides
     lect4: lect('Recursion I'),
-    disc2: disc('All About Lists'),
-    hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/6365043', hw1Spec)
+    disc2: disc('Scoping'),
+    hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/7645402', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
 // cs10.week2.work.title += '<hr><strong>Quest Review (Sect 112)</strong>';
@@ -118,7 +118,7 @@ cs10.week3 = {
     lab1: lab('No Lab - Please attend lab on Tu/Th to make up'),
     // TODO: add lecture slides
     lect2: lect('Recursion II'),
-    disc1: disc('Algorithmic Complexity'),
+    disc1: disc('All About Lists'),
     work: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
         reading('Addicted to Apps', 
@@ -129,16 +129,19 @@ cs10.week3 = {
                 'https://www.lawfareblog.com/iphones-fbi-and-going-dark'),
         reading('ISIS + WhatsApp',
                 'http://www.nytimes.com/2015/11/22/opinion/stopping-whatsapp-wont-stop-terrorists.html'),
+        reading('The Design of Everyday Things (Chapter 1 Summary)',
+                'http://yangsu.github.io/blog/2012/10/14/chapter-1-the-psychopathology-of-everyday-things/'),
         reading('What Is Front-End Development?',
-                'https://css-tricks.com/front-end-development-is-development/')
+                'https://css-tricks.com/front-end-development-is-development/',
+                'optional')
     ],
     // TODO: add lecture slides
     lect3: lect('Social Implications'),
     // TODO: add lecture slides
-    lect4: lect('Design / Front-End Development'),
+    lect4: lect('Design'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
-    disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
-    hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/6365044', hw2Spec)
+    disc2: disc('Algorithmic Complexity'),
+    hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/7645403', hw2Spec)
 };
 cs10.week3.lect1.classes = 'noClass';
 // cs10.week3.work.title += '<hr><strong>Finch Robots Lab (Sect 111)</strong>';
@@ -161,7 +164,7 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect1: lect('Data'),
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
-    disc1: disc('HW3 Prep'),
+    disc1: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     // TODO: add lecture slides
     lect2: lect('Social Implications II'),
     work: work('Work Session'),
@@ -176,16 +179,16 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect3: lect('Internet'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc2: disc('The Internet'),
+    disc2: disc('HW3 Prep'),
     // TODO: add lecture slides
     lect4: lect('Concurrency'),
     hw: [
-        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/6365091', mtProjSpec),
+        hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/7645408', mtProjSpec),
         hw('HW3 2048', 'Fri 7/15', [
             { title: "GROUP Submission",
-              url: 'assignments/6365045' },
+              url: 'assignments/7645404' },
             { title: "INDIVIDUAL Submission",
-              url: 'assignments/6442903' }
+              url: 'assignments/7645405' }
         ], hw3Spec)
     ]
 
@@ -207,12 +210,12 @@ cs10.week5 = {
         reading('Thunderstrike 2 Worm Explained',
                 'http://www.wired.com/2015/08/researchers-create-first-firmware-worm-attacks-macs/'),
         reading('Why Use Python?',
-                'http://blog.trinket.io/why-python/%20http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext')
+                'http://blog.trinket.io/why-python/')
     ],
     lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     // TODO: add lecture slides
     lect1: lect('Cryptography/Security'),
-    disc1: disc('Concurrency / Recursive Reporters'),
+    disc1: disc('The Internet'),
     work: lab('The Internet', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic'),
     // TODO: add lecture slides
     lect2: lect('Procedures as Data'),
@@ -222,11 +225,11 @@ cs10.week5 = {
     lect3: lect('Python 1'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('No Lecture<br>'),
-    disc2: disc('Social Implications'),
+    disc2: disc('Concurrency / Recursive Reporters'),
     // TODO: Push back until after MT?
     hw: [
-        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/6365093'),
-        hw('Midterm Project', 'Sun 7/24', 'assignments/6365047', mtProjSpec)
+        hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/7645407'),
+        hw('Midterm Project', 'Sun 7/24', 'assignments/7645406', mtProjSpec)
     ]
 };
 cs10.week5.lect4.classes = 'exam';
@@ -245,7 +248,7 @@ cs10.week6 = {
         reading('Simple Guide to Git',
                 'http://rogerdudler.github.io/git-guide/', 'optional')
     ],
-    disc1: disc('Data and HOFs'),
+    disc1: disc('Social Implications'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     // TODO: add lecture slides
     lect1: lect('Python 2'),
@@ -261,7 +264,7 @@ cs10.week6 = {
                 'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/')
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Python'),
+    disc2: disc('Data and HOFs'),
     // TODO: add lecture slides
     lect3: lect('Graph Theory'),
     // TODO: add lecture slides
@@ -281,12 +284,12 @@ cs10.week7 = {
     ],
     lect1: lect('Guest Lecture'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
-    disc1: disc('CS @ Cal and Beyond'),
+    disc1: disc('Python'),
     lect2: lect('Guest Lecture'),
     work: work('Work Session'),
     readings2: 'No Readings',
     lab2: lab('Besides Blocks: Text Processing in Python / Git', '#'),
-    disc2: disc('Summary and Farewell'),
+    disc2: disc('CS @ Cal and Beyond / Summary and Farewell'),
     lect3: lect('Industry Panel'),
     // TODO: add lecture slides
     lect4: lect('Summary and Farewell'),
