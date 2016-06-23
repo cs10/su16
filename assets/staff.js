@@ -14,7 +14,7 @@ var alexM = {
     name: 'Instructor Alex McKinney',
     img: 'Su16/AlexM.jpg',
     imgSrc: '../Su16/AlexM.jpg',
-    imgCrazy: '../small/AlexMCrazy.jpg',
+    imgCrazy: '../small/AlexMCrazy.png',
     // web: 'http://michaelballphoto.com',
     // bio: 'MichaelBall.txt',
     email: 'amckinney@berkeley.edu'
