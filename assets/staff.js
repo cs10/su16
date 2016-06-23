@@ -12,7 +12,7 @@ var ianB = {
 
 var alexM = {
     name: 'Instructor Alex McKinney',
-    img: 'Sp14/AlexMcKinney.jpg',
+    img: 'Su16/AlexM.jpg',
     imgSrc: '../Su16/AlexM.jpg',
     imgCrazy: '../small/AlexMCrazy.jpg',
     // web: 'http://michaelballphoto.com',
