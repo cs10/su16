@@ -5,3 +5,4 @@ _site
 images
 assets/images
 resources
+Gemfile.lock
