@@ -61,7 +61,7 @@ cs10.week1 = {
                 'optional')
     ],
     // TODO: add lecture slides
-    lect3: lect('Scoping'),
+    lect3: lect('Scoping', 'http://docs.google.com/presentation/d/1zuGTzrwfTxN-dd8nS7w4sjnIJdOtc6z3GaBtu2POgiA/edit?usp=sharing'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
     // TODO: add lecture slides
     lect4: lect('Lists, Programming Paradigms'),
@@ -121,7 +121,7 @@ cs10.week3 = {
     disc1: disc('All About Lists'),
     work: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
-        reading('Addicted to Apps', 
+        reading('Addicted to Apps',
                 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html'),
         reading('LastPass Hack Explained',
                 'http://www.macworld.com/article/2936663/lastpass-was-hacked-heres-what-you-have-to-do.html'),
@@ -175,7 +175,7 @@ cs10.week4 = {
         reading('Moore\'s Law Keeps Going, Defying Expectations',
                 'http://www.scientificamerican.com/article/moore-s-law-keeps-going-defying-expectations/'),
         reading('Dining Philosphers with Ron Swanson',
-                'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')        
+                'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')
     ],
     // TODO: add lecture slides
     lect3: lect('Internet'),
@@ -243,7 +243,7 @@ cs10.week6 = {
         reading('John DeNero NLP Video (Part 1)',
                 'https://youtu.be/63kincM38po?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),
         reading('John DeNero NLP Video (Part 2)',
-                'https://youtu.be/U0aH_shhCeM?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),            
+                'https://youtu.be/U0aH_shhCeM?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),
         reading('What is Git?',
                 'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
         reading('Simple Guide to Git',
