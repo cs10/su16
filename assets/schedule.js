@@ -94,18 +94,20 @@ cs10.week2 = {
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     // TODO: add lecture slides
     lect2: lect('Algorithmic Complexity'),
-    disc1: disc('The Power of Binary'),
+    disc1: disc('Scoping'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
-        reading('Test Driven Development',
-                'https://www.codeenigma.com/community/blog/introduction-test-driven-development')
+        reading('Binary in History',
+                'http://www.nature.com/news/polynesian-people-used-binary-numbers-600-years-ago-1.14380'),
+        reading('Binary, Bits, and Bytes (Video)',
+                'https://www.youtube.com/watch?v=EXYd9q2Ibn8'),
     ],
     // TODO: add lecture slides
-    lect3: lect('Testing'),
+    lect3: lect('Numerical Abstractions and Binary'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     // TODO: add lecture slides
     lect4: lect('Recursion I'),
-    disc2: disc('Scoping'),
+    disc2: disc('All About Lists'),
     hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/7645402', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
@@ -118,7 +120,7 @@ cs10.week3 = {
     lab1: lab('No Lab - Please attend lab on Tu/Th to make up'),
     // TODO: add lecture slides
     lect2: lect('Recursion II'),
-    disc1: disc('All About Lists'),
+    disc1: disc('The Power of Binary'),
     work: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
         reading('Addicted to Apps',
@@ -149,10 +151,10 @@ cs10.week3.lect1.classes = 'noClass';
 // JUL 11 - JUL 15
 cs10.week4 = {
     readings1: [
-        reading('Data Mining Explained',
-                'http://www.anderson.ucla.edu/faculty/jason.frand/teacher/technologies/palace/datamining.htm'),
+        reading('Test Driven Development',
+                'https://www.codeenigma.com/community/blog/introduction-test-driven-development'),
         reading('The Geopolitics of Cyberspace After Snowden',
-                'http://www.currenthistory.com/Deibert_CurrentHistory.pdf'),
+                'http://www.currenthistory.com/Deibert_CurrentHistory.pdf', 'hard'),
         reading('U.S. and China\'s Cyberwar',
                 'https://techcrunch.com/2015/09/21/is-the-u-s-and-chinas-cyberwar-reaching-a-detente-or-a-flashpoint/'),
         reading('NSA Files: Decoded',
@@ -163,7 +165,7 @@ cs10.week4 = {
                 'optional')
     ],
     // TODO: add lecture slides
-    lect1: lect('Data'),
+    lect1: lect('Testing'),
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
     disc1: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     // TODO: add lecture slides
