@@ -64,7 +64,7 @@ cs10.week1 = {
     lect3: lect('Scoping', 'http://docs.google.com/presentation/d/1zuGTzrwfTxN-dd8nS7w4sjnIJdOtc6z3GaBtu2POgiA/edit?usp=sharing'),
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
     // TODO: add lecture slides
-    lect4: lect('Lists, Programming Paradigms'),
+    lect4: lect('Lists, Programming Paradigms','https://docs.google.com/presentation/d/1YiHC0LHHhQyvio3AUOVrTtvJiJbSlrmGJRkVi-VuZoM/edit?usp=sharing'),
     disc2: disc('Functions'),
     hw: hw('HW0', 'Wed 6/22', 'quizzes/2242682')
 };
