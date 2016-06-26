@@ -87,7 +87,12 @@ No questions for this lab!
 # Week 2: Labs 3, 4, and 5: due 7/7
 
 ## Lab 3: Functions  {#lab3}
-* Coming Soon!
+* Show us the `sum of two smallest _, _, _` block.
+* Show us the `Are any equal _, _, _ ?` block.
+* Show us the fixed version of the three `sum of numbers between _ and _` blocks and explain what you fixed.
+* Show us the fixed `draw house` block.
+* What does "the check block" do? 
+* Show us the brick wall.
 
 ## Lab 4: Finch Robots  {#lab4}
 
@@ -95,7 +100,11 @@ No questions for this lab!
 
 ## Lab 5: Lists  {#lab5}
 
-* Coming Soon!
+* Explain `map`, `keep`, and `combine`.
+* What are the domain and range of `map`, `keep`, and `combine`?
+* Show us the `longest word []` block.
+* Show us the `display word _ with letters []` block.
+* Show us the `exaggerate _` block.
 
 ---
 
