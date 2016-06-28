@@ -55,7 +55,7 @@ cs10.newLabObject = function(title, url, rq, video) {
     var lab = { type: 'Lab' };
     lab.title = title;
 
-    // Global Counter for discure
+    // Global Counter for lecture
     cs10.rqCounter = cs10.rqCounter || 0;
     cs10.labCounter = cs10.labCounter || 0;
 
@@ -105,23 +105,23 @@ cs10.newReadingsObject = function(title, url, classes) {
 };
 
 cs10.newLectureObject = function(title, path, guest) {
-    var disc = { type: 'Lecture' };
+    var lect = { type: 'Lecture' };
 
-    disc.title = title;
+    lect.title = title;
     if (!title) {
-        disc.title = 'No Lecture';
-        return disc;
+        lect.title = 'No Lecture';
+        return lect;
     }
 
     if (title.indexOf('No Lecture') !== -1 || title.indexOf('No Class') !== -1) {
-        disc.classes = 'noClass';
+        lect.classes = 'noClass';
     }
     if (path) {
-        disc.url = path;
+        lect.url = path;
     }
 
-    disc.guest = guest;
-    return disc;
+    lect.guest = guest;
+    return lect;
 };
 
 cs10.newDiscussionObject = function(title, url) {
@@ -237,8 +237,8 @@ cs10.renderTableFirst = function (week, data, color) {
           .append(cs10.renderTableReading(data.readings1))   // Readings
           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
           .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
-          .append(cs10.renderTableLecture(data.disc1))       // Mon Lecture
-          .append(cs10.renderTableLecture(data.disc2))       // Tues Lecture
+          .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
+          .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
           .append(cs10.renderTableLab(data.work))            // Work Session
 
     return result;
@@ -254,8 +254,8 @@ cs10.renderTableSecond = function (week, data, color) {
           .append(cs10.renderTableReading(data.readings2))   // Readings
           .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
           .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
-          .append(cs10.renderTableLecture(data.disc3))       // Wed Lecture
-          .append(cs10.renderTableLecture(data.disc4))       // Thus Lecture
+          .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
+          .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
           .append(cs10.renderTableHW(data.hw));              // Assignments
 
     return result;
@@ -287,25 +287,25 @@ cs10.renderTableReading = function(readings) {
     return result;
 };
 
-cs10.renderTableLecture = function(disc) {
+cs10.renderTableLecture = function(lect) {
     var result = $('<td>');
-    if (!disc) {
+    if (!lect) {
         result.append('No Lecture');
         result.attr({'class': 'noClass'});
-    } else if (typeof disc === 'string') {
-        result.append(disc);
+    } else if (typeof lect === 'string') {
+        result.append(lect);
     } else {
-        if (disc.guest) {
-            result.append($('<strong>').html('Guest Lecturer: ' + disc.guest));
+        if (lect.guest) {
+            result.append($('<strong>').html('Guest Lecturer: ' + lect.guest));
             result.append($('<br>'));
         }
-        var title = disc.title;
-        if (disc.url) {
-            title = $('<a>').attr({'href': disc.url}).html(disc.title);
+        var title = lect.title;
+        if (lect.url) {
+            title = $('<a>').attr({'href': lect.url}).html(lect.title);
         }
         result.append(title);
         result.append('<br>');
-        result.attr({ 'class' : disc.classes });
+        result.attr({ 'class' : lect.classes });
     }
     return result;
 };
