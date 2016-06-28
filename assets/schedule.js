@@ -90,7 +90,7 @@ cs10.week2 = {
                 'optional')
     ],
     // TODO: add lecture slides
-    lect1: lect('Algorithms'),
+    lect1: lect('Algorithms', 'http://docs.google.com/presentation/d/1SFTgsTWG2hquUH00GXVSJbRnq4rSDsu_aWoUf_NWoLg/edit?usp=sharing'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     // TODO: add lecture slides
     lect2: lect('Algorithmic Complexity'),
