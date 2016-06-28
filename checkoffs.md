@@ -99,8 +99,7 @@ No questions for this lab!
 
 ## Lab 5: Lists  {#lab5}
 
-* Explain `map`, `keep`, and `combine`.
-* What are the domain and range of `map`, `keep`, and `combine`?
+* State the domain and range of `map`, `keep`, and `combine` and explain what each block does.
 * Show us the `longest word []` block.
 * Show us the `display word _ with letters []` block.
 * Show us the `exaggerate _` block.

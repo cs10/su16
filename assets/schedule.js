@@ -65,7 +65,7 @@ cs10.week1 = {
     lab2: lab('Build Your Own Blocks', 'berkeley_bjc/summer/2-loops-variables.topic', true),
     // TODO: add lecture slides
     lect4: lect('Lists, Programming Paradigms','https://docs.google.com/presentation/d/1YiHC0LHHhQyvio3AUOVrTtvJiJbSlrmGJRkVi-VuZoM/edit?usp=sharing'),
-    disc2: disc('Functions'),
+    disc2: disc('Functions', 'https://drive.google.com/open?id=0Bx0JQN9vUt-3RW9TN195Qy01MFk'),
     hw: hw('HW0', 'Wed 6/22', 'quizzes/2242682')
 };
 

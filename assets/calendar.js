@@ -55,7 +55,7 @@ cs10.newLabObject = function(title, url, rq, video) {
     var lab = { type: 'Lab' };
     lab.title = title;
 
-    // Global Counter for lecture
+    // Global Counter for discure
     cs10.rqCounter = cs10.rqCounter || 0;
     cs10.labCounter = cs10.labCounter || 0;
 
@@ -105,26 +105,26 @@ cs10.newReadingsObject = function(title, url, classes) {
 };
 
 cs10.newLectureObject = function(title, path, guest) {
-    var lect = { type: 'Lecture' };
+    var disc = { type: 'Lecture' };
 
-    lect.title = title;
+    disc.title = title;
     if (!title) {
-        lect.title = 'No Lecture';
-        return lect;
+        disc.title = 'No Lecture';
+        return disc;
     }
 
     if (title.indexOf('No Lecture') !== -1 || title.indexOf('No Class') !== -1) {
-        lect.classes = 'noClass';
+        disc.classes = 'noClass';
     }
     if (path) {
-        lect.url = path;
+        disc.url = path;
     }
 
-    lect.guest = guest;
-    return lect;
+    disc.guest = guest;
+    return disc;
 };
 
-cs10.newDiscussionObject = function(title, files) {
+cs10.newDiscussionObject = function(title, url) {
     var disc = { type: 'Discussion' };
 
     disc.title = title;
@@ -140,9 +140,8 @@ cs10.newDiscussionObject = function(title, files) {
     cs10.discussionCounter = cs10.discussionCounter || 0;
     cs10.discussionCounter += 1;
 
-    if (files) {
-        var count = cs10.discussionCounter;
-        disc.url = 'discussion/' + (count < 10 ? '0' : '') + count + '/';
+    if (url) {
+        disc.url = url
     }
 
     return disc;
@@ -238,8 +237,8 @@ cs10.renderTableFirst = function (week, data, color) {
           .append(cs10.renderTableReading(data.readings1))   // Readings
           .append(cs10.renderTableLab(data.lab1))            // 1st Lab
           .append(cs10.renderTableDiscussion(data.disc1))    // 1st discussion
-          .append(cs10.renderTableLecture(data.lect1))       // Mon Lecture
-          .append(cs10.renderTableLecture(data.lect2))       // Tues Lecture
+          .append(cs10.renderTableLecture(data.disc1))       // Mon Lecture
+          .append(cs10.renderTableLecture(data.disc2))       // Tues Lecture
           .append(cs10.renderTableLab(data.work))            // Work Session
 
     return result;
@@ -255,8 +254,8 @@ cs10.renderTableSecond = function (week, data, color) {
           .append(cs10.renderTableReading(data.readings2))   // Readings
           .append(cs10.renderTableLab(data.lab2))            // 2nd Lab
           .append(cs10.renderTableDiscussion(data.disc2))    // 2nd Disc
-          .append(cs10.renderTableLecture(data.lect3))       // Wed Lecture
-          .append(cs10.renderTableLecture(data.lect4))       // Thus Lecture
+          .append(cs10.renderTableLecture(data.disc3))       // Wed Lecture
+          .append(cs10.renderTableLecture(data.disc4))       // Thus Lecture
           .append(cs10.renderTableHW(data.hw));              // Assignments
 
     return result;
@@ -288,25 +287,25 @@ cs10.renderTableReading = function(readings) {
     return result;
 };
 
-cs10.renderTableLecture = function(lect) {
+cs10.renderTableLecture = function(disc) {
     var result = $('<td>');
-    if (!lect) {
+    if (!disc) {
         result.append('No Lecture');
         result.attr({'class': 'noClass'});
-    } else if (typeof lect === 'string') {
-        result.append(lect);
+    } else if (typeof disc === 'string') {
+        result.append(disc);
     } else {
-        if (lect.guest) {
-            result.append($('<strong>').html('Guest Lecturer: ' + lect.guest));
+        if (disc.guest) {
+            result.append($('<strong>').html('Guest Lecturer: ' + disc.guest));
             result.append($('<br>'));
         }
-        var title = lect.title;
-        if (lect.url) {
-            title = $('<a>').attr({'href': lect.url}).html(lect.title);
+        var title = disc.title;
+        if (disc.url) {
+            title = $('<a>').attr({'href': disc.url}).html(disc.title);
         }
         result.append(title);
         result.append('<br>');
-        result.attr({ 'class' : lect.classes });
+        result.attr({ 'class' : disc.classes });
     }
     return result;
 };
@@ -346,14 +345,13 @@ cs10.renderTableDiscussion = function(disc) {
     } else if (typeof disc === 'string') {
         result.append(disc);
     } else {
-        result.append(disc.title);
+        var title = disc.title;
+        if (disc.url) {
+            title = $('<a>').attr({'href': disc.url}).html(disc.title);
+        }
+        result.append(title);
         result.append('<br>');
         result.attr({ 'class' : disc.classes });
-        if (disc.url) {
-            var url = $('<a>').html('Resources').attr({'href' : disc.url});
-            result.append($('<br>'));
-            result.append($('<strong>').html('(' + url[0].outerHTML + ')'));
-        }
     }
     return result;
 };
