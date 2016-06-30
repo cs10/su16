@@ -107,7 +107,7 @@ cs10.week2 = {
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     // TODO: add lecture slides
     lect4: lect('Recursion I'),
-    disc2: disc('All About Lists'),
+    disc2: disc('All About Lists', 'https://drive.google.com/open?id=0Bx0JQN9vUt-3R3pmQVdweGpXZnc'),
     hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/7645402', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
