@@ -103,7 +103,7 @@ cs10.week2 = {
                 'https://www.youtube.com/watch?v=EXYd9q2Ibn8'),
     ],
     // TODO: add lecture slides
-    lect3: lect('Numerical Abstractions and Binary'),
+    lect3: lect('Numerical Abstractions and Binary', 'https://docs.google.com/presentation/d/1wmWgz_ER0uz2cuSSHX6SWFQ1wG86GnjY84czHNMghFo/edit?usp=sharing'),
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     // TODO: add lecture slides
     lect4: lect('Recursion I'),
