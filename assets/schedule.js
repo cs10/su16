@@ -119,7 +119,7 @@ cs10.week3 = {
     lect1: lect('No Lecture'),
     lab1: lab('No Lab - Please attend lab on Tu/Th to make up'),
     // TODO: add lecture slides
-    lect2: lect('Recursion II'),
+    lect2: lect('Social Implications'),
     disc1: disc('The Power of Binary <br /> <br /> <b>No Monday Discussion</b> <br /> <b>Carlos Makeup Section</b> <br /> Tue. 11-12pm, 320 Soda'),
     work: lab('Algorithms & Algorithmic Complexity <br /> <b> Makeup due to no Monday Lab </b>', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
@@ -138,7 +138,7 @@ cs10.week3 = {
                 'optional')
     ],
     // TODO: add lecture slides
-    lect3: lect('Social Implications'),
+    lect3: lect('Recursion II'),
     // TODO: add lecture slides
     lect4: lect('Design'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
