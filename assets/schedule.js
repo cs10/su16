@@ -93,7 +93,7 @@ cs10.week2 = {
     lect1: lect('Algorithms', 'http://docs.google.com/presentation/d/1SFTgsTWG2hquUH00GXVSJbRnq4rSDsu_aWoUf_NWoLg/edit?usp=sharing'),
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     // TODO: add lecture slides
-    lect2: lect('Algorithmic Complexity'),
+    lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1ccSv4RGGRq-Ly76_O0rf3OPkXkJyVqgggNuThEZZM3o/edit?usp=sharing'),
     disc1: disc('Scoping'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
@@ -120,8 +120,8 @@ cs10.week3 = {
     lab1: lab('No Lab - Please attend lab on Tu/Th to make up'),
     // TODO: add lecture slides
     lect2: lect('Recursion II'),
-    disc1: disc('The Power of Binary'),
-    work: lab('Algorithms & Algorithmic Complexity', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
+    disc1: disc('The Power of Binary <br /> <br /> <b>No Monday Discussion</b> <br /> <b>Carlos Makeup Section</b> <br /> Tue. 11-12pm, 320 Soda'),
+    work: lab('Algorithms & Algorithmic Complexity <br /> <b> Makeup due to no Monday Lab </b>', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
         reading('Addicted to Apps',
                 'http://www.nytimes.com/2013/08/25/sunday-review/addicted-to-apps.html'),
