@@ -94,7 +94,7 @@ cs10.week2 = {
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     // TODO: add lecture slides
     lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1ccSv4RGGRq-Ly76_O0rf3OPkXkJyVqgggNuThEZZM3o/edit?usp=sharing'),
-    disc1: disc('Scoping'),
+    disc1: disc('Scoping', 'https://drive.google.com/open?id=0Bx0JQN9vUt-3cERoYUxpRUJUN28'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
         reading('Binary in History',
