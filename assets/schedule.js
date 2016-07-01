@@ -94,7 +94,7 @@ cs10.week2 = {
     lab1: lab('Functions', 'berkeley_bjc/intro_pair/4-abstraction-testing.topic', true),
     // TODO: add lecture slides
     lect2: lect('Algorithmic Complexity', 'https://docs.google.com/presentation/d/1ccSv4RGGRq-Ly76_O0rf3OPkXkJyVqgggNuThEZZM3o/edit?usp=sharing'),
-    disc1: disc('Scoping'),
+    disc1: disc('Scoping', 'https://drive.google.com/open?id=0Bx0JQN9vUt-3cERoYUxpRUJUN28'),
     work: lab('Lab: Finch Robots', 'berkeley_bjc/robots/robots.topic'),
     readings2: [
         reading('Binary in History',
@@ -107,7 +107,7 @@ cs10.week2 = {
     lab2: lab('Lists I', 'berkeley_bjc/lists/lists-I.topic', true),
     // TODO: add lecture slides
     lect4: lect('Recursion I', 'https://docs.google.com/presentation/d/1K5-AwINrdgLm6mh0FpE7uqVDAHfVbe_7JxNWbcXFuZY/edit?usp=sharing'),
-    disc2: disc('All About Lists'),
+    disc2: disc('All About Lists', 'https://drive.google.com/open?id=0Bx0JQN9vUt-3R3pmQVdweGpXZnc'),
     hw: hw('HW1: Word Guessing', 'Wed 6/29', 'assignments/7645402', hw1Spec)
 };
 //cs10.week2.lect4.classes = 'noClass';
