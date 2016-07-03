@@ -110,11 +110,20 @@ No questions for this lab!
 
 ## Lab 6: Algorithms and Algorithmic Complexity  {#lab6}
 
-* Coming Soon!
+* Show us your `find number in a sorted list` block. What algorithm are you using in this block and how does it work?
+* If the number of inputs, N, doubles, how would that change the Worst Case Running Time for `find number in unsorted list`? What about `find number in a sorted list`?
+* In your experimental Number-guessing game, which algorithm did you find to be faster? Did you think of any other strategies?
+* Show us your Non-Gauss and Gauss versions of `Add all numbers in`. Which was faster? Why?
+* Show us your `Are the numbers of (list) distinct?` block. What is the difference in runtime between the two blocks?
+
 
 ## Lab 7: Trees and Fractals with Recursion  {#lab7}
 
-* Coming Soon!
+* Why do we use recursion?
+* What would happen in our `make tree` block if we inputted a negative value for levels? Why?
+* What is the difference between the base case and the recursive case?
+* Show us your `crazy-tree` block.
+* Show us your `snowflake` or `c-curve` block.
 
 ---
 
