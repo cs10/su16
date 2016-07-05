@@ -91,7 +91,7 @@ No questions for this lab!
 * Show us the `Are any equal _, _, _ ?` block.
 * Show us the fixed version of the three `sum of numbers between _ and _` blocks and explain what you fixed.
 * Show us the fixed `draw house` block. 
-* What does "the check block" do? 
+* What does the "Check Block" do? 
 
 ## Lab 4: Finch Robots  {#lab4}
 
