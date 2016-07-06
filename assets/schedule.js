@@ -119,7 +119,7 @@ cs10.week3 = {
     lect1: lect('No Lecture'),
     lab1: lab('No Lab - Please attend lab on Tu/Th to make up'),
     // TODO: add lecture slides
-    lect2: lect('Social Implications'),
+    lect2: lect('Social Implications', 'https://docs.google.com/presentation/d/147eSV_T3_01IDdzPy0CYM1l66ETqZhKTRCOI1C-5448/edit?usp=sharing'),
     disc1: disc('The Power of Binary <br /> <br /> <b>No Monday Discussion</b> <br /> <b>Carlos Makeup Section</b> <br /> Tue. 11-12pm, 320 Soda', 'https://drive.google.com/folderview?id=0B36f0C9RFkarVlhHQmNMTm9xWFU&usp=sharing'),
     work: lab('Algorithms & Algorithmic Complexity <br /> <b> Makeup due to no Monday Lab </b>', 'berkeley_bjc/summer/6-algorithms-and-complexity.topic'),
     readings2: [
