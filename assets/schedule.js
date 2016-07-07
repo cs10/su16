@@ -138,7 +138,7 @@ cs10.week3 = {
                 'optional')
     ],
     // TODO: add lecture slides
-    lect3: lect('Recursion II'),
+    lect3: lect('Recursion II', 'https://docs.google.com/presentation/d/1CeFGiEIEhd66lRoG5CtF9V_CBmop-w5jehZzOo1eh30/edit?usp=sharing'),
     // TODO: add lecture slides
     lect4: lect('Design'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
