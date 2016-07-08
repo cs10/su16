@@ -182,7 +182,7 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect3: lect('Internet'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
+    disc2: disc('Recursive Reporters'),
     // TODO: add lecture slides
     lect4: lect('Concurrency'),
     hw: [
@@ -228,7 +228,7 @@ cs10.week5 = {
     lect3: lect('Python 1'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('No Lecture<br>'),
-    disc2: disc('Concurrency / Recursive Reporters'),
+    disc2: disc('Concurrency / Mutability'),
     // TODO: Push back until after MT?
     hw: [
         hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/7645407'),
