@@ -140,7 +140,7 @@ cs10.week3 = {
     // TODO: add lecture slides
     lect3: lect('Recursion II', 'https://docs.google.com/presentation/d/1CeFGiEIEhd66lRoG5CtF9V_CBmop-w5jehZzOo1eh30/edit?usp=sharing'),
     // TODO: add lecture slides
-    lect4: lect('Design'),
+    lect4: lect('Design','https://docs.google.com/presentation/d/1FNFwxwpzZM2pva7kC482fdC4JXuoI1Trg0OdUfKETaE/edit?usp=sharing'),
     lab2: lab('Trees and Fractals using Recursion', 'berkeley_bjc/recur/recursion-trees-fractals.topic', true),
     disc2: disc('Algorithmic Complexity', 'https://drive.google.com/open?id=0Bx0JQN9vUt-3NHJOQnBNTWg3Znc'),
     hw: hw('HW2: Encryptify', 'Wed 7/6', 'assignments/7645403', hw2Spec)
