@@ -167,7 +167,7 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect1: lect('Testing'),
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
-    disc1: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
+    disc1: disc('HW3 Prep / Recursion'),
     // TODO: add lecture slides
     lect2: lect('Social Implications II'),
     work: work('Work Session'),
@@ -182,7 +182,7 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect3: lect('Internet'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc2: disc('HW3 Prep'),
+    disc2: disc('<span style="font-size:150%">R<sup>e<sup>c<sup>u<sup>r<sup>s<sup>i<sup>o<sup>n</sup></sup></sup></sup></sup></sup></sup></sup></span>'),
     // TODO: add lecture slides
     lect4: lect('Concurrency'),
     hw: [
