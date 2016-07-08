@@ -274,7 +274,7 @@ cs10.week6 = {
     lect4: lect('Future of Computing'),
     hw: [
         hw('Explore Post', 'Fri 7/29', '', exploreSpec),
-        hw('Final Project Proposal', 'Fri 7/29', '', finalProjSpec)
+        hw('Final Project Proposal', 'Wed 7/27', '', finalProjSpec)
     ]
 };
 
@@ -315,7 +315,7 @@ cs10.week8 = {
     disc2: disc('No Discussion'),
     lect3: lect('No Lecture'),
     lect4: lect('No Lecture'),
-    hw: hw('Final Project', 'Thu 8/11', '', finalProjSpec)
+    hw: hw('Final Project', 'Wed 8/10', '', finalProjSpec)
 };
 cs10.week8.lab1.classes = 'exam';
 cs10.week8.lect2.classes = 'exam';
