@@ -131,11 +131,18 @@ No questions for this lab!
 
 ## Lab 8: Testing {#lab8}
 
-* Coming Soon!
+* Give a detailed explanation of how the `test` block works.
+* Show us the test case for the `merge up` block.
+* Show us the test case for the `merge column` block.
 
 ## Lab 9: Recursive Reporters {#lab9}
 
-* Coming Soon!
+* Show us the recursive `exaggerate` block.
+* Show us the `ends-e` block.
+* Show us the `numbers` block.
+* Explain how the `subsets` block works.
+* How many recursive calls are made to find the subsets of a 6 element list?
+* Can we reduce the number of recursive calls? How?
 
 ---
 
