@@ -165,7 +165,7 @@ cs10.week4 = {
                 'optional')
     ],
     // TODO: add lecture slides
-    lect1: lect('Testing'),
+    lect1: lect('Testing', 'https://docs.google.com/presentation/d/1Fdk8yVd7JtVaxXHuD44UphZ9jA2gzo3FSft6H0Ajfvo/edit?usp=sharing'),
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
     disc1: disc('HW3 Prep / Recursion'),
     // TODO: add lecture slides
