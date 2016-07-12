@@ -170,7 +170,7 @@ cs10.week4 = {
     disc1: disc('HW3 Prep / Recursion'),
     // TODO: add lecture slides
     lect2: lect('Social Implications II'),
-    work: work('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic'),
+    work: work('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', false, false),
     readings2: [
         reading('TED: What is the Internet?',
                 'https://www.youtube.com/watch?v=XE_FPEFpHt4'),

@@ -49,7 +49,7 @@ function getWeekOfDate(date) {
 }
 
 
-cs10.newLabObject = function(title, url, rq, video) {
+cs10.newLabObject = function(title, url, rq, num, video) {
     var baseURL = '{{ site.labsurl }}/llab/html/empty-topic-page.html?topic=';
     var urlEnd  = '&novideo&noreading&noassingment&course={{ site.labsCourse }}';
     var lab = { type: 'Lab' };
@@ -63,9 +63,12 @@ cs10.newLabObject = function(title, url, rq, video) {
         lab.title = 'No Lab';
     }
 
+    var num = typeof num !== 'undefined' ?  num : true;
     if (url) {
-        cs10.labCounter += 1;
-        lab.title = cs10.labCounter + ': ' + lab.title;
+        if (num) {
+            cs10.labCounter += 1;
+            lab.title = cs10.labCounter + ': ' + lab.title;
+        }
         lab.url = baseURL + url + urlEnd;
     }
 
