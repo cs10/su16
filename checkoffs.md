@@ -140,7 +140,7 @@ No questions for this lab!
 * Show us the recursive `exaggerate` block.
 * Show us the `ends-e` block.
 * Show us the `numbers` block.
-* Explain how the `subsets` block works.
+* Explain how the `sort` block works, how the `merge` block works, and how they work together.
 * How many recursive calls are made to find the subsets of a 6 element list?
 * Can we reduce the number of recursive calls? How?
 
