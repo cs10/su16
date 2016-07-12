@@ -269,7 +269,7 @@ cs10.week6 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Data and HOFs'),
     // TODO: add lecture slides
-    lect3: lect('Graph Theory'),
+    lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne</strong><br>Arduino'),
     // TODO: add lecture slides
     lect4: lect('Future of Computing'),
     hw: [
@@ -285,7 +285,7 @@ cs10.week7 = {
                 'http://multivax.com/last_question.html',
                 'optional')
     ],
-    lect1: lect('Guest Lecture'),
+    lect1: lect('Graph Theory'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('Python'),
     lect2: lect('Guest Lecture'),
