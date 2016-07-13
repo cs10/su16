@@ -167,7 +167,7 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect1: lect('Testing', 'https://docs.google.com/presentation/d/1Fdk8yVd7JtVaxXHuD44UphZ9jA2gzo3FSft6H0Ajfvo/edit?usp=sharing'),
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
-    disc1: disc('HW3 Prep / Recursion'),
+    disc1: disc('HW3 Prep / Recursion', 'https://drive.google.com/folderview?id=0Bx0JQN9vUt-3XzVnRXU1N0VQRFk&usp=sharing'),
     // TODO: add lecture slides
     lect2: lect('Social Implications II'),
     work: work('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', false, false),
