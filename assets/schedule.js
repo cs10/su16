@@ -257,7 +257,7 @@ cs10.week6 = {
     lect1: lect('Python 2'),
     work: work('Find Final Groups and Get Early Feedback'),
     // TODO: add lecture slides
-    lect2: lect('Git / Agile'),
+    lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Topic Coming Soon!'),
     readings2: [
         reading('How the Raspberry PI Sparked a Maker Revolution',
                 'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
@@ -269,7 +269,7 @@ cs10.week6 = {
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Data and HOFs'),
     // TODO: add lecture slides
-    lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne</strong><br>Arduino'),
+    lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne (Microsoft)</strong><br>Arduino'),
     // TODO: add lecture slides
     lect4: lect('Future of Computing'),
     hw: [
@@ -288,7 +288,7 @@ cs10.week7 = {
     lect1: lect('Graph Theory'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('Python'),
-    lect2: lect('Guest Lecture'),
+    lect2: lect('Git / Agile'),
     work: work('Work Session'),
     readings2: 'No Readings',
     lab2: lab('Besides Blocks: Text Processing in Python / Git', '#'),
