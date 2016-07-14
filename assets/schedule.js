@@ -169,7 +169,7 @@ cs10.week4 = {
     lab1: lab('Testing', 'berkeley_bjc/2048-testing/2048.topic', true),
     disc1: disc('HW3 Prep / Recursion', 'https://drive.google.com/folderview?id=0Bx0JQN9vUt-3XzVnRXU1N0VQRFk&usp=sharing'),
     // TODO: add lecture slides
-    lect2: lect('Social Implications II'),
+    lect2: lect('<strong>Guest Lecture:<br>Jobel Vecino<br></strong>The Geopolitics of Computing', 'https://drive.google.com/open?id=0B7Ddh7M7cw-0MDgyVHBJUWx6SHM'),
     work: work('Tic-Tac-Toe, Boards', 'berkeley_bjc/lists/tic-tac-toe.topic', false, false),
     readings2: [
         reading('TED: What is the Internet?',
@@ -180,7 +180,7 @@ cs10.week4 = {
                 'http://adit.io/posts/2013-05-11-The-Dining-Philosophers-Problem-With-Ron-Swanson.html')
     ],
     // TODO: add lecture slides
-    lect3: lect('Internet'),
+    lect3: lect('Internet', 'https://docs.google.com/presentation/d/1-_wfE_TgQXuBPYajivkWTpnbHhuR1ZNZ7elyOKiqOEw/edit?usp=sharing'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc2: disc('Recursive Reporters'),
     // TODO: add lecture slides
