@@ -182,7 +182,7 @@ cs10.week4 = {
     // TODO: add lecture slides
     lect3: lect('Internet', 'https://docs.google.com/presentation/d/1-_wfE_TgQXuBPYajivkWTpnbHhuR1ZNZ7elyOKiqOEw/edit?usp=sharing'),
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
-    disc2: disc('Recursive Reporters'),
+    disc2: disc('Recursive Reporters', 'https://drive.google.com/folderview?id=0B36f0C9RFkarMWhORUtLdVVMRHM&usp=sharing'),
     // TODO: add lecture slides
     lect4: lect('Concurrency'),
     hw: [
