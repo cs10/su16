@@ -184,7 +184,7 @@ cs10.week4 = {
     lab2: lab('Recursive Reporters I', 'berkeley_bjc/recur/recursive-reporters-part1.topic', true),
     disc2: disc('Recursive Reporters', 'https://drive.google.com/folderview?id=0B36f0C9RFkarMWhORUtLdVVMRHM&usp=sharing'),
     // TODO: add lecture slides
-    lect4: lect('Concurrency'),
+    lect4: lect('Concurrency','https://docs.google.com/presentation/d/1Ip8kglMN7VEJZ4V9DYZm6ka62eFOCtdvvq4i527w7fY/edit?usp=sharing'),
     hw: [
         hw('Midterm Project<br><strong>Proposals</strong>', 'Wed 7/13', 'assignments/7645408', mtProjSpec),
         hw('HW3 2048', 'Fri 7/15', [
