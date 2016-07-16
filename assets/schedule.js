@@ -245,11 +245,7 @@ cs10.week6 = {
         reading('John DeNero NLP Video (Part 1)',
                 'https://youtu.be/63kincM38po?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),
         reading('John DeNero NLP Video (Part 2)',
-                'https://youtu.be/U0aH_shhCeM?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X'),
-        reading('What is Git?',
-                'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
-        reading('Simple Guide to Git',
-                'http://rogerdudler.github.io/git-guide/', 'optional')
+                'https://youtu.be/U0aH_shhCeM?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X')
     ],
     disc1: disc('Social Implications'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
@@ -281,6 +277,10 @@ cs10.week6 = {
 // AUG 1 - AUG 5
 cs10.week7 = {
     readings1: [
+        reading('What is Git?',
+                'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
+        reading('Simple Guide to Git',
+                'http://rogerdudler.github.io/git-guide/', 'optional'),
         reading('Last Question',
                 'http://multivax.com/last_question.html',
                 'optional')
