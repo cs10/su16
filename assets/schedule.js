@@ -304,7 +304,7 @@ cs10.week7 = {
 
 // AUG 8 - AUG 12
 cs10.week8 = {
-    readings1: 'No Readings<br><br><strong>Final Review Session</strong><br>Sunday, 8/7<br>10 AM - 1 PM<br>306 Soda',
+    readings1: 'No Readings<br><br><strong>Final Review Session</strong><br>Sunday, 8/7<br>10 AM - 1 PM<br>310 Soda',
     lab1: lab('With-Snap<em>!</em> Online Exam'),
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
