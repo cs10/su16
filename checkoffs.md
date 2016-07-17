@@ -152,7 +152,11 @@ No questions for this lab!
 
 #### Required Questions
 
-* Coming Soon!
+* Describe one pro and one con of the way that Snap! handles concurrency.
+* During the card sorting activity, why did adding more people sometimes slow the process down? How does this relate to concurrency?
+* What is the difference between determinism and nondeterminism, in the context of concurrency?
+* In the Serial Vs Parallel program, what was the bug on the parallel side? Show us how you fixed it. 
+* What is deadlock? What is a race condition?
 
 ## Lab 11: The Internet {#lab11}
 
