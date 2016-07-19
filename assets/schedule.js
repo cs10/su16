@@ -217,7 +217,7 @@ cs10.week5 = {
     ],
     lab1: lab('Concurrency', 'berkeley_bjc/areas/concurrency.topic', true),
     // TODO: add lecture slides
-    lect1: lect('Cryptography/Security'),
+    lect1: lect('Cryptography & Security', 'https://docs.google.com/presentation/d/1mp5k6_mXelvnFHYDMK9IcCqpp_hPLBI5xPCdcc7J9cg/edit?usp=sharing'),
     disc1: disc('The Internet'),
     work: lab('The Internet', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic'),
     // TODO: add lecture slides
