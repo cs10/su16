@@ -221,7 +221,7 @@ cs10.week5 = {
     disc1: disc('The Internet', 'https://drive.google.com/folderview?id=0B36f0C9RFkarNUNwWXFHUGtraFk&usp=sharing'),
     work: lab('The Internet', 'berkeley_bjc/summer/10-internet-and-tic-tac-toe.topic'),
     // TODO: add lecture slides
-    lect2: lect('Procedures as Data'),
+    lect2: lect('Procedures as Data', 'https://docs.google.com/presentation/d/1dQZ9pLElv8EeG2ACOS-GYwdFePdNuoX0qW88sI2SnV8/edit?usp=sharing'),
     readings2: 'No Readings<br><br><strong><a href="https://docs.google.com/presentation/d/1bhw_VcYnmIly4O3u2pt778VJ70wHSyKhEn2lVqw2lxk/edit?usp=sharing"> Midterm Review Session </a></strong><br>Sunday, 7/17<br>10 AM - 1 PM<br>310 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     // TODO: add lecture slides
