@@ -253,7 +253,7 @@ cs10.week6 = {
     lect1: lect('Python 2'),
     work: work('Find Final Groups and Get Early Feedback'),
     // TODO: add lecture slides
-    lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Topic Coming Soon!'),
+    lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Hackers and the Dark Web'),
     readings2: [
         reading('How the Raspberry PI Sparked a Maker Revolution',
                 'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
