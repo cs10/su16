@@ -225,7 +225,7 @@ cs10.week5 = {
     readings2: 'No Readings<br><br><strong><a href="https://docs.google.com/presentation/d/1bhw_VcYnmIly4O3u2pt778VJ70wHSyKhEn2lVqw2lxk/edit?usp=sharing"> Midterm Review Session </a></strong><br>Sunday, 7/17<br>10 AM - 1 PM<br>310 Soda',
     // <br><a href="https://tinyurl.com/midtermsp15" target="_blank">Slides</a> | (<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=jasnowiss10&ProjectName=Midterm%20Review%20Solutions" target="_blank">Solutions</a>)
     // TODO: add lecture slides
-    lect3: lect('Python 1'),
+    lect3: lect('Python I', 'https://docs.google.com/presentation/d/1w9z35Nh0sV73KODjO2DDULFNVMOC7n--n_qokIEiZWQ/edit?usp=sharing'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('No Lecture<br>'),
     disc2: disc('Concurrency / Mutability'),
