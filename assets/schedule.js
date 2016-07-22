@@ -255,19 +255,17 @@ cs10.week6 = {
     // TODO: add lecture slides
     lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Hackers and the Dark Web'),
     readings2: [
-        reading('How the Raspberry PI Sparked a Maker Revolution',
-                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
-        reading('Why We Should be Really Excited About Quantum Computers',
-                'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
-        reading('Man-made DNA Can Now Store Data for Millions of Years',
-                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/')
+       reading('What is Git?',
+                'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
+        reading('Simple Guide to Git',
+                'http://rogerdudler.github.io/git-guide/', 'optional'),
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Data and HOFs'),
     // TODO: add lecture slides
     lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne (Microsoft)</strong><br>Arduino'),
     // TODO: add lecture slides
-    lect4: lect('Future of Computing'),
+    lect4: lect('Git / Agile'),
     hw: [
         hw('Explore Post', 'Fri 7/29', '', exploreSpec),
         hw('Final Project Proposal', 'Wed 7/27', '', finalProjSpec)
@@ -277,10 +275,12 @@ cs10.week6 = {
 // AUG 1 - AUG 5
 cs10.week7 = {
     readings1: [
-        reading('What is Git?',
-                'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
-        reading('Simple Guide to Git',
-                'http://rogerdudler.github.io/git-guide/', 'optional'),
+         reading('How the Raspberry PI Sparked a Maker Revolution',
+                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
+        reading('Why We Should be Really Excited About Quantum Computers',
+                'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
+        reading('Man-made DNA Can Now Store Data for Millions of Years',
+                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/'),
         reading('Last Question',
                 'http://multivax.com/last_question.html',
                 'optional')
@@ -288,7 +288,7 @@ cs10.week7 = {
     lect1: lect('Graph Theory'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('Python'),
-    lect2: lect('Git / Agile'),
+    lect2: lect('Future of Computing'),
     work: work('Work Session'),
     readings2: 'No Readings',
     lab2: lab('Besides Blocks: Text Processing in Python / Git', '#'),
