@@ -308,7 +308,7 @@ cs10.week8 = {
     lab1: lab('With-Snap<em>!</em> Online Exam'),
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
-    lect2: lect('No Lecture<br><br><strong>Final Exam (Evening)<br><br>Tue 8/9<br>6-9pm<br>0101 Moffitt</strong>'),
+    lect2: lect('No Lecture<br><br><strong>Final Exam (Evening)<br><br>Tue 8/9<br>6-9pm<br>306 Soda</strong>'),
     work: work('No Lab'),
     readings2: 'No Readings<br>Study for the Final',
     lab2: lab('No Lab'),
