@@ -291,7 +291,7 @@ cs10.week7 = {
     lect2: lect('Future of Computing'),
     work: work('Work Session'),
     readings2: 'No Readings',
-    lab2: lab('Besides Blocks: Text Processing in Python / Git', '#'),
+    lab2: lab('Besides Blocks: Text Processing in Python / Git', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
     disc2: disc('CS @ Cal and Beyond / Summary and Farewell'),
     lect3: lect('Industry Panel'),
     // TODO: add lecture slides
