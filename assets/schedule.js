@@ -228,7 +228,7 @@ cs10.week5 = {
     lect3: lect('Python I', 'https://docs.google.com/presentation/d/1w9z35Nh0sV73KODjO2DDULFNVMOC7n--n_qokIEiZWQ/edit?usp=sharing'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('No Lecture<br>'),
-    disc2: disc('Concurrency / Mutability'),
+    disc2: disc('Concurrency / Mutability', 'https://drive.google.com/folderview?id=0B36f0C9RFkarbnhPdnVMWDFzR0k&usp=sharing'),
     // TODO: Push back until after MT?
     hw: [
         hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/7645407'),
