@@ -250,7 +250,7 @@ cs10.week6 = {
     disc1: disc('Social Implications'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     // TODO: add lecture slides
-    lect1: lect('Python 2'),
+    lect1: lect('Python II', 'https://docs.google.com/presentation/d/1zH4G5PvK7E3WazwyzHUPeXXO1CGHzLKGaehwZHIsFvQ/edit?usp=sharing'),
     work: work('Find Final Groups and Get Early Feedback'),
     // TODO: add lecture slides
     lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Topic Coming Soon!'),
