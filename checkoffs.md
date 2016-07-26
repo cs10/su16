@@ -170,22 +170,30 @@ No questions for this lab!
 
 #### Required Questions
 
-* Coming Soon!
+* How can we use functions as data in Snap? What do the “call” and “run” blocks do, and what’s the difference between them?
+* Explain your `is _ pandigital?` block.
+* Explain your `min value of _ over all numbers in _`? How would we make a maximizing version of this block?
 
 #### Self-Check Questions
 
-* Coming Soon!
+* Look at the `draw tree with size _ levels _ line-type: _`. How does this differ from how we drew trees before? What does the `type-of-line` argument allow us to do?
+* What does the `compose` block allow us to do with functions? What’s the difference between `compose (2 x _) (6 + _)` and `compose (6 + _) (2 x _)`?
 
 
 ## Lab 13: Besides Blocks: Welcome to Python!  {#lab13}
 
 #### Required Questions
 
-* Coming Soon!
+* What is the difference between `=` and `==` in python?
+* How do you define a function in python?
+* Show us the result of running the autograder.
 
 #### Self-Check Questions
 
-* Coming Soon!
+* What does 0-indexing mean?
+* Show how to open the Python interpreter and run a script.
+* What is a directory?
+* How do you make a directory, enter a directory, and check what is inside your current directory?
 
 ---
 

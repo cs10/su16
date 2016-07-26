@@ -228,7 +228,7 @@ cs10.week5 = {
     lect3: lect('Python I', 'https://docs.google.com/presentation/d/1w9z35Nh0sV73KODjO2DDULFNVMOC7n--n_qokIEiZWQ/edit?usp=sharing'),
     lab2: lab('With-Snap<em>!</em> Online Exam'),
     lect4: lect('No Lecture<br>'),
-    disc2: disc('Concurrency / Mutability'),
+    disc2: disc('Concurrency / Mutability', 'https://drive.google.com/folderview?id=0B36f0C9RFkarbnhPdnVMWDFzR0k&usp=sharing'),
     // TODO: Push back until after MT?
     hw: [
         hw('Midterm Project<br><strong>Milestone</strong>', 'Tues 7/19', 'assignments/7645407'),
@@ -253,21 +253,19 @@ cs10.week6 = {
     lect1: lect('Python II', 'https://docs.google.com/presentation/d/1zH4G5PvK7E3WazwyzHUPeXXO1CGHzLKGaehwZHIsFvQ/edit?usp=sharing'),
     work: work('Find Final Groups and Get Early Feedback'),
     // TODO: add lecture slides
-    lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Topic Coming Soon!'),
+    lect2: lect('<strong>Guest Lecture:<br/>Jon McKinsey (Coursera)</strong><br/>Hackers and the Dark Web'),
     readings2: [
-        reading('How the Raspberry PI Sparked a Maker Revolution',
-                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
-        reading('Why We Should be Really Excited About Quantum Computers',
-                'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
-        reading('Man-made DNA Can Now Store Data for Millions of Years',
-                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/')
+       reading('What is Git?',
+                'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
+        reading('Simple Guide to Git',
+                'http://rogerdudler.github.io/git-guide/', 'optional'),
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
     disc2: disc('Data and HOFs'),
     // TODO: add lecture slides
     lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne (Microsoft)</strong><br>Arduino'),
     // TODO: add lecture slides
-    lect4: lect('Future of Computing'),
+    lect4: lect('Git / Agile'),
     hw: [
         hw('Explore Post', 'Fri 7/29', '', exploreSpec),
         hw('Final Project Proposal', 'Wed 7/27', '', finalProjSpec)
@@ -277,10 +275,12 @@ cs10.week6 = {
 // AUG 1 - AUG 5
 cs10.week7 = {
     readings1: [
-        reading('What is Git?',
-                'http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1'),
-        reading('Simple Guide to Git',
-                'http://rogerdudler.github.io/git-guide/', 'optional'),
+         reading('How the Raspberry PI Sparked a Maker Revolution',
+                'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
+        reading('Why We Should be Really Excited About Quantum Computers',
+                'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
+        reading('Man-made DNA Can Now Store Data for Millions of Years',
+                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/'),
         reading('Last Question',
                 'http://multivax.com/last_question.html',
                 'optional')
@@ -288,10 +288,10 @@ cs10.week7 = {
     lect1: lect('Graph Theory'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('Python'),
-    lect2: lect('Git / Agile'),
+    lect2: lect('Future of Computing'),
     work: work('Work Session'),
     readings2: 'No Readings',
-    lab2: lab('Besides Blocks: Text Processing in Python / Git', '#'),
+    lab2: lab('Besides Blocks: Text Processing in Python / Git', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
     disc2: disc('CS @ Cal and Beyond / Summary and Farewell'),
     lect3: lect('Industry Panel'),
     // TODO: add lecture slides
@@ -308,7 +308,7 @@ cs10.week8 = {
     lab1: lab('With-Snap<em>!</em> Online Exam'),
     disc1: disc('No Discussion'),
     lect1: lect('No Lecture'),
-    lect2: lect('No Lecture<br><br><strong>Final Exam (Evening)<br><br>Tue 8/9<br>6-9pm<br>0101 Moffitt</strong>'),
+    lect2: lect('No Lecture<br><br><strong>Final Exam (Evening)<br><br>Tue 8/9<br>6-9pm<br>306 Soda</strong>'),
     work: work('No Lab'),
     readings2: 'No Readings<br>Study for the Final',
     lab2: lab('No Lab'),
