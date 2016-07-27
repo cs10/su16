@@ -247,7 +247,7 @@ cs10.week6 = {
         reading('John DeNero NLP Video (Part 2)',
                 'https://youtu.be/U0aH_shhCeM?list=PL6BsET-8jgYXFYO_3931xDuyBtNNR0z7X')
     ],
-    disc1: disc('Social Implications'),
+    disc1: disc('Social Implications', 'https://drive.google.com/folderview?id=0B36f0C9RFkarcmRjNHhCR09mRnM&usp=sharing'),
     lab1: lab('Lambdas and HOFs', 'berkeley_bjc/hofs/hofs-practice.topic', true),
     // TODO: add lecture slides
     lect1: lect('Python II', 'https://docs.google.com/presentation/d/1zH4G5PvK7E3WazwyzHUPeXXO1CGHzLKGaehwZHIsFvQ/edit?usp=sharing'),
