@@ -265,7 +265,7 @@ cs10.week6 = {
     // TODO: add lecture slides
     lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne (Microsoft)</strong><br>Arduino'),
     // TODO: add lecture slides
-    lect4: lect('Git / Agile'),
+    lect4: lect('Git / Agile', 'https://docs.google.com/presentation/d/1RPKFIM6QWgBzP0BQbVNN2Z4tV1d7ybJn-ZD0q86J-Lo/edit?usp=sharing'),
     hw: [
         hw('Explore Post', 'Fri 7/29', '', exploreSpec),
         hw('Final Project Proposal', 'Wed 7/27', '', finalProjSpec)
