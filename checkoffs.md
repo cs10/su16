@@ -203,21 +203,33 @@ No questions for this lab!
 
 #### Required Questions
 
-* Coming Soon!
+* Show us that your code passes the tests for all 6 exercises.
+* How do dictionaries work in Python? When might we want to use a dictionary instead of a list?
+* What types are mutable in Python? How does this compare to Snap!?
+
 
 #### Self-Check Questions
 
-* Coming Soon!
+* What are list comprehensions? How do they compare to HOFs in Snap!?
+* How can we iterate through lists and dictionaries in Python?
+* How can we have lists or dictionaries with multiple dimensions? When might we want to use them?
+* Complete the challenge exercises for extra practice!
+
 
 ## Lab 15: Besides Blocks: Text Processing in Python / Git {#lab15}
 
 #### Required Questions
 
-* Coming Soon!
+* How do we choose how we want something to be sorted when using the `sorted` function in Python?
+* Show us your `top_n_words` and `print_top_n_words` functions. 
+* Show us your `average_word_length` function. 
 
 #### Self-Check Questions
 
-* Coming Soon!
+* What is the purpose of the triple quoted comments in our function definitions?
+* What was the length of the average word used by MLK? What about Jay-Z?
+* Complete the optional exercises for extra practice!
+
 
 </div>
 
