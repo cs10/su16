@@ -275,22 +275,23 @@ cs10.week6 = {
 // AUG 1 - AUG 5
 cs10.week7 = {
     readings1: [
-         reading('How the Raspberry PI Sparked a Maker Revolution',
+        reading('How the Raspberry PI Sparked a Maker Revolution',
                 'http://www.popsci.com/how-raspberry-pi-sparked-maker-revolution'),
         reading('Why We Should be Really Excited About Quantum Computers',
                 'https://www.businessinsider.com/why-be-excited-about-quantum-computers-2015-4'),
         reading('Man-made DNA Can Now Store Data for Millions of Years',
-                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/'),
-        reading('Last Question',
-                'http://multivax.com/last_question.html',
-                'optional')
+                'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/')
     ],
     lect1: lect('Graph Theory'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('Python'),
     lect2: lect('Future of Computing'),
     work: work('Work Session'),
-    readings2: 'No Readings',
+    readings2: [
+        reading('Last Question',
+                'http://multivax.com/last_question.html',
+                'optional')
+    ],
     lab2: lab('Besides Blocks: Text Processing in Python / Git', 'berkeley_bjc/python/besides-blocks-text-processing.topic'),
     disc2: disc('CS @ Cal and Beyond / Summary and Farewell'),
     lect3: lect('Industry/Alumni Panel'),
