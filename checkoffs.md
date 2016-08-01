@@ -220,7 +220,7 @@ No questions for this lab!
 
 #### Required Questions
 
-* How do we choose how we want something to be sorted when using the `sorted` function in Python?
+* How do we choose how something is sorted when using the `sorted` function in Python?
 * Show us your `top_n_words` and `print_top_n_words` functions. 
 * Show us your `average_word_length` function. 
 
