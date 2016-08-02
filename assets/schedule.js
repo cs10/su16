@@ -282,7 +282,7 @@ cs10.week7 = {
         reading('Man-made DNA Can Now Store Data for Millions of Years',
                 'https://gigaom.com/2015/02/17/man-made-dna-can-now-store-data-for-millions-of-years/')
     ],
-    lect1: lect('Graph Theory'),
+    lect1: lect('OOP & Graph Theory', 'https://docs.google.com/presentation/d/1ve1v6Hpi5Vs9F4h739DH8FhzvuoQwzsJ5YTOcdAG1hA/edit?usp=sharing'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
     disc1: disc('Python'),
     lect2: lect('Future of Computing'),
