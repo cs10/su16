@@ -261,7 +261,7 @@ cs10.week6 = {
                 'http://rogerdudler.github.io/git-guide/', 'optional'),
     ],
     lab2: lab('Besides Blocks: Welcome to Python', 'berkeley_bjc/python/besides-blocks-welcome.topic', true),
-    disc2: disc('Data and HOFs'),
+    disc2: disc('Data and HOFs', 'https://drive.google.com/folderview?id=0B36f0C9RFkarV3AyWG5Dci1TMVU&usp=sharing'),
     // TODO: add lecture slides
     lect3: lect('<strong>Guest Lecture:<br>Joseph Cawthorne (Microsoft)</strong><br>Arduino'),
     // TODO: add lecture slides
