@@ -284,7 +284,7 @@ cs10.week7 = {
     ],
     lect1: lect('OOP & Graph Theory', 'https://docs.google.com/presentation/d/1ve1v6Hpi5Vs9F4h739DH8FhzvuoQwzsJ5YTOcdAG1hA/edit?usp=sharing'),
     lab1: lab('Besides Blocks: Data Structures in Python', 'berkeley_bjc/python/besides-blocks-data-struct.topic'),
-    disc1: disc('Python'),
+    disc1: disc('Python', 'https://drive.google.com/folderview?id=0B36f0C9RFkarTUVnQmZZNFBfVkE&usp=sharing'),
     lect2: lect('Future of Computing'),
     work: work('Work Session'),
     readings2: [
