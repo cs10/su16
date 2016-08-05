@@ -296,7 +296,7 @@ cs10.week7 = {
     disc2: disc('CS @ Cal and Beyond / Summary and Farewell'),
     lect3: lect('Industry/Alumni Panel'),
     // TODO: add lecture slides
-    lect4: lect('Summary and Farewell'),
+    lect4: lect('Summary and Farewell', 'https://docs.google.com/a/berkeley.edu/presentation/d/1M9HcV0GbZV-gmJn9pzgcCdStRp0IYjqGXYwkWniVVm0/edit?usp=sharing'),
     hw: [
         hw('Explore Peer Comments', 'Mon 8/1', '', exploreSpec),
         hw('Final Project Milestone', 'Fri 8/5', '', finalProjSpec)
